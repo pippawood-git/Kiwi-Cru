@@ -1,0 +1,858 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "video_hero_eXh7n7": {
+      "type": "video-hero",
+      "blocks": {
+        "title_YWw94X": {
+          "type": "title",
+          "settings": {
+            "title": "Corporate or Private Events",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "title_YWw94X"
+      ],
+      "settings": {
+        "container": "container-full",
+        "video_type": "shopify",
+        "shopify_video": "shopify://files/videos/Web_Banner_1440p.mov",
+        "video_url": "",
+        "image_overlay_opacity": 40,
+        "hero_height": "large",
+        "content_in_container": false,
+        "content_position": "left-bottom",
+        "text_alignment": "left",
+        "vertical_content_padding": 40,
+        "text_color": "#ffffff",
+        "hero_height_mobile": "large",
+        "content_position_mobile": "center",
+        "show_text_below": false,
+        "text_alignment_mobile": "center",
+        "vertical_content_padding_mobile": 40,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit",
+        "enable_bg_zoom_effect": true
+      }
+    },
+    "rich_text_HgWfki": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_bkYtQU": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Thoughtfully tailored - effortlessly delivered</strong>",
+            "heading_style": "script",
+            "heading_size": "h2",
+            "highlight_style": "underline",
+            "enable_highlight_text_color": false
+          }
+        },
+        "text_rJBWGh": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Whether you're entertaining clients, connecting with colleagues, or gathering friends for something a little different, we design bespoke New Zealand wine experiences that feel both relaxed and refined.</p><p>With expert hosting, exceptional wines, and a light touch, we take care of the details - so you can focus on enjoying the occasion. </p>",
+            "highlight_style": "none"
+          }
+        }
+      },
+      "block_order": [
+        "heading_bkYtQU",
+        "text_rJBWGh"
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "enable_kiwi_background": false,
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "padding_top": 40,
+        "padding_bottom": 30,
+        "padding_top_mobile": 30,
+        "padding_bottom_mobile": 10,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "gallery_images_cNKYg7": {
+      "type": "gallery-images",
+      "blocks": {
+        "image_VC3m4F": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC07075.jpg",
+            "mobile_image": "shopify://shop_images/DSC07075.jpg",
+            "text": "",
+            "text_size": "medium",
+            "link": ""
+          }
+        },
+        "image_LHcFyr": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/DSC07305.jpg",
+            "mobile_image": "shopify://shop_images/DSC07305.jpg",
+            "text": "",
+            "text_size": "medium",
+            "link": ""
+          }
+        },
+        "image_7abzyj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC06714.jpg",
+            "mobile_image": "shopify://shop_images/DSC06714.jpg",
+            "text": "",
+            "text_size": "medium",
+            "link": ""
+          }
+        },
+        "image_GNEYHU": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/DSC06777.jpg",
+            "mobile_image": "shopify://shop_images/DSC06777.jpg",
+            "text": "",
+            "text_size": "medium",
+            "link": ""
+          }
+        },
+        "image_zte3EN": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/DSC07148.jpg",
+            "mobile_image": "shopify://shop_images/DSC07148.jpg",
+            "text": "",
+            "text_size": "medium",
+            "link": ""
+          }
+        },
+        "image_6Y7tJr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC07119.jpg",
+            "mobile_image": "shopify://shop_images/DSC07119.jpg",
+            "text": "",
+            "text_size": "medium",
+            "link": ""
+          }
+        },
+        "image_EcD4CW": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/DSC06765.jpg",
+            "text": "",
+            "text_size": "medium",
+            "link": ""
+          }
+        },
+        "image_dWQhhY": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "text": "",
+            "text_size": "medium",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_VC3m4F",
+        "image_LHcFyr",
+        "image_7abzyj",
+        "image_GNEYHU",
+        "image_zte3EN",
+        "image_6Y7tJr",
+        "image_EcD4CW",
+        "image_dWQhhY"
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "section_header_padding_bottom": "medium",
+        "heading": "",
+        "heading_size": "h2",
+        "heading_flourish": false,
+        "heading_underline": "none",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn--primary",
+        "image_ratio": "adapt",
+        "columns": 3,
+        "column_gap": "medium",
+        "layout": "grid",
+        "metro_item_color_schema": "",
+        "enable_slider": false,
+        "show_nav": false,
+        "show_dots": false,
+        "enable_swipe_mobile": false,
+        "column_mobile": "1",
+        "padding_top": 40,
+        "padding_bottom": 50,
+        "padding_top_mobile": 30,
+        "padding_bottom_mobile": 20,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "custom_content_8jMkTb": {
+      "type": "custom-content",
+      "blocks": {
+        "image_card_P3JcLF": {
+          "type": "image_card",
+          "settings": {
+            "layout": "layout7",
+            "text_color": "#000000",
+            "image": "shopify://shop_images/DSC01198_f2575fdb-f019-4f7d-a219-bc78824c10bc.jpg",
+            "mobile_image": "shopify://shop_images/DSC01198_4ede02e9-35e9-418c-bf4e-dd21a25436bd.jpg",
+            "image_ratio": "adapt",
+            "image_overlay_opacity": 0,
+            "sub_heading": "",
+            "subheading_divider": false,
+            "heading": "The New Zealand Fine Wine Story",
+            "heading_size": "h4",
+            "description": "<p>New Zealand’s wine scene is young - but that’s exactly what makes it exciting. This experience celebrates the modern pioneers: the winemakers breaking new ground, the regions rewriting the rulebook, and the bottles that have quietly earned global respect. Taste the energy, the innovation, and the craftsmanship that define fine wine - Kiwi style.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--underline",
+            "vertical_content_padding": 40,
+            "vertical_content_padding_mobile": 40,
+            "alignment": "center",
+            "width": "50%",
+            "animations": "inherit"
+          }
+        },
+        "image_card_4Pn8Pj": {
+          "type": "image_card",
+          "settings": {
+            "layout": "layout7",
+            "text_color": "#000000",
+            "image": "shopify://shop_images/DSC06686_de11f982-06b0-455d-a40e-4130fc8b759a.jpg",
+            "mobile_image": "shopify://shop_images/DSC06686_de11f982-06b0-455d-a40e-4130fc8b759a.jpg",
+            "image_ratio": "adapt",
+            "image_overlay_opacity": 0,
+            "sub_heading": "",
+            "subheading_divider": false,
+            "heading": "New Zealand Wine - But Not As You Know It",
+            "heading_size": "h4",
+            "description": "<p>Sauvignon Blanc put New Zealand on the map - and with good reason. But there’s so much more to discover. In this tasting event, we’ll explore the country’s lesser-known styles and regions, from bright, mineral whites to characterful reds that reflect the full diversity of this remarkable wine-growing landscape.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--underline",
+            "vertical_content_padding": 40,
+            "vertical_content_padding_mobile": 40,
+            "alignment": "center",
+            "width": "50%",
+            "animations": "inherit"
+          }
+        },
+        "image_card_pfNHtT": {
+          "type": "image_card",
+          "settings": {
+            "layout": "layout7",
+            "text_color": "#000000",
+            "image": "shopify://shop_images/DSC01613.jpg",
+            "mobile_image": "shopify://shop_images/DSC01613.jpg",
+            "image_ratio": "adapt",
+            "image_overlay_opacity": 0,
+            "sub_heading": "",
+            "subheading_divider": false,
+            "heading": "New Zealand Vs Rest Of The World",
+            "heading_size": "h4",
+            "description": "<p>How do New Zealand wines stack up globally? In this side-by-side tasting, we’ll explore what makes them shine - from cool-climate elegance to bold, distinctive character. A relaxed, eye-opening comparison that shows just how confidently New Zealand holds its own among the great wine regions of the world.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--underline",
+            "vertical_content_padding": 40,
+            "vertical_content_padding_mobile": 40,
+            "alignment": "center",
+            "width": "50%",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "image_card_P3JcLF",
+        "image_card_4Pn8Pj",
+        "image_card_pfNHtT"
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "inverse",
+        "section_header_padding_bottom": "medium",
+        "heading": "Tasting Ideas",
+        "heading_flourish": true,
+        "heading_underline": "none",
+        "heading_size": "h2",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "padding_top": 50,
+        "padding_bottom": 60,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40,
+        "custom_id": "",
+        "custom_class": ""
+      }
+    },
+    "custom_html_WBGggU": {
+      "type": "custom-html",
+      "disabled": true,
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "section_header_padding_bottom": "medium",
+        "heading": "",
+        "heading_flourish": false,
+        "heading_underline": "none",
+        "heading_size": "h2",
+        "description": "",
+        "custom_html": "<h3 class=\"divider\"></h3>",
+        "padding_top": 10,
+        "padding_bottom": 10,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0
+      }
+    },
+    "image_with_usp_B63fa4": {
+      "type": "image-with-usp",
+      "blocks": {
+        "heading_Wm9FaV": {
+          "type": "heading",
+          "settings": {
+            "heading": "What To Expect",
+            "heading_flourish": false,
+            "heading_underline": "pistachio"
+          }
+        },
+        "usp_LAxYzd": {
+          "type": "usp",
+          "settings": {
+            "usp_icon": "shopify://shop_images/kiwi-6-sun_2eeb3b18-b005-4423-a788-c9a4326ccef1.png",
+            "usp_heading": "Expert Hosting",
+            "text": "<p>Your tasting will be led by a certified, experienced wine host - someone who knows their stuff but keeps things relaxed and engaging. No lectures, no jargon - just great wines, good conversation, and plenty of interesting facts along the way.</p>"
+          }
+        },
+        "usp_cqEMJb": {
+          "type": "usp",
+          "settings": {
+            "usp_icon": "shopify://shop_images/kiwi-3-sun_5419b2fd-e8e6-4ca7-9dcb-ce0ec36f5297.png",
+            "usp_heading": "Tailored to You",
+            "text": "<p>We work with a wide range of producers - from small, independent wineries to some of New Zealand’s most iconic vineyards. You choose the styles, varietals or regions you’re most curious about, and we’ll create a lineup to match.<br/><br/><br/><br/></p>"
+          }
+        },
+        "usp_BcXwDf": {
+          "type": "usp",
+          "settings": {
+            "usp_icon": "shopify://shop_images/kiwi-2-sun_39fc83fe-79b9-4b4b-ba7c-1d2506162e27.png",
+            "usp_heading": "Everything Provided",
+            "text": "<p>We’ll bring everything you need: tasting glasses, wine maps, and tasting sheets. All you have to do is take your seat and enjoy!<br/><br/><br/><br/></p>"
+          }
+        },
+        "usp_kjhnNw": {
+          "type": "usp",
+          "settings": {
+            "usp_icon": "shopify://shop_images/kiwi-1-sun_21f25161-aa6e-40dd-b788-61877cef62b9.svg",
+            "usp_heading": "Interactive and Fun",
+            "text": "<p>Expect a relaxed, sociable experience lasting around 60 - 90 minutes. We encourage everyone to get involved - questions, comments, even a little friendly competition (Yes, there’s wine to be won!)</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Wm9FaV",
+        "usp_LAxYzd",
+        "usp_cqEMJb",
+        "usp_BcXwDf",
+        "usp_kjhnNw"
+      ],
+      "settings": {
+        "media_type": "image",
+        "color_schema": "",
+        "image": "shopify://shop_images/DSC01718_f33e2939-1301-4f72-85ff-37de641e3d53.jpg",
+        "mobile_image": "shopify://shop_images/DSC01718_f33e2939-1301-4f72-85ff-37de641e3d53.jpg",
+        "video_ratio": "adapt",
+        "image_position": "left",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "testimonials_A4tPRC": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_BJkFq3": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<h4>“If you’re looking for an experience that’s inspiring, unexpected, and genuinely fun, I can’t recommend Kiwi Cru’s wine tastings enough. It was a brilliant way for our team to connect, switch off from work, and share something completely different together.” </h4><p>Georgia, Hera Clothing</p>",
+            "author": "",
+            "bio": "",
+            "product": "",
+            "icon": "none"
+          }
+        },
+        "testimonial_zyWxGq": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<h4><em><strong>Pippa was such a wonderful host, she was very knowledgeable about all the wines and made it a fun learning experience about what we were tasting. But most importantly the wine selections were delicious! NZ wine is so underrated, I would recommend to anyone to try them. </strong></em></h4><p>Kendal O'Regan, Karma Drinks</p>",
+            "author": "",
+            "bio": "",
+            "product": "",
+            "icon": "none"
+          }
+        },
+        "testimonial_QYykFq": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<h4><em><strong>Fantastic Kiwi wine, a wonderfully relaxed evening with plenty of learning! Pippa's energy, expertise, and fun personality made it a great event that I would recommend.</strong></em></h4><p>Jon Briggs, Karma Drinks </p>",
+            "author": "",
+            "bio": "",
+            "product": "",
+            "icon": "none"
+          }
+        },
+        "testimonial_jnixea": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<h4>\"Pippa was a great host for our team wine tasting. She shared a selection of delicious NZ wines, intertwined with fun facts and even a pop-quiz at the end. The team loved it, and it really was a fab way to spend a team social!”</h4><p>Gabs, Karma Drinks</p>",
+            "author": "",
+            "bio": "",
+            "product": "",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_BJkFq3",
+        "testimonial_zyWxGq",
+        "testimonial_QYykFq",
+        "testimonial_jnixea"
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "scheme-6c3cb7bc-c3b2-44a7-8b61-25c7547e8185",
+        "section_header_padding_bottom": "medium",
+        "heading": "Testimonials",
+        "heading_flourish": false,
+        "heading_underline": "pistachio",
+        "heading_size": "h2",
+        "description": "",
+        "design": "fancy",
+        "stars_color": "#444444",
+        "columns": 3,
+        "column_gap": "small",
+        "enable_slider": true,
+        "show_dots": false,
+        "show_nav": true,
+        "autoplay": false,
+        "autoplay_timeout": 5,
+        "padding_top": 30,
+        "padding_bottom": 30,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 0,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "rich_text_NmCwLw": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_HwCfeY": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Customer Testimonial",
+            "heading_style": "script",
+            "heading_size": "h2",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false
+          }
+        },
+        "text_mEwTqB": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<h4>Tellus quisque fames torquent, faucibus amet tincidunt. Nulla morbi curae euismod platea dignissim cursus est. Dui fusce natoque venenatis ad cursus. Purus vehicula felis lacus elit efficitur porta cubilia. Tellus quisque fames torquent, faucibus amet tincidunt. Nulla morbi curae euismod platea dignissim cursus est. Dui fusce natoque venenatis ad cursus. Purus vehicula felis lacus elit efficitur porta cubilia. </h4>",
+            "highlight_style": "none"
+          }
+        }
+      },
+      "block_order": [
+        "heading_HwCfeY",
+        "text_mEwTqB"
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "background-1",
+        "enable_kiwi_background": false,
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 50,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "custom_content_q7AMkk": {
+      "type": "custom-content",
+      "blocks": {
+        "image_BeWRdf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Karma-drinks-logo-header_copy.webp",
+            "mobile_image": "shopify://shop_images/Karma-drinks-logo-header_copy.webp",
+            "link": "https://karmadrinks.co.uk/?srsltid=AfmBOooVA_Ef19I6sqh3bTPtsVNtd9XAV1lbktGFyC5SToLJ5xScIHdp",
+            "width": "25%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "image_La3g7R": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MicrosoftTeams-image_1_copy.webp",
+            "mobile_image": "shopify://shop_images/MicrosoftTeams-image_1_copy.webp",
+            "link": "https://heraclothing.com/",
+            "width": "25%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "image_W6HGb9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Newmark-Logo-Large-6a-blk-rgb_2023-06-06-190343_zerh.png",
+            "mobile_image": "shopify://shop_images/Newmark-Logo-Large-6a-blk-rgb_2023-06-06-190343_zerh.png",
+            "link": "https://www.nmrk.com/en-gb",
+            "width": "25%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "image_BeWRdf",
+        "image_La3g7R",
+        "image_W6HGb9"
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "section_header_padding_bottom": "large",
+        "heading": "In Good Company",
+        "heading_flourish": true,
+        "heading_underline": "none",
+        "heading_size": "h2",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0,
+        "custom_id": "",
+        "custom_class": ""
+      }
+    },
+    "image_with_text_znhcic": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_tebQBn": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_flourish": false,
+            "heading_underline": "sun",
+            "heading_size": "h2"
+          }
+        },
+        "text_FmxbM3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>"
+          }
+        },
+        "button_8cGe9B": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "button_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_tebQBn",
+        "text_FmxbM3",
+        "button_8cGe9B"
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "image_width": "50%",
+        "image_position": "left",
+        "vertical_alignment": "center",
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "padding_left": 0,
+        "padding_right": 0,
+        "align_content_container": "none",
+        "mobile_padding_left": 15,
+        "mobile_padding_right": 15,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "gallery_images_AYLiWn": {
+      "type": "gallery-images",
+      "blocks": {
+        "image_XYyhgi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC07308.jpg",
+            "mobile_image": "shopify://shop_images/DSC07308.jpg",
+            "text": "",
+            "text_size": "medium",
+            "link": ""
+          }
+        },
+        "image_Mem9wh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC06765.jpg",
+            "mobile_image": "shopify://shop_images/DSC06765.jpg",
+            "text": "",
+            "text_size": "medium",
+            "link": ""
+          }
+        },
+        "image_8bGYYi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC06948.jpg",
+            "mobile_image": "shopify://shop_images/DSC06948.jpg",
+            "text": "",
+            "text_size": "medium",
+            "link": ""
+          }
+        },
+        "image_tYRKmJ": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/DSC06753.jpg",
+            "text": "",
+            "text_size": "medium",
+            "link": ""
+          }
+        },
+        "image_Pc4QXi": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/DSC06777.jpg",
+            "text": "",
+            "text_size": "medium",
+            "link": ""
+          }
+        },
+        "image_4UakDn": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/DSC07119.jpg",
+            "text": "",
+            "text_size": "medium",
+            "link": ""
+          }
+        },
+        "image_fgLKh9": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/DSC06765.jpg",
+            "text": "",
+            "text_size": "medium",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_XYyhgi",
+        "image_Mem9wh",
+        "image_8bGYYi",
+        "image_tYRKmJ",
+        "image_Pc4QXi",
+        "image_4UakDn",
+        "image_fgLKh9"
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "accent",
+        "section_header_padding_bottom": "medium",
+        "heading": "",
+        "heading_size": "h2",
+        "heading_flourish": false,
+        "heading_underline": "none",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn--primary",
+        "image_ratio": "1/1",
+        "columns": 3,
+        "column_gap": "medium",
+        "layout": "grid",
+        "metro_item_color_schema": "",
+        "enable_slider": false,
+        "show_nav": false,
+        "show_dots": false,
+        "enable_swipe_mobile": false,
+        "column_mobile": "1",
+        "padding_top": 40,
+        "padding_bottom": 0,
+        "padding_top_mobile": 60,
+        "padding_bottom_mobile": 0,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "rich_text_FhAWAc": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_6yzy3q": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_style": "script",
+            "heading_size": "h2",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false
+          }
+        },
+        "text_6aDADA": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.<br> Add details on availability, style, or even provide a review.</p>",
+            "highlight_style": "none"
+          }
+        },
+        "button_Fj8X3x": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_6yzy3q",
+        "text_6aDADA",
+        "button_Fj8X3x"
+      ],
+      "disabled": true,
+      "settings": {
+        "container": "container",
+        "color_schema": "inverse",
+        "enable_kiwi_background": false,
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_mobile": 60,
+        "padding_bottom_mobile": 90,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "173928373659dfaab2": {
+      "type": "apps",
+      "blocks": {
+        "powerful_form_builder_app_block_AT4gg9": {
+          "type": "shopify://apps/powerful-form-builder/blocks/app-block/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+          "settings": {
+            "shortcode": "<div class=\"globo-formbuilder\" data-id=\"NzU4ODc=\"></div>"
+          }
+        }
+      },
+      "block_order": [
+        "powerful_form_builder_app_block_AT4gg9"
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "background-1",
+        "heading": "",
+        "description": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "video_hero_eXh7n7",
+    "rich_text_HgWfki",
+    "gallery_images_cNKYg7",
+    "custom_content_8jMkTb",
+    "custom_html_WBGggU",
+    "image_with_usp_B63fa4",
+    "testimonials_A4tPRC",
+    "rich_text_NmCwLw",
+    "custom_content_q7AMkk",
+    "image_with_text_znhcic",
+    "gallery_images_AYLiWn",
+    "rich_text_FhAWAc",
+    "173928373659dfaab2"
+  ]
+}

@@ -1,0 +1,39 @@
+{% if product.metafields.custom.product_variant_links != blank %}
+  <script type="text/javascript">
+      document.addEventListener('DOMContentLoaded', async () => {
+          document.querySelectorAll('.product-variant__item').forEach(function (product_variant_link) {
+              product_variant_link.addEventListener('mouseover', function () {
+                  document.querySelector('.product-variant__label span').innerHTML = product_variant_link.dataset.bottleSize;
+              });
+          });
+      });
+  </script>
+  {% liquid
+    assign default_variant_links_group = 'products.product.bottle_size_label' | t
+    assign variant_links_group = product.metafields.custom.variant_links_group | default: default_variant_links_group
+    assign subscription_template = false
+
+    if product.template_suffix contains 'subscription'
+      assign subscription_template = true
+    endif
+  %}
+  <p class="product-variant__label">
+    {{ variant_links_group }}
+    {% unless subscription_template %}
+      <span> {{ product.metafields.custom.bottle_size }}</span>
+    {% endunless %}
+  </p>
+  <div class="product-variant__item-wrapper">
+    {% for product_variant in product.metafields.custom.product_variant_links.value %}
+      {% unless subscription_template %}
+        <a href="{{ product_variant.url }}" data-bottle-size="{{ product_variant.metafields.custom.bottle_size }}" class="product-variant__item{% if product_variant.url == product.url %} active{% endif %}">
+          {{ product_variant.featured_image | image_url: width: 120 | image_tag }}
+        </a>
+      {% else %}
+        <a href="{{ product_variant.url }}" data-bottle-size="{{ product_variant.metafields.custom.bottle_size }}" class="product-variant__item button{% if product_variant.url == product.url %} active{% endif %}">
+          {{ product_variant.metafields.custom.bottle_size }}
+        </a>
+      {% endunless %}
+    {% endfor %}
+  </div>
+{% endif %}

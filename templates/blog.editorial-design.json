@@ -1,0 +1,163 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero_Qizjrr": {
+      "type": "hero",
+      "blocks": {
+        "title_RrMdTV": {
+          "type": "title",
+          "settings": {
+            "title": "Life at Kiwi Cru",
+            "heading_flourish": false,
+            "heading_underline": "none",
+            "heading_size": "h1"
+          }
+        },
+        "text_7rVcgJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Keep up with what’s new!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "title_RrMdTV",
+        "text_7rVcgJ"
+      ],
+      "settings": {
+        "container": "container-full",
+        "image": "shopify://shop_images/Leafing_out_of_oldvine_riesling_at_Astrolabe_Farm.jpg",
+        "image_mobile": "shopify://shop_images/Leafing_out_of_oldvine_riesling_at_Astrolabe_Farm.jpg",
+        "image_overlay_opacity": 40,
+        "hero_height": "large",
+        "content_in_container": true,
+        "content_width": "narrow",
+        "content_position": "left-bottom",
+        "text_alignment": "left",
+        "text_color": "#ffffff",
+        "hero_height_mobile": "large",
+        "content_position_mobile": "left-bottom",
+        "show_text_below": false,
+        "text_alignment_mobile": "left",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit",
+        "enable_bg_zoom_effect": true
+      }
+    },
+    "main": {
+      "type": "main-blog",
+      "custom_css": [],
+      "settings": {
+        "container": "container",
+        "show_title": false,
+        "posts_to_show": 12,
+        "posts_per_row": 3,
+        "column_gap": "medium",
+        "row_gap": "large",
+        "article_image_aspect_ratio": "1/1",
+        "article_heading_size": "h3",
+        "show_date": false,
+        "show_excerpt": true,
+        "show_readmore": true,
+        "padding_top": 48,
+        "padding_bottom": 40,
+        "padding_top_mobile": 28,
+        "padding_bottom_mobile": 40
+      }
+    },
+    "multicolumn_YaiEDB": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_gMgHd7": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-04-14_at_11.13.41.jpg",
+            "mobile_image": "shopify://shop_images/Screenshot_2025-04-14_at_11.13.41.jpg",
+            "image_link": "https://www.instagram.com/p/DIZR0kZMe7a/?hl=en",
+            "title": "",
+            "heading_size": "h3",
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "column_eprFRE": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-04-14_at_11.13.41_41f3e67a-f0a0-41f1-9806-ed973628a00a.jpg",
+            "mobile_image": "shopify://shop_images/Screenshot_2025-04-14_at_11.13.41_41f3e67a-f0a0-41f1-9806-ed973628a00a.jpg",
+            "image_link": "https://www.instagram.com/p/DHLqKsXiMEZ/?hl=en",
+            "title": "",
+            "heading_size": "h3",
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "column_yQPpFk": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/wine_glass_6079be4c-2da4-4db4-aa4b-9bbb96b333db.jpg",
+            "mobile_image": "shopify://shop_images/wine_glass_6079be4c-2da4-4db4-aa4b-9bbb96b333db.jpg",
+            "image_link": "https://www.instagram.com/p/DFs4zENsQ4F/?hl=en",
+            "title": "",
+            "heading_size": "h3",
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        }
+      },
+      "block_order": [
+        "column_gMgHd7",
+        "column_eprFRE",
+        "column_yQPpFk"
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "background-1",
+        "section_header_padding_bottom": "medium",
+        "heading": "#kiwicru",
+        "heading_flourish": false,
+        "heading_underline": "none",
+        "heading_size": "h1",
+        "description": "<p>Follow us on <a href=\"https://www.instagram.com/kiwicruwines/?hl=en\" target=\"_blank\" title=\"https://www.instagram.com/kiwicruwines/?hl=en\"><strong>Instagram</strong></a></p>",
+        "header_alignment": "left",
+        "layout": "vertical",
+        "text_alignment": "center",
+        "image_width": "fullwidth",
+        "columns": 3,
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "enable_swipe_mobile": true,
+        "column_mobile": "1",
+        "column_gap_mobile": "extra-small",
+        "row_gap_mobile": "extra-small",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    }
+  },
+  "order": [
+    "hero_Qizjrr",
+    "main",
+    "multicolumn_YaiEDB"
+  ]
+}

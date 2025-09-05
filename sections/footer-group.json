@@ -1,0 +1,239 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "footer",
+  "name": "t:sections.footer.name",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "html_jTXzmU": {
+          "type": "html",
+          "settings": {
+            "heading": "",
+            "heading_size": "h6",
+            "liquid": "<div class=\"klaviyo-form-UWGwnU\"></div>",
+            "width": 40,
+            "open_default_collapsible_tab": false
+          }
+        },
+        "footer-3": {
+          "type": "newsletter",
+          "disabled": true,
+          "settings": {
+            "heading": "Newsletter",
+            "heading_size": "h6",
+            "subheading": "<p>Enter your email below to be the first to know about new collections and product launches.</p>",
+            "description": "",
+            "email_placeholder": "Enter your email",
+            "hide_label": true,
+            "form_width": 420,
+            "width": 40,
+            "open_default_collapsible_tab": true
+          }
+        },
+        "025c08b7-b131-45af-8214-e5c1828a0c29": {
+          "type": "link_list",
+          "settings": {
+            "heading": "About",
+            "heading_size": "h6",
+            "menu": "footer",
+            "width": 18,
+            "open_default_collapsible_tab": false
+          }
+        },
+        "footer-1": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Help",
+            "heading_size": "h6",
+            "menu": "footer-menu-help",
+            "width": 18,
+            "open_default_collapsible_tab": false
+          }
+        }
+      },
+      "block_order": [
+        "html_jTXzmU",
+        "footer-3",
+        "025c08b7-b131-45af-8214-e5c1828a0c29",
+        "footer-1"
+      ],
+      "custom_css": [],
+      "settings": {
+        "container": "container",
+        "color_schema": "background-1",
+        "show_copyright": true,
+        "show_divider": true,
+        "enable_follow_on_shop": false,
+        "show_social": true,
+        "icon_size": "extra-medium",
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "show_payments": false,
+        "bottom_menu": "",
+        "animations": "fade-in-up"
+      }
+    },
+    "mobile-sticky-bar": {
+      "type": "mobile-sticky-bar",
+      "blocks": {
+        "mobile-sticky-bar-0": {
+          "type": "home",
+          "settings": {
+            "text": "Home"
+          }
+        },
+        "mobile-sticky-bar-1": {
+          "type": "products",
+          "settings": {
+            "text": "Products",
+            "collection": ""
+          }
+        },
+        "mobile-sticky-bar-2": {
+          "type": "search",
+          "settings": {
+            "text": "Search"
+          }
+        },
+        "mobile-sticky-bar-3": {
+          "type": "cart",
+          "settings": {
+            "text": "Cart"
+          }
+        }
+      },
+      "block_order": [
+        "mobile-sticky-bar-0",
+        "mobile-sticky-bar-1",
+        "mobile-sticky-bar-2",
+        "mobile-sticky-bar-3"
+      ],
+      "settings": {
+        "enable_sticky_bar": false,
+        "show_text": false
+      }
+    },
+    "popup": {
+      "type": "popup",
+      "blocks": {
+        "image": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/popout.png",
+            "image_position": "left"
+          }
+        },
+        "popup-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Unlock 10% Off *",
+            "text_size": "large"
+          }
+        },
+        "popup-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>On your first order when you sign up to our email alerts. </p>"
+          }
+        },
+        "html_6pqJNK": {
+          "type": "html",
+          "settings": {
+            "liquid": "<div class=\"klaviyo-form-RVYAxv\"></div>"
+          }
+        },
+        "text_89LcFx": {
+          "type": "text",
+          "settings": {
+            "text": "<p>*Full price orders only. <a href=\"/pages/terms-conditions\" title=\"Terms & Conditions\">For full T&Cs see here.</a></p>"
+          }
+        }
+      },
+      "block_order": [
+        "image",
+        "popup-0",
+        "popup-1",
+        "html_6pqJNK",
+        "text_89LcFx"
+      ],
+      "custom_css": [],
+      "settings": {
+        "design_mode": false,
+        "enable": false,
+        "show_for_homepage_only": true,
+        "show_for_visitors_only": true,
+        "trigger_open": "delay",
+        "repeat_open": "every_day",
+        "alignment": "left",
+        "width": 870,
+        "show_teaser": false,
+        "teaser_button_text": "Newsletter",
+        "teaser_popup_bg": "#1437aa",
+        "teaser_popup_text": "#ffffff"
+      }
+    },
+    "age-verifier-popup": {
+      "type": "age-verifier-popup",
+      "blocks": {
+        "image_N6edrE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/logo-age-verification.png",
+            "use_custom_image_width": true,
+            "custom_image_width": 130
+          }
+        },
+        "age-vefirifer-popup-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Are you from a great vintage?",
+            "heading_size": "h2"
+          }
+        },
+        "age-vefirifer-popup-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>By entering our website you are confirming you are 18 or over</p>"
+          }
+        },
+        "age-vefirifer-popup-3": {
+          "type": "buttons",
+          "settings": {
+            "decline_button": "No",
+            "approve_button": "Yes"
+          }
+        }
+      },
+      "block_order": [
+        "image_N6edrE",
+        "age-vefirifer-popup-1",
+        "age-vefirifer-popup-2",
+        "age-vefirifer-popup-3"
+      ],
+      "settings": {
+        "design_mode": false,
+        "enable": true,
+        "bg_image": "shopify://shop_images/agebackground-desk.png",
+        "bg_blur": false,
+        "decline_heading": "Come back when you're older",
+        "decline_content": "<p>Sorry, the content of this store can't be seen by a younger audience. Come back when you're older.</p>",
+        "return_button": "Oops, I entered incorrectly"
+      }
+    }
+  },
+  "order": [
+    "footer",
+    "mobile-sticky-bar",
+    "popup",
+    "age-verifier-popup"
+  ]
+}

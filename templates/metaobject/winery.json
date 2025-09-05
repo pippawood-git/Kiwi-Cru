@@ -1,0 +1,454 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero_yFzCwd": {
+      "type": "hero",
+      "blocks": {
+        "title_wYaTaW": {
+          "type": "title",
+          "settings": {
+            "title": "{{ metaobject.winery_name.value }}",
+            "heading_flourish": false,
+            "heading_underline": "none",
+            "heading_size": "h1"
+          }
+        },
+        "text_mAqgG3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ metaobject.subheading.value }}</p>"
+          }
+        }
+      },
+      "block_order": [
+        "title_wYaTaW",
+        "text_mAqgG3"
+      ],
+      "settings": {
+        "container": "container-full",
+        "image": "{{ metaobject.image.value }}",
+        "image_mobile": "{{ metaobject.image.value }}",
+        "image_overlay_opacity": 40,
+        "hero_height": "large",
+        "content_in_container": false,
+        "content_width": "narrow",
+        "content_position": "left-bottom",
+        "text_alignment": "left",
+        "text_color": "#ffffff",
+        "hero_height_mobile": "large",
+        "content_position_mobile": "left-bottom",
+        "show_text_below": false,
+        "text_alignment_mobile": "left",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit",
+        "enable_bg_zoom_effect": true
+      }
+    },
+    "image_with_text_fpBMcQ": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_6FPfD6": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_flourish": false,
+            "heading_underline": "pistachio",
+            "heading_size": "h2"
+          }
+        },
+        "subheading_9ppyHW": {
+          "type": "subheading",
+          "settings": {
+            "subheading": ""
+          }
+        },
+        "text_yTd7WG": {
+          "type": "text",
+          "source": "{{ metaobject }}",
+          "settings": {
+            "text": "<p>{{ metaobject.image_1_text | metafield_tag }}</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_6FPfD6",
+        "subheading_9ppyHW",
+        "text_yTd7WG"
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "image": "{{ metaobject._image_1.value }}",
+        "mobile_image": "{{ metaobject._image_1.value }}",
+        "image_width": "50%",
+        "image_position": "left",
+        "vertical_alignment": "center",
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "padding_left": 0,
+        "padding_right": 0,
+        "align_content_container": "none",
+        "mobile_padding_left": 15,
+        "mobile_padding_right": 15,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "image_with_text_PDJPxP": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_RiFKtG": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ metaobject.image_2_title.value }}",
+            "heading_flourish": false,
+            "heading_underline": "pistachio",
+            "heading_size": "h2"
+          }
+        },
+        "subheading_89xCMX": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "{{ metaobject.subheading_1.value }}"
+          }
+        },
+        "text_jLH9qx": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ metaobject.image_2_text | metafield_tag }}</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_RiFKtG",
+        "subheading_89xCMX",
+        "text_jLH9qx"
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "image": "{{ metaobject.image_2.value }}",
+        "mobile_image": "{{ metaobject.image_2.value }}",
+        "image_width": "50%",
+        "image_position": "right",
+        "vertical_alignment": "center",
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "padding_left": 0,
+        "padding_right": 0,
+        "align_content_container": "none",
+        "mobile_padding_left": 15,
+        "mobile_padding_right": 15,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "padding_top_mobile": 20,
+        "padding_bottom_mobile": 40,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "image_with_text_cfMRKx": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_wLiN76": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ metaobject.image_3_title.value }}",
+            "heading_flourish": false,
+            "heading_underline": "pistachio",
+            "heading_size": "h2"
+          }
+        },
+        "subheading_PHebkq": {
+          "type": "subheading",
+          "settings": {
+            "subheading": ""
+          }
+        },
+        "text_JTxMjV": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ metaobject.image_3_text | metafield_tag }}</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_wLiN76",
+        "subheading_PHebkq",
+        "text_JTxMjV"
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "image": "{{ metaobject._image_3.value }}",
+        "mobile_image": "{{ metaobject._image_3.value }}",
+        "image_width": "50%",
+        "image_position": "left",
+        "vertical_alignment": "center",
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "padding_left": 0,
+        "padding_right": 0,
+        "align_content_container": "none",
+        "mobile_padding_left": 15,
+        "mobile_padding_right": 15,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "padding_top_mobile": 20,
+        "padding_bottom_mobile": 40,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "rich_text_8K3nRA": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_GMM6gj": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ metaobject.rich_text_quote.value }}",
+            "heading_style": "script",
+            "heading_size": "h2",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false
+          }
+        },
+        "text_GDdYEb": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "",
+            "highlight_style": "none"
+          }
+        }
+      },
+      "block_order": [
+        "heading_GMM6gj",
+        "text_GDdYEb"
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "inverse",
+        "enable_kiwi_background": true,
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "padding_top": 40,
+        "padding_bottom": 50,
+        "padding_top_mobile": 60,
+        "padding_bottom_mobile": 90,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "custom_content_HtPmPX": {
+      "type": "custom-content",
+      "blocks": {
+        "image_cGgLiX": {
+          "type": "image",
+          "settings": {
+            "image": "{{ metaobjects.winery.settlement._image_3.value }}",
+            "mobile_image": "{{ metaobjects.winery.settlement._image_3.value }}",
+            "link": "",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "text_dF34xB": {
+          "type": "text",
+          "settings": {
+            "color_scheme": "",
+            "title": "",
+            "heading_size": "h2",
+            "subheading": "",
+            "text": "<p>{{ metaobjects.winery.neudorf.image_3_text | metafield_tag }}</p>",
+            "alignment": "center",
+            "align_text": "left",
+            "padding_left": 0,
+            "padding_right": 0,
+            "align_content_container": "none",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "width": "50%",
+            "mobile_color_scheme": "",
+            "mobile_padding_left": 15,
+            "mobile_padding_right": 15,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "image_cGgLiX",
+        "text_dF34xB"
+      ],
+      "disabled": true,
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "section_header_padding_bottom": "medium",
+        "heading": "{{ metaobjects.winery.neudorf.image_3_title.value }}",
+        "heading_flourish": true,
+        "heading_underline": "none",
+        "heading_size": "h2",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40,
+        "custom_id": "",
+        "custom_class": ""
+      }
+    },
+    "featured_collection_DCEBxc": {
+      "type": "featured-collection",
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "section_header_padding_bottom": "medium",
+        "header_layout": "vertical",
+        "heading": "{{ metaobject.winery_name.value }}",
+        "heading_flourish": true,
+        "heading_underline": "none",
+        "subheading": "",
+        "description": "",
+        "collection": "{{ metaobject.featured_collection.value }}",
+        "limit": 7,
+        "columns": 4,
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "pcard_image_ratio": "",
+        "show_vendor": false,
+        "enable_slider": true,
+        "show_nav": true,
+        "show_dots": false,
+        "show_all_button_on_top": false,
+        "button_label": "",
+        "button_style": "btn--primary",
+        "enable_swipe_mobile": false,
+        "column_mobile": "1",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "hero_EmeCt7": {
+      "type": "hero",
+      "blocks": {
+        "title_rHqCVY": {
+          "type": "title",
+          "settings": {
+            "title": "Meet More Makers",
+            "heading_flourish": false,
+            "heading_underline": "kiwi",
+            "heading_size": "h2"
+          }
+        },
+        "button_FGXknH": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": "shopify://collections/winemakers",
+            "button_style": "btn--secondary",
+            "button_size": "btn--medium"
+          }
+        }
+      },
+      "block_order": [
+        "title_rHqCVY",
+        "button_FGXknH"
+      ],
+      "disabled": true,
+      "settings": {
+        "container": "container-full",
+        "image": "shopify://shop_images/Dog_Point_panorama_df5365ab-0634-4386-86e4-c5ebf0ccbc80.jpg",
+        "image_mobile": "shopify://shop_images/Dog_Point_panorama_df5365ab-0634-4386-86e4-c5ebf0ccbc80.jpg",
+        "image_overlay_opacity": 40,
+        "hero_height": "small",
+        "content_in_container": false,
+        "content_width": "narrow",
+        "content_position": "center",
+        "text_alignment": "center",
+        "text_color": "#ffffff",
+        "hero_height_mobile": "large",
+        "content_position_mobile": "center",
+        "show_text_below": false,
+        "text_alignment_mobile": "center",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit",
+        "enable_bg_zoom_effect": true
+      }
+    },
+    "rich_text_Rm4Hrt": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_hCR7a4": {
+          "type": "heading",
+          "settings": {
+            "heading": "Meet More Of Our <a href=\"/pages/winemakers\" title=\"Winemakers\"><em>Makers</em></a>",
+            "heading_style": "heading",
+            "heading_size": "h2",
+            "highlight_style": "drawer_line",
+            "enable_highlight_text_color": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_hCR7a4"
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "background-1",
+        "enable_kiwi_background": false,
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "padding_top": 60,
+        "padding_bottom": 74,
+        "padding_top_mobile": 58,
+        "padding_bottom_mobile": 58,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    }
+  },
+  "order": [
+    "hero_yFzCwd",
+    "image_with_text_fpBMcQ",
+    "image_with_text_PDJPxP",
+    "image_with_text_cfMRKx",
+    "rich_text_8K3nRA",
+    "custom_content_HtPmPX",
+    "featured_collection_DCEBxc",
+    "hero_EmeCt7",
+    "rich_text_Rm4Hrt"
+  ]
+}

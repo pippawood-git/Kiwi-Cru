@@ -1,0 +1,194 @@
+{% liquid
+  assign menu_id = section.settings.main_menu | default: 'main-menu'
+  assign dropdown_container = section.settings.container | default: 'container'
+  assign enable_mega_menu = section.settings.enable_mega_menu
+
+  assign menu_links = linklists[menu_id].links
+  assign menu_length = menu_links.size
+  if menu_part != blank
+    assign menu_length_modulo = menu_length | modulo: 2
+    assign split_index = menu_length | divided_by: 2
+    unless menu_length_modulo == 0
+      assign split_index = split_index | plus: 1
+    endunless
+  endif
+  assign space_class = ''
+  if menu_length >= 5
+    assign space_class = ' f-site-nav--space-md'
+  endif
+  if menu_length >= 8
+    assign space_class = ' f-site-nav--space-sm'
+  endif
+  if menu_length > 10
+    assign space_class = ' f-site-nav--space-xs'
+  endif
+
+  assign is_hover = false
+  if section.settings.dropdown_menu_trigger == 'hover'
+    assign is_hover = true
+  endif
+%}
+
+{% unless menu_id and menu_links.size == 0 %}
+  <site-nav class="f-site-nav lg-down:hidden{{ space_class }}">
+    <ul class="f-site-nav__list list-none" role="list">
+      {% for link in menu_links %}
+        {% liquid
+          if menu_part == 'last' and forloop.index <= split_index
+            continue
+          endif
+          assign li_class = 'f-site-nav__item'
+          assign is_mega_item = true
+          assign three_level = false
+          assign has_mega_item = false
+          if link.links != blank
+            if link.levels == 2
+              assign three_level = true
+              assign is_mega_item = enable_mega_menu
+            endif
+          endif
+          assign title_handle = link.title | handleize
+          assign column = 6
+        %}
+
+        {% for block in section.blocks %}
+          {% liquid
+            assign menu_title = block.settings.heading | handleize
+            assign block_type = ''
+            if menu_title == blank or menu_title != title_handle
+              continue
+            endif
+            if menu_title == title_handle and enable_mega_menu
+              assign has_mega_item = true
+              assign column = block.settings.columns
+              if block.settings.container != 'inherit'
+                assign dropdown_container = block.settings.container
+              endif
+
+              if block.type
+                assign block_type = true
+              endif
+            endif
+
+            if three_level != true and has_mega_item == false
+              assign is_mega_item = false
+            endif
+
+            if link.active
+              assign li_class = li_class | append: ' f-site-nav__item--current'
+            endif
+
+            if link.links != blank
+              assign li_class = li_class | append: ' f-site-nav__item--has-child'
+            endif
+
+            if is_mega_item and has_mega_item
+              assign li_class = li_class | append: ' f-site-nav__item--mega'
+            endif
+
+            assign has_dropdown = false
+            if link.links != blank
+              assign has_dropdown = true
+            elsif has_mega_item and block_type != blank
+              assign has_dropdown = true
+            endif
+
+            assign dropdown_html = ''
+          %}
+          {% if link.links != blank %}
+            {% liquid
+              unless is_mega_item and has_mega_item
+                assign dropdown_container = 'w-full'
+              endunless
+            %}
+            {% capture dropdown_html %}
+              <div class="f-site-nav__dropdown f-site-nav__dropdown--level2 color-{{ section.settings.menu_dropdown_color_schema }}{% if is_mega_item and has_mega_item %} no-js-hidden f-site-nav__dropdown--mega{% endif %}" tabindex="-1">
+                <div class="{{ dropdown_container }}">
+                  <div class="f-site-nav__dropdown-inner">
+                    <ul class="list-none w-full{% if is_mega_item and has_mega_item %} f-grid f-grid-{{- column -}}-cols{% endif %}" role="list" tabindex="-1">
+                      {% for childlink in link.links %}
+                        <li class="f-site-nav__sub-item{% if childlink.links != blank %} f-site-nav__sub-item--has-child{% endif %}">
+                          <a href="{{ childlink.url }}" class="f-site-nav__sub-link focus-inset no-js-hidden"><span>{{ childlink.title }}</span>{% if childlink.links != blank %} <span class="f-site-nav__arrow">{% render 'icon-arrow-down', size: 'small' %}</span>{% endif %}</a>
+                          {% if childlink.links != blank %}
+                            <div id="HeaderMenu-SubMenuList-{{ forloop.index }}" class="f-site-nav__dropdown f-site-nav__dropdown--level3 {% unless is_mega_item and has_mega_item %} f-site-nav__dropdown--normal color-{{ section.settings.menu_dropdown_color_schema }}{% endunless %}" tabindex="-1">
+                              <ul class="list-none" role="list" tabindex="-1">
+                                {% for grandlink in childlink.links %}
+                                  <li class="f-site-nav__sub-item f-site-nav__sub-item--level3">
+                                    <a href="{{ grandlink.url }}" class="f-site-nav__sub-link focus-inset">
+                                      <span>{{ grandlink.title }}</span>
+                                    </a>
+                                  </li>
+                                {% endfor %}
+                              </ul>
+                            </div>
+                          {% endif %}
+                        </li>
+                      {% endfor %}
+                    </ul>
+
+                    {% for block in section.blocks %}
+                      {% liquid
+                        assign menu_title = block.settings.heading | handleize
+                        if menu_title == blank or menu_title != title_handle
+                          continue
+                        endif
+                      %}
+                      {% if menu_title == title_handle and enable_mega_menu %}
+                        {% render 'mega-nav-blocks', block: block, link: link %}
+                      {% endif %}
+                    {% endfor %}
+                  </div>
+                </div>
+              </div>
+            {% endcapture %}
+          {% elsif has_mega_item and block_type != blank %}
+            {% capture dropdown_html %}
+              <div class="f-site-nav__dropdown f-site-nav__dropdown--level2 color-{{ section.settings.menu_dropdown_color_schema }}{% if is_mega_item and has_mega_item %} no-js-hidden f-site-nav__dropdown--mega{% endif %}" tabindex="-1">
+                <div class="{{ dropdown_container }}">
+                  <div class="f-site-nav__dropdown-inner">
+                    {% for block in section.blocks %}
+                      {% liquid
+                        assign menu_title = block.settings.heading | handleize
+                        if menu_title == blank or menu_title != title_handle
+                          continue
+                        endif
+                      %}
+                      {% if menu_title == title_handle and enable_mega_menu %}
+                        {% render 'mega-nav-blocks', block: block, link: link %}
+                      {% endif %}
+                    {% endfor %}
+                  </div>
+                </div>
+              </div>
+            {% endcapture %}
+          {% endif %}
+        {% endfor %}
+
+        <li class="{{ li_class }}" data-index="{{ forloop.index0 }}">
+          {% if is_hover or has_dropdown == false %}
+            <a href="{{ link.url }}" class="f-site-nav__link focus-inset">
+              <span>{{- link.title -}}</span>
+            </a>
+            {{ dropdown_html }}
+          {% else %}
+            <header-menu>
+              <details id="Details-menu-drawer-menu-item-{{ forloop.index0 }}">
+                <summary class="f-site-nav__link focus-inset">
+                  <span>{{- link.title -}}</span>
+                  <span class="f-site-nav__arrow{% if is_mega_item and has_mega_item %} no-js-hidden{% endif %}">
+                    {%- render 'icon-arrow-down', size: 'small' -%}
+                  </span>
+                </summary>
+                {{ dropdown_html }}
+              </details>
+            </header-menu>
+          {% endif %}
+        </li>
+
+        {% if menu_part == 'first' and forloop.index >= split_index %}
+          {% break %}
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </site-nav>
+{% endunless %}

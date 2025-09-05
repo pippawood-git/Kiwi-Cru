@@ -1,0 +1,544 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "breadcrumb_iBGXJi": {
+      "type": "breadcrumb",
+      "disabled": true,
+      "settings": {
+        "brc_container": "container",
+        "brc_text_alignment": "start",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "hero_ELmxH9": {
+      "type": "hero",
+      "blocks": {
+        "title_3d9GYK": {
+          "type": "title",
+          "settings": {
+            "title": "FAQs",
+            "heading_flourish": false,
+            "heading_underline": "none",
+            "heading_size": "h2"
+          }
+        },
+        "text_WNeHyY": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "title_3d9GYK",
+        "text_WNeHyY"
+      ],
+      "settings": {
+        "container": "container-full",
+        "image": "shopify://shop_images/faq-desktopnooverlay.png",
+        "image_mobile": "shopify://shop_images/faq-mobilenooverlay.png",
+        "image_overlay_opacity": 40,
+        "hero_height": "medium",
+        "content_in_container": true,
+        "content_width": "narrow",
+        "content_position": "center",
+        "text_alignment": "center",
+        "text_color": "#ffffff",
+        "hero_height_mobile": "large",
+        "content_position_mobile": "center",
+        "show_text_below": false,
+        "text_alignment_mobile": "center",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit",
+        "enable_bg_zoom_effect": true
+      }
+    },
+    "collapsible_tabs_3L6UTG": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "1655868348d34715f4-0": {
+          "type": "content",
+          "settings": {
+            "icon": "none",
+            "title": "How does it work?",
+            "content": "<p>With our Wine Club, you can select the wine type you enjoy most, and we deliver a carefully curated 6 or 12 bottle case right to your door, 4 times a year. You can even gift a membership too.</p>",
+            "custom_liquid": "",
+            "content_page": "",
+            "open": true
+          }
+        },
+        "1655868348d34715f4-1": {
+          "type": "content",
+          "settings": {
+            "icon": "none",
+            "title": "How much does it cost?",
+            "content": "<p>Prices start at £135 per quarter for our special white wine selection. Plus, we guarantee that we’ll always send you wines which are more valuable than the price you pay.</p>",
+            "custom_liquid": "",
+            "content_page": "",
+            "open": false
+          }
+        },
+        "9891166a-7648-4555-84e2-cfb0e9832a21": {
+          "type": "content",
+          "settings": {
+            "icon": "none",
+            "title": "What are the other benefits to being a member?",
+            "content": "<p>You'll receive online discounts, free delivery and exclusive invitations to our member-only events. You can even gift a membership too.</p>",
+            "custom_liquid": "",
+            "content_page": "",
+            "open": false
+          }
+        },
+        "content_tzBhRU": {
+          "type": "content",
+          "settings": {
+            "icon": "none",
+            "title": "How do I gift a membership?",
+            "content": "<p>It’s really easy – just choose who it’s for when you go through the checkout process, and enter their delivery address (if it’s different from yours). You can add a gift note too of course.</p>",
+            "custom_liquid": "",
+            "content_page": "",
+            "open": false
+          }
+        },
+        "content_nWKgmk": {
+          "type": "content",
+          "settings": {
+            "icon": "none",
+            "title": "When does the first delivery arrive?",
+            "content": "<p>We’ll deliver your first selection straight after you’ve signed up. You will then get notified 3 days before your next quarterly shipment is due to be dispatched.  </p>",
+            "custom_liquid": "",
+            "content_page": "",
+            "open": false
+          }
+        },
+        "content_x73fwe": {
+          "type": "content",
+          "settings": {
+            "icon": "none",
+            "title": "What if I want to change my case?",
+            "content": "<p>It’s no problem, just log into your account and ‘Swap this for a different product’.</p>",
+            "custom_liquid": "",
+            "content_page": "",
+            "open": false
+          }
+        },
+        "content_ekm8tw": {
+          "type": "content",
+          "settings": {
+            "icon": "none",
+            "title": "Can I cancel my subscription?",
+            "content": "<p>Yes, your membership is completely flexible. If you log into your account, you can click on ‘Cancel my subscription’</p>",
+            "custom_liquid": "",
+            "content_page": "",
+            "open": false
+          }
+        }
+      },
+      "block_order": [
+        "1655868348d34715f4-0",
+        "1655868348d34715f4-1",
+        "9891166a-7648-4555-84e2-cfb0e9832a21",
+        "content_tzBhRU",
+        "content_nWKgmk",
+        "content_x73fwe",
+        "content_ekm8tw"
+      ],
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "container": "container-narrow",
+        "color_schema": "",
+        "section_header_padding_bottom": "small",
+        "heading": "Kiwi Cru Wine Club",
+        "heading_flourish": false,
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "",
+        "padding_top": 50,
+        "padding_bottom": 0,
+        "mobile_top_padding": 28,
+        "mobile_bottom_padding": 0,
+        "enable_bottom_border": false,
+        "item_heading_font": "body-bolder",
+        "item_heading_size": "h6",
+        "column_gap": "extra-large",
+        "content_width": "narrow",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "collapsible_tabs_6FraBE": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "content_XUBiFc": {
+          "type": "content",
+          "settings": {
+            "icon": "none",
+            "title": "Do you send physical tickets or will I receive an e-ticket?",
+            "content": "<p>We do not send out physical tickets for our events. Instead, an email confirming registration will be sent to the person who has purchased the ticket(s), and this email can be used as confirmation when you arrive at the event.</p>",
+            "custom_liquid": "",
+            "content_page": "",
+            "open": true
+          }
+        },
+        "content_FTpbU4": {
+          "type": "content",
+          "settings": {
+            "icon": "none",
+            "title": "I’ve purchased an event as a gift. Is there anything I need to do?",
+            "content": "<p>Please email us at <a href=\"https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=events@kiwicru.com\" target=\"_blank\" title=\"https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=events@kiwicru.com\">events@kiwicru.com</a> with the name and date of the event, along with the name, telephone number and email address of the recipient. This is so we can contact them directly with the event details.</p>",
+            "custom_liquid": "",
+            "content_page": "",
+            "open": false
+          }
+        },
+        "content_RNGrf4": {
+          "type": "content",
+          "settings": {
+            "icon": "none",
+            "title": "I’ve included a gift message. How will this be delivered?",
+            "content": "<p>If you’d like a gift note to be sent out, please contact us at <a href=\"https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=events@kiwicru.com\" target=\"_blank\" title=\"https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=events@kiwicru.com\">events@kiwicru.com</a> with the name and date of the event, along with the name, telephone number and email address of the recipient, and any special message you’d like to include.</p>",
+            "custom_liquid": "",
+            "content_page": "",
+            "open": false
+          }
+        },
+        "content_MRqLGQ": {
+          "type": "content",
+          "settings": {
+            "icon": "none",
+            "title": "Do I need to know lots about wine to attend?",
+            "content": "<p>Absolutely not! Our events are designed for a range of experience and knowledge levels, which we try to make this clear on our event pages. If you’re unsure if an event is for you, simply email us at <a href=\"https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=events@kiwicru.com\" title=\"https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=events@kiwicru.com\">events@kiwicru.com</a> or call us on 07908 210 953 and we will try to help. There is something for everybody!</p>",
+            "custom_liquid": "",
+            "content_page": "",
+            "open": false
+          }
+        },
+        "content_8A4hgm": {
+          "type": "content",
+          "settings": {
+            "icon": "none",
+            "title": "Can I join a waiting list for sold out events?",
+            "content": "<p>Yes, of course, please go ahead and join our waiting lists for sold out events. People do drop out from time to time. If tickets become available, we will contact you.</p>",
+            "custom_liquid": "",
+            "content_page": "",
+            "open": false
+          }
+        },
+        "content_KfJUBH": {
+          "type": "content",
+          "settings": {
+            "icon": "none",
+            "title": "Something’s come up – what’s the latest I can cancel and get a refund?",
+            "content": "<p>If you wish to cancel a ticket that you have purchased for an event, please contact us as soon as possible at <a href=\"https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=events@kiwicru.com\" target=\"_blank\" title=\"https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=events@kiwicru.com\">events@kiwicru.com</a>. If you cancel your ticket at least 14 days before the date of the event a full refund will be arranged.</p><p>If you cancel your ticket later than 14 days before the date of the event, we will try to find another buyer for your ticket. If we are able to re-sell your ticket, a full refund will be arranged. If we are not able to re-sell your ticket, we will not be able to issue be a refund (but you may still attend the event, if you change your mind).</p>",
+            "custom_liquid": "",
+            "content_page": "",
+            "open": false
+          }
+        }
+      },
+      "block_order": [
+        "content_XUBiFc",
+        "content_FTpbU4",
+        "content_RNGrf4",
+        "content_MRqLGQ",
+        "content_8A4hgm",
+        "content_KfJUBH"
+      ],
+      "settings": {
+        "container": "container-narrow",
+        "color_schema": "",
+        "section_header_padding_bottom": "small",
+        "heading": "Events",
+        "heading_flourish": false,
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "",
+        "padding_top": 50,
+        "padding_bottom": 0,
+        "mobile_top_padding": 50,
+        "mobile_bottom_padding": 0,
+        "enable_bottom_border": false,
+        "item_heading_font": "body-bolder",
+        "item_heading_size": "h6",
+        "column_gap": "extra-large",
+        "content_width": "narrow",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "collapsible_tabs_pwDJUR": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "content_HECwAy": {
+          "type": "content",
+          "settings": {
+            "icon": "none",
+            "title": "Who are they for?",
+            "content": "<p>A private wine tasting event is a perfect way to celebrate a special occasion or birthday, or simply to entertain or spend time with friends? It’s also a very successful format for team bonding with work colleagues, or as a ‘thank-you’ to clients.</p>",
+            "custom_liquid": "",
+            "content_page": "",
+            "open": true
+          }
+        },
+        "content_39E4PG": {
+          "type": "content",
+          "settings": {
+            "icon": "none",
+            "title": "How many people can I invite?",
+            "content": "<p>That’s partly dependent on the venue and partly dependent on the style of event, eg is it a sit-down tutored tasting, a more casual walk around, type of experience, or is it basically just a party?! There’s something which will fit every occasion, and almost any number of people, so please get in touch to <a href=\"https://www.kiwicru.com/pages/corporate-private-events\" target=\"_blank\" title=\"https://www.kiwicru.com/pages/corporate-private-events\">find out more</a></p>",
+            "custom_liquid": "",
+            "content_page": "",
+            "open": false
+          }
+        },
+        "content_JTiPXL": {
+          "type": "content",
+          "settings": {
+            "icon": "none",
+            "title": "Where are they held?",
+            "content": "<p>Private wine tasting events can be hosted at your home, your office, our own venue, or at a location of your choice - we can recommend London venues to suit any party size or budget. We can also organise, if required, venues that include canapes or dinner cooked by top local chefs.</p>",
+            "custom_liquid": "",
+            "content_page": "",
+            "open": false
+          }
+        },
+        "content_BGRYYk": {
+          "type": "content",
+          "settings": {
+            "icon": "none",
+            "title": "How much do they cost?",
+            "content": "<p>Every event is different, and so coming up with a cost is tricky. So much depends in the type of venue, number of guests, number of wines, whether there’s food. You get the idea! The best thing is to have a chat with us and we’ll explore what you have in mind and what’s possible. Please contact us at <a href=\"https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=hello@kiwicru.com\" target=\"_blank\" title=\"https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=hello@kiwicru.com\">hello@kiwicru.com</a> or call us on 07908 210 953 or use the form on our <a href=\"https://www.kiwicru.com/pages/contact\" title=\"https://www.kiwicru.com/pages/contact\">Contact Us </a>page. </p>",
+            "custom_liquid": "",
+            "content_page": "",
+            "open": false
+          }
+        }
+      },
+      "block_order": [
+        "content_HECwAy",
+        "content_39E4PG",
+        "content_JTiPXL",
+        "content_BGRYYk"
+      ],
+      "settings": {
+        "container": "container-narrow",
+        "color_schema": "",
+        "section_header_padding_bottom": "small",
+        "heading": "Private and Corporate Events",
+        "heading_flourish": false,
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "mobile_top_padding": 50,
+        "mobile_bottom_padding": 28,
+        "enable_bottom_border": true,
+        "item_heading_font": "body-bolder",
+        "item_heading_size": "h6",
+        "column_gap": "extra-large",
+        "content_width": "narrow",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "collapsible_tabs_nUHE6k": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "content_JejbL7": {
+          "type": "content",
+          "settings": {
+            "icon": "none",
+            "title": "Can I use a discount code on sale items?",
+            "content": "<p>No, discount codes apply to full-priced items only and cannot used on sale items </p>",
+            "custom_liquid": "",
+            "content_page": "",
+            "open": false
+          }
+        },
+        "content_WPMQYm": {
+          "type": "content",
+          "settings": {
+            "icon": "none",
+            "title": "I made a mistake with my order - can I amend it?",
+            "content": "<p>If you contact us as soon as you realise you’d like to amend your order, and it has not been dispatched, we will amend it. Please contact us at <a href=\"https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=hello@kiwicru.com\" title=\"https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=hello@kiwicru.com\">hello@kiwicru.com</a> or call us on 07908 210 953 or use the form on our <a href=\"/pages/contact\" target=\"_blank\" title=\"Contact\">Contact Us</a> page.</p>",
+            "custom_liquid": "",
+            "content_page": "",
+            "open": true
+          }
+        },
+        "content_EJ3yig": {
+          "type": "content",
+          "settings": {
+            "icon": "none",
+            "title": "Where do you deliver to?",
+            "content": "<p>We distribute our wines throughout the UK Mainland (England, Wales, Scottish Borders and Central Scotland).</p>",
+            "custom_liquid": "",
+            "content_page": "",
+            "open": false
+          }
+        },
+        "content_pm7r9C": {
+          "type": "content",
+          "settings": {
+            "icon": "none",
+            "title": "How long will my order take to arrive?",
+            "content": "<p>Delivery will be made as soon as possible after your order is accepted (and is usually dispatched 2-4 working days from the date we receive your order)</p>",
+            "custom_liquid": "",
+            "content_page": "",
+            "open": false
+          }
+        },
+        "content_KEdjpL": {
+          "type": "content",
+          "settings": {
+            "icon": "none",
+            "title": "What are the delivery times?",
+            "content": "<p>Our courier is Evermile, and will normally deliver between 8am and 6pm, Monday to Friday. We are currently not able to offer weekend deliveries.</p>",
+            "custom_liquid": "",
+            "content_page": "",
+            "open": false
+          }
+        },
+        "content_njbrpW": {
+          "type": "content",
+          "settings": {
+            "icon": "none",
+            "title": "Do I have to be in when it arrives?",
+            "content": "<p>No, you will receive updates from Evermile throughout your delivery, with the option to pick time slots and different days, and preferred places to leave your delivery, should you not intend to be present to sign for it when it arrives.</p>",
+            "custom_liquid": "",
+            "content_page": "",
+            "open": false
+          }
+        },
+        "content_e9gLWM": {
+          "type": "content",
+          "settings": {
+            "icon": "none",
+            "title": "Can I request delivery on a specific day?",
+            "content": "<p>You can arrange this with Evermile, once they have made contact to tell you it’s on its way.</p>",
+            "custom_liquid": "",
+            "content_page": "",
+            "open": false
+          }
+        },
+        "content_6FjPwF": {
+          "type": "content",
+          "settings": {
+            "icon": "none",
+            "title": "I’ve received the wrong wine – what do I do?",
+            "content": "<p>In the unlikely event of you receiving the wrong wine in your order we will arrange to exchange any mis-delivered products as soon as possible. Please get in touch with us straight away at <a href=\"https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=hello@kiwicru.com\" target=\"_blank\" title=\"https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=hello@kiwicru.com\">hello@kiwicru.com </a>or call us on 07908 210 953 or use the form on our <a href=\"/pages/contact\" target=\"_blank\" title=\"Contact\">Contact Us</a> page.</p>",
+            "custom_liquid": "",
+            "content_page": "",
+            "open": false
+          }
+        },
+        "content_gJmEBV": {
+          "type": "content",
+          "settings": {
+            "icon": "none",
+            "title": "My delivery is damaged – what happens next?",
+            "content": "<p>If your order has been damaged in transit, please get in touch straight away at <a href=\"https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=hello@kiwicru.com\" target=\"_blank\" title=\"https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=hello@kiwicru.com\">hello@kiwicru.com</a> or call us on 07908 210 953 or use the form on our <a href=\"/pages/contact\" target=\"_blank\" title=\"Contact\">Contact Us</a> page and we can make the necessary arrangements to replace any damaged bottles.</p>",
+            "custom_liquid": "",
+            "content_page": "",
+            "open": false
+          }
+        }
+      },
+      "block_order": [
+        "content_JejbL7",
+        "content_WPMQYm",
+        "content_EJ3yig",
+        "content_pm7r9C",
+        "content_KEdjpL",
+        "content_njbrpW",
+        "content_e9gLWM",
+        "content_6FjPwF",
+        "content_gJmEBV"
+      ],
+      "settings": {
+        "container": "container-narrow",
+        "color_schema": "",
+        "section_header_padding_bottom": "small",
+        "heading": "Orders and Deliveries",
+        "heading_flourish": false,
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "mobile_top_padding": 50,
+        "mobile_bottom_padding": 28,
+        "enable_bottom_border": true,
+        "item_heading_font": "body-bolder",
+        "item_heading_size": "h6",
+        "column_gap": "extra-large",
+        "content_width": "narrow",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "rich_text_WYx64z": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_3T34ET": {
+          "type": "heading",
+          "settings": {
+            "heading": "Still need some more help? <a href=\"/pages/contact\" title=\"Contact\"><em>Contact Us</em></a>",
+            "heading_style": "heading",
+            "heading_size": "h2",
+            "highlight_style": "drawer_line",
+            "enable_highlight_text_color": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_3T34ET"
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "accent",
+        "enable_kiwi_background": false,
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "padding_top": 50,
+        "padding_bottom": 80,
+        "padding_top_mobile": 60,
+        "padding_bottom_mobile": 90,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "breadcrumb_iBGXJi",
+    "hero_ELmxH9",
+    "collapsible_tabs_3L6UTG",
+    "collapsible_tabs_6FraBE",
+    "collapsible_tabs_pwDJUR",
+    "collapsible_tabs_nUHE6k",
+    "rich_text_WYx64z"
+  ]
+}

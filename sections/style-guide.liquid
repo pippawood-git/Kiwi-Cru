@@ -1,0 +1,199 @@
+<div class="page-width">
+  <div class="typography">
+    <h2>Typography</h2>
+    <div class="fonts">
+      <div class="desktop">
+        <h1>Heading One</h1>
+        <h2>Heading Two</h2>
+        <h3>Heading Three</h3>
+        <h4>Heading Four</h4>
+
+        <p>Primary Body Copy</p>
+        <p class="text-desc-sm">Secondary Copy</p>
+        <p style="font-family: var(--font-family-roca-light); font-weight: var(--font-weight-light)">Primary</p>
+
+        <h1 class="h0">Heading One</h1>
+      </div>
+    </div>
+  </div>
+
+  <div class="typography">
+    <h5>Paragraph</h5>
+    <span>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed
+      ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+      eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+    </span>
+  </div>
+
+  <div class="colours">
+    <h5>Colours</h5>
+    <div style="display: flex; gap: 20px; flex-wrap: wrap;">
+      <div class="colour-container">
+        <div class="colour" style="background: rgb(var(--olive))"></div>
+        <span>#545531</span>
+      </div>
+      <div class="colour-container">
+        <div class="colour" style="background: rgb(var(--charcoal))"></div>
+        <span>#242C2D</span>
+      </div>
+      <div class="colour-container">
+        <div class="colour" style="background: rgb(var(--kiwi))"></div>
+        <span>#D1D52C</span>
+      </div>
+      <div class="colour-container">
+        <div class="colour" style="background: rgb(var(--black))"></div>
+        <span>#000000</span>
+      </div>
+      <div class="colour-container">
+        <div class="colour" style="background: rgb(var(--white)); border: 1px solid rgb(var(--pistachio));"></div>
+        <span>#FFFFFF</span>
+      </div>
+      <div class="colour-container">
+        <div class="colour" style="background: rgb(var(--pearl))"></div>
+        <span>#F5F4EE</span>
+      </div>
+      <div class="colour-container">
+        <div class="colour" style="background: rgb(var(--pistachio))"></div>
+        <span>#D7D6B6</span>
+      </div>
+      <div class="colour-container">
+        <div class="colour" style="background: rgb(var(--sun))"></div>
+        <span>#D54900</span>
+      </div>
+      <div class="colour-container">
+        <div class="colour" style="background: rgb(var(--red))"></div>
+        <span>#DC2626</span>
+      </div>
+      <div class="colour-container">
+        <div class="colour" style="background: rgb(var(--green))"></div>
+        <span>#006400</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="buttons">
+    <h5>Buttons</h5>
+    <div>
+      <div class="dotted-border">
+        <button class="btn btn--primary">Button</button>
+      </div>
+
+      <div class="dotted-border" style="background-color: rgba(var(--charcoal))">
+        <button class="btn btn--secondary">Button</button>
+      </div>
+
+      <div class="dotted-border">
+        <a class="btn--link">Button</a>
+        <a class="btn--link hover" href="/">Button</a>
+        <a class="btn--link active" href="/">Button</a>
+      </div>
+    </div>
+
+    <div>
+      <div class="dotted-border fields">
+        <div class="field">
+          <label class="form-label visually-hidden">First Name</label>
+          <input class="form-control" type="text" placeholder="First Name">
+        </div>
+        <div class="field">
+          <label class="form-label visually-hidden">First Name</label>
+          <input class="form-control" type="text" placeholder="First Name" value="James">
+        </div>
+      </div>
+
+      <div class="dotted-border fields">
+        <div class="field">
+          <label class="form-label visually-hidden">First Name</label>
+          <input class="form-control" type="text" placeholder="First Name">
+          <p class="form-message form-message--error" id="ContactForm-email-error">
+            <span class="visually-hidden">Error</span>
+            <span>Email is invalid</span>
+          </p>
+        </div>
+
+        <div class="field">
+          <label class="form-label visually-hidden">First Name</label>
+          <input class="form-control" type="text" placeholder="First Name">
+          <p class="form-message form-message--success" id="ContactForm-email-success">
+            <span>Thanks for subscribing</span>
+          </p>
+        </div>
+      </div>
+
+      <div class="dotted-border checkboxes">
+        <div class="field">
+          <label for="checkbox" class="f-checkbox">
+            <input type="checkbox" name="checkbox" id="checkbox">
+            <span class="checkmark">{% render 'icon-check' %}</span>
+            <span>Tick Box Example</span>
+          </label>
+        </div>
+
+        <div class="field">
+          <label for="checkbox1" class="f-checkbox">
+            <input type="checkbox" name="checkbox" id="checkbox1" checked>
+            <span class="checkmark">{% render 'icon-check' %}</span>
+            <span>Tick Box Example</span>
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% stylesheet %}
+  .logos,
+  .fonts {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 30px;
+  }
+
+  .colours .colour {
+    display: block;
+    width: 115px;
+    height: 115px;
+    border-radius: 100%;
+  }
+
+  .colour-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .buttons > div {
+    display: flex;
+    gap: 20px;
+    padding: 15px;
+  }
+
+  .dotted-border {
+    border: 2px dotted #8ea6ca;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px;
+  }
+
+  .dotted-border.checkboxes,
+  .dotted-border.radio-buttons {
+    background: white;
+  }
+{% endstylesheet %}
+
+{% schema %}
+{
+  "name": "Styleguide",
+  "presets": [
+    {
+      "name": "Styleguide"
+    }
+  ]
+}
+{% endschema %}

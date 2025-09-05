@@ -1,0 +1,94 @@
+.f-popup--age-verifier {
+  padding: 0;
+  align-items: center;
+}
+.f-popup--age-verifier__text {
+  font-size: var(--font-size-xs);
+  line-height: var(--font-line-height-xs);
+}
+.f-popup--age-verifier__text p {
+  word-spacing: 0.5px;
+  letter-spacing: 0;
+  line-height: var(--font-line-height-xs);
+}
+.f-popup--age-verifier__button-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.f-popup--age-verifier__button-wrapper .btn {
+  margin: 0 0.6rem;
+  min-height: 44px;
+}
+.f-popup--age-verifier__button-wrapper .btn--olive {
+  box-shadow: none;
+}
+@media (min-width: 1024px) {
+  .f-popup--age-verifier__button-wrapper .btn {
+    min-width: 150px;
+  }
+}
+.f-popup--age-verifier__bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.f-popup--age-verifier__bg img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.f-popup--age-verifier__bg-blur img {
+  filter: blur(0.4rem);
+  transform: scale(1.03);
+}
+.f-popup--age-verifier .f-popup__content {
+  margin-top: 6rem;
+  width: 100%;
+  padding: var(--spacing-20);
+}
+.f-popup--age-verifier .f-image img {
+  height: 140px;
+  width: auto;
+}
+.f-popup--age-verifier .f-text-blocks > *:not(:first-child) {
+  margin-top: 2rem;
+}
+.f-popup--age-verifier .f-popup__inner {
+  width: 100%;
+  max-width: 764px;
+  margin: 0 auto;
+  padding: var(--spacing-30) var(--main-spacing);
+  box-shadow: 0 0 12px 0 #0000000d;
+}
+.f-popup--age-verifier::before {
+  background-color: var(--color-bg-1);
+  opacity: 1;
+}
+.f-popup--age-verifier .f-text-blocks > *:first-child {
+  max-height: 14rem;
+}
+@media (max-width: 639.98px) {
+  .f-popup--age-verifier .f-popup__content {
+    margin-top: 0;
+    min-width: 100%;
+    padding: var(--spacing-20) var(--main-spacing);
+  }
+  .f-popup--age-verifier__button-wrapper {
+    flex-direction: column;
+    gap: var(--spacing-6);
+  }
+  .f-popup--age-verifier__button-wrapper .btn {
+    width: 100%;
+    height: 46px;
+  }
+}
+@media (max-width: 360px) {
+  .f-popup--age-verifier .btn {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}

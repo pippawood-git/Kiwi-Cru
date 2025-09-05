@@ -1,0 +1,552 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "video_hero_dfUcBW": {
+      "type": "video-hero",
+      "blocks": {
+        "title_UxPC7z": {
+          "type": "title",
+          "settings": {
+            "title": "Join the Kiwi Cru Club",
+            "heading_size": "h2"
+          }
+        },
+        "text_PgVzB7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Exclusive access to undiscovered wines, curated selections, </p><p>member benefits and flexible subscription options.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "title_UxPC7z",
+        "text_PgVzB7"
+      ],
+      "settings": {
+        "container": "container-full",
+        "video_type": "shopify",
+        "shopify_video": "shopify://files/videos/Kiwi_4K_Landscape 2.MOV",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "image_overlay_opacity": 40,
+        "hero_height": "large",
+        "content_in_container": false,
+        "content_position": "left-middle",
+        "text_alignment": "left",
+        "vertical_content_padding": 40,
+        "text_color": "#ffffff",
+        "hero_height_mobile": "large",
+        "content_position_mobile": "left-bottom",
+        "show_text_below": false,
+        "text_alignment_mobile": "center",
+        "vertical_content_padding_mobile": 40,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit",
+        "enable_bg_zoom_effect": true
+      }
+    },
+    "image_with_usp_XW3QcQ": {
+      "type": "image-with-usp",
+      "blocks": {
+        "usp_cngX86": {
+          "type": "usp",
+          "settings": {
+            "usp_icon": "shopify://shop_images/icon-phone.svg",
+            "usp_heading": "Subheading",
+            "text": "<p>Key usp for joining the Cru club. Can be a couple lines but should be short and snappy</p>"
+          }
+        },
+        "usp_YeXMif": {
+          "type": "usp",
+          "settings": {
+            "usp_icon": "shopify://shop_images/icon-user.svg",
+            "usp_heading": "Subheading",
+            "text": "<p>Key usp for joining the Cru club. Can be a couple lines but should be short and snappy</p>"
+          }
+        },
+        "usp_EVMpVD": {
+          "type": "usp",
+          "settings": {
+            "usp_icon": "shopify://shop_images/icon-letter.svg",
+            "usp_heading": "Subheading",
+            "text": "<p>Key usp for joining the Cru club. Can be a couple lines but should be short and snappy</p>"
+          }
+        },
+        "usp_bYdATK": {
+          "type": "usp",
+          "settings": {
+            "usp_icon": "shopify://shop_images/icon-location.svg",
+            "usp_heading": "Subheading",
+            "text": "<p>Key usp for joining the Cru club. Can be a couple lines but should be short and snappy</p>"
+          }
+        }
+      },
+      "block_order": [
+        "usp_cngX86",
+        "usp_YeXMif",
+        "usp_EVMpVD",
+        "usp_bYdATK"
+      ],
+      "disabled": true,
+      "settings": {
+        "media_type": "image",
+        "color_schema": "background-1",
+        "image": "shopify://shop_images/landing-usp.png",
+        "mobile_image": "shopify://shop_images/landing-usp-mob.jpg",
+        "video_ratio": "adapt",
+        "image_position": "right",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "custom_content_HirECr": {
+      "type": "custom-content",
+      "blocks": {
+        "text_hyVc6t": {
+          "type": "text",
+          "settings": {
+            "color_scheme": "background-1",
+            "title": "",
+            "heading_size": "h3",
+            "subheading": "",
+            "text": "<p>We make our member’s wine drinking choices easier, by picking our favourite seasonal selections </p><p>We provide 3 different options to choose from. Your delivery arrives each quarter, and all you have to do…. is enjoy it. </p><p>Our specially curated wine club cases are based on limited purchases, often from lesser-known winemakers, so there’ll always be new wines to appreciate. </p>",
+            "alignment": "center",
+            "align_text": "left",
+            "padding_left": 0,
+            "padding_right": 0,
+            "align_content_container": "none",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "width": "100%",
+            "mobile_color_scheme": "background-1",
+            "mobile_padding_left": 0,
+            "mobile_padding_right": 0,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "image_card_GzhMJe": {
+          "type": "image_card",
+          "settings": {
+            "layout": "layout7",
+            "text_color": "#242c2d",
+            "image": "shopify://shop_images/how-it-works-1.png",
+            "mobile_image": "shopify://shop_images/how-it-works-1.png",
+            "image_ratio": "adapt",
+            "image_overlay_opacity": 0,
+            "sub_heading": "Choose Your Wine Style",
+            "subheading_divider": true,
+            "heading": "",
+            "heading_size": "h2",
+            "description": "<p>Choose the wine type you’re going to enjoy most. </p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "vertical_content_padding": 40,
+            "vertical_content_padding_mobile": 40,
+            "alignment": "start",
+            "width": "33%",
+            "animations": "inherit"
+          }
+        },
+        "image_card_Fgkhy3": {
+          "type": "image_card",
+          "settings": {
+            "layout": "layout7",
+            "text_color": "#242c2d",
+            "image": "shopify://shop_images/how-it-works-2.png",
+            "mobile_image": "shopify://shop_images/how-it-works-2.png",
+            "image_ratio": "adapt",
+            "image_overlay_opacity": 0,
+            "sub_heading": "How Many and for Who?",
+            "subheading_divider": true,
+            "heading": "",
+            "heading_size": "h2",
+            "description": "<p>Select the number of bottles you’d like to receive (6 or 12) and choose who the box is for. </p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "vertical_content_padding": 40,
+            "vertical_content_padding_mobile": 40,
+            "alignment": "start",
+            "width": "33%",
+            "animations": "inherit"
+          }
+        },
+        "image_card_QPppaJ": {
+          "type": "image_card",
+          "settings": {
+            "layout": "layout7",
+            "text_color": "#242c2d",
+            "image": "shopify://shop_images/how-it-works-3.png",
+            "mobile_image": "shopify://shop_images/how-it-works-3.png",
+            "image_ratio": "adapt",
+            "image_overlay_opacity": 0,
+            "sub_heading": "Explore and Enjoy",
+            "subheading_divider": true,
+            "heading": "",
+            "heading_size": "h2",
+            "description": "<p>We’ll deliver your first selection straight after you’ve signed up, then it’s over to you…</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "vertical_content_padding": 40,
+            "vertical_content_padding_mobile": 40,
+            "alignment": "start",
+            "width": "33%",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "text_hyVc6t",
+        "image_card_GzhMJe",
+        "image_card_Fgkhy3",
+        "image_card_QPppaJ"
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "background-1",
+        "section_header_padding_bottom": "medium",
+        "heading": "How It Works",
+        "heading_flourish": true,
+        "heading_underline": "none",
+        "heading_size": "h2",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40,
+        "custom_id": "",
+        "custom_class": ""
+      }
+    },
+    "featured_collection_MwXprd": {
+      "type": "featured-collection",
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "section_header_padding_bottom": "small",
+        "header_layout": "horizontal",
+        "heading": "Options",
+        "heading_flourish": true,
+        "heading_underline": "none",
+        "subheading": "",
+        "description": "",
+        "collection": "subscription-products",
+        "limit": 4,
+        "columns": 3,
+        "column_gap": "large",
+        "row_gap": "medium",
+        "pcard_image_ratio": "",
+        "show_vendor": false,
+        "enable_slider": false,
+        "show_nav": false,
+        "show_dots": false,
+        "show_all_button_on_top": false,
+        "button_label": "",
+        "button_style": "btn--primary",
+        "enable_swipe_mobile": false,
+        "column_mobile": "1",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "featured_collection_97QmUi": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "section_header_padding_bottom": "medium",
+        "header_layout": "vertical",
+        "heading": "Just Missed",
+        "heading_flourish": true,
+        "heading_underline": "none",
+        "subheading": "",
+        "description": "",
+        "collection": "past-subscription-products-test",
+        "limit": 3,
+        "columns": 3,
+        "column_gap": "extra-large",
+        "row_gap": "medium",
+        "pcard_image_ratio": "",
+        "show_vendor": false,
+        "enable_slider": false,
+        "show_nav": false,
+        "show_dots": false,
+        "show_all_button_on_top": false,
+        "button_label": "",
+        "button_style": "btn--primary",
+        "enable_swipe_mobile": false,
+        "column_mobile": "1",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "testimonials_Jc4HPN": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_HeNjGM": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>Tellus quisque fames torquent, faucibus amet tincidunt. Nulla morbi curae euismod platea dignissim cursus est. </p>",
+            "author": "Author's Name",
+            "bio": "",
+            "product": "",
+            "icon": "none"
+          }
+        },
+        "testimonial_xNpqdm": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>Tellus quisque fames torquent, faucibus amet tincidunt. Nulla morbi curae euismod platea dignissim cursus est. </p>",
+            "author": "Author's Name",
+            "bio": "",
+            "product": "",
+            "icon": "none"
+          }
+        },
+        "testimonial_HRKtKi": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>Tellus quisque fames torquent, faucibus amet tincidunt. Nulla morbi curae euismod platea dignissim cursus est. </p>",
+            "author": "Author's Name",
+            "bio": "",
+            "product": "",
+            "icon": "none"
+          }
+        },
+        "testimonial_3GQAii": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>Tellus quisque fames torquent, faucibus amet tincidunt. Nulla morbi curae euismod platea dignissim cursus est. </p>",
+            "author": "Author's Name",
+            "bio": "",
+            "product": "",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_HeNjGM",
+        "testimonial_xNpqdm",
+        "testimonial_HRKtKi",
+        "testimonial_3GQAii"
+      ],
+      "disabled": true,
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "section_header_padding_bottom": "medium",
+        "heading": "Happy Drinkers",
+        "heading_flourish": false,
+        "heading_underline": "none",
+        "heading_size": "h2",
+        "description": "",
+        "design": "fancy",
+        "stars_color": "#444444",
+        "columns": 4,
+        "column_gap": "medium",
+        "enable_slider": true,
+        "show_dots": true,
+        "show_nav": false,
+        "autoplay": false,
+        "autoplay_timeout": 5,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "collapsible_tabs_kppEa7": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "content_VCpkQM": {
+          "type": "content",
+          "settings": {
+            "icon": "none",
+            "title": "How does it work? ",
+            "content": "<p>With our Wine Club, you can select the wine type you enjoy most, and we deliver a carefully curated 6 or 12 bottle case right to your door, 4 times a year.  You can even gift a <a href=\"https://www.kiwicru.com/collections/gift-boxes\" title=\"https://www.kiwicru.com/collections/gift-boxes\">membership</a> too.</p>",
+            "custom_liquid": "",
+            "content_page": "",
+            "open": false
+          }
+        },
+        "content_gLrAXV": {
+          "type": "content",
+          "settings": {
+            "icon": "none",
+            "title": "How much does it cost?   ",
+            "content": "<p>Prices start at £135 per quarter for our special white wine selection. Plus, we guarantee that we’ll always send you wines which are more valuable than the price you pay. </p>",
+            "custom_liquid": "",
+            "content_page": "",
+            "open": false
+          }
+        },
+        "content_kyx8Kp": {
+          "type": "content",
+          "settings": {
+            "icon": "none",
+            "title": "What are the other benefits to being a member?  ",
+            "content": "<p>You'll receive online discounts, free delivery and exclusive invitations to our member-only events. You can even gift a membership too. </p>",
+            "custom_liquid": "",
+            "content_page": "",
+            "open": false
+          }
+        },
+        "content_GyrnTU": {
+          "type": "content",
+          "settings": {
+            "icon": "none",
+            "title": "How do I gift a membership?  ",
+            "content": "<p>It’s really easy – just choose who it’s for when you go through the checkout process, and enter their delivery address (if it’s different from yours). You can add a gift note too of course. </p>",
+            "custom_liquid": "",
+            "content_page": "",
+            "open": false
+          }
+        },
+        "content_TwwRGa": {
+          "type": "content",
+          "settings": {
+            "icon": "none",
+            "title": "When does the first delivery arrive?   ",
+            "content": "<p>We’ll deliver your first selection straight after you’ve signed up, including individual tasting sheets with everything you want to know about the wines and the people who made them. And of course we’ll share some of our ideas on food pairings too. </p>",
+            "custom_liquid": "",
+            "content_page": "",
+            "open": false
+          }
+        },
+        "content_KTVPiM": {
+          "type": "content",
+          "settings": {
+            "icon": "none",
+            "title": "What if I want to change my case? ",
+            "content": "<p>It’s no problem, just log into your account and ‘Swap this for a different product’.</p>",
+            "custom_liquid": "",
+            "content_page": "",
+            "open": false
+          }
+        },
+        "content_HfdzCF": {
+          "type": "content",
+          "settings": {
+            "icon": "none",
+            "title": "Can I cancel my subscription?  ",
+            "content": "<p>Yes, your membership is completely flexible. If you log into your account, you can click on ‘Cancel my subscription’ </p>",
+            "custom_liquid": "",
+            "content_page": "",
+            "open": false
+          }
+        }
+      },
+      "block_order": [
+        "content_VCpkQM",
+        "content_gLrAXV",
+        "content_kyx8Kp",
+        "content_GyrnTU",
+        "content_TwwRGa",
+        "content_KTVPiM",
+        "content_HfdzCF"
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "section_header_padding_bottom": "medium",
+        "heading": "FAQs",
+        "heading_flourish": true,
+        "heading_size": "h2",
+        "subheading": "",
+        "description": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "mobile_top_padding": 40,
+        "mobile_bottom_padding": 40,
+        "enable_bottom_border": true,
+        "item_heading_font": "body-bolder",
+        "item_heading_size": "h6",
+        "column_gap": "medium",
+        "content_width": "narrow",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "rich_text_GmLbxQ": {
+      "type": "rich-text",
+      "blocks": {
+        "text_8rgrQU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>If you are unable to find the answer to your question in our FAQ’s, please <a href=\"/pages/contact\" title=\"Contact\"><em><strong>Get in Touch</strong></em></a> with our Wine Cru</p>",
+            "highlight_style": "drawer_line"
+          }
+        }
+      },
+      "block_order": [
+        "text_8rgrQU"
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "enable_kiwi_background": false,
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "padding_top": 40,
+        "padding_bottom": 70,
+        "padding_top_mobile": 28,
+        "padding_bottom_mobile": 58,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "video_hero_dfUcBW",
+    "image_with_usp_XW3QcQ",
+    "custom_content_HirECr",
+    "featured_collection_MwXprd",
+    "featured_collection_97QmUi",
+    "testimonials_Jc4HPN",
+    "collapsible_tabs_kppEa7",
+    "rich_text_GmLbxQ"
+  ]
+}

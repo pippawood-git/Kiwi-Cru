@@ -1,0 +1,774 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "hero_KhtGFt": {
+      "type": "hero",
+      "blocks": {
+        "title_pcBrYy": {
+          "type": "title",
+          "settings": {
+            "title": "{{ page.title }}",
+            "heading_flourish": false,
+            "heading_underline": "none",
+            "heading_size": "h1"
+          }
+        },
+        "subtitle_BqWTDT": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": ""
+          }
+        }
+      },
+      "block_order": [
+        "title_pcBrYy",
+        "subtitle_BqWTDT"
+      ],
+      "settings": {
+        "container": "container-full",
+        "image": "{{ metaobjects.winery.settlement.image.value }}",
+        "image_mobile": "{{ metaobjects.winery.settlement.image.value }}",
+        "image_overlay_opacity": 40,
+        "hero_height": "large",
+        "content_in_container": false,
+        "content_width": "narrow",
+        "content_position": "left-bottom",
+        "text_alignment": "left",
+        "text_color": "#ffffff",
+        "hero_height_mobile": "small",
+        "content_position_mobile": "center",
+        "show_text_below": true,
+        "text_alignment_mobile": "center",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit",
+        "enable_bg_zoom_effect": true
+      }
+    },
+    "custom_content_Ef9UXH": {
+      "type": "custom-content",
+      "blocks": {
+        "image_T6CjLN": {
+          "type": "image",
+          "source": "{{ metaobjects.winery.settlement }}",
+          "settings": {
+            "image": "{{ metaobjects.winery.settlement._image_1.value }}",
+            "mobile_image": "{{ metaobjects.winery.settlement._image_1.value }}",
+            "link": "",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "text_xBeDiN": {
+          "type": "text",
+          "settings": {
+            "color_scheme": "",
+            "title": "",
+            "heading_size": "h2",
+            "subheading": "",
+            "text": "<p>{{ metaobjects.winery.settlement.image_1_text | metafield_tag }}</p>",
+            "alignment": "center",
+            "align_text": "center",
+            "padding_left": 0,
+            "padding_right": 0,
+            "align_content_container": "none",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "width": "50%",
+            "mobile_color_scheme": "",
+            "mobile_padding_left": 15,
+            "mobile_padding_right": 15,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "image_T6CjLN",
+        "text_xBeDiN"
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "section_header_padding_bottom": "medium",
+        "heading": "",
+        "heading_flourish": true,
+        "heading_underline": "none",
+        "heading_size": "h2",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40,
+        "custom_id": "",
+        "custom_class": ""
+      }
+    },
+    "rich_text_Wyn3zH": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Gjr7Ki": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_style": "heading",
+            "heading_size": "h2",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false
+          }
+        },
+        "text_eGTaCj": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>Named after the stunning Amphitheatre single vineyard site in the Omaka Valley is dedicated entirely to the production of organic, old vine single vineyard expressions of very special sites in Marlborough.</h4>",
+            "highlight_style": "none"
+          }
+        },
+        "button_JifBY9": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_Gjr7Ki",
+        "text_eGTaCj",
+        "button_JifBY9"
+      ],
+      "disabled": true,
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "enable_kiwi_background": false,
+        "text_alignment": "center",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "padding_top_mobile": 60,
+        "padding_bottom_mobile": 90,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "image_with_text_nJqV9U": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_7c3VxD": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_flourish": false,
+            "heading_underline": "sun",
+            "heading_size": "h2"
+          }
+        },
+        "text_BLLQ3m": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>"
+          }
+        },
+        "button_f4fBDr": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "button_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_7c3VxD",
+        "text_BLLQ3m",
+        "button_f4fBDr"
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "image_width": "50%",
+        "image_position": "left",
+        "vertical_alignment": "center",
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "padding_left": 0,
+        "padding_right": 0,
+        "align_content_container": "none",
+        "mobile_padding_left": 15,
+        "mobile_padding_right": 15,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "hero_RFBpDP": {
+      "type": "hero",
+      "blocks": {
+        "title_kBLqpn": {
+          "type": "title",
+          "disabled": true,
+          "settings": {
+            "title": "Image with text overlay",
+            "heading_flourish": false,
+            "heading_underline": "none",
+            "heading_size": "h1"
+          }
+        },
+        "text_QWwWRg": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Use overlay text to give your customers insight into your brand.<br> Select imagery and text that relates to your style and story.</p>"
+          }
+        },
+        "button_EGDUgG": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "button_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "title_kBLqpn",
+        "text_QWwWRg",
+        "button_EGDUgG"
+      ],
+      "disabled": true,
+      "settings": {
+        "container": "container",
+        "image": "shopify://shop_images/SETTLEMENT_SETTLEMENT_PN_17.jpg",
+        "image_overlay_opacity": 0,
+        "hero_height": "small",
+        "content_in_container": false,
+        "content_width": "narrow",
+        "content_position": "center",
+        "text_alignment": "center",
+        "text_color": "#ffffff",
+        "hero_height_mobile": "large",
+        "content_position_mobile": "center",
+        "show_text_below": true,
+        "text_alignment_mobile": "center",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit",
+        "enable_bg_zoom_effect": true
+      }
+    },
+    "custom_content_U877iE": {
+      "type": "custom-content",
+      "blocks": {
+        "image_Q8reQd": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/SETTLEMENT_SETTLEMENT_PN_17.jpg",
+            "mobile_image": "shopify://shop_images/SETTLEMENT_SETTLEMENT_PN_17.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "text_wcYBjA": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "background-1",
+            "title": "Named after the stunning Amphitheatre single vineyard site in the Omaka Valley is dedicated entirely to the production of organic, old vine single vineyard expressions of very special sites in Marlborough.",
+            "heading_size": "h0",
+            "subheading": "",
+            "text": "",
+            "alignment": "center",
+            "align_text": "left",
+            "padding_left": 0,
+            "padding_right": 0,
+            "align_content_container": "none",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "width": "50%",
+            "mobile_color_scheme": "",
+            "mobile_padding_left": 15,
+            "mobile_padding_right": 15,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "image_Q8reQd",
+        "text_wcYBjA"
+      ],
+      "disabled": true,
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "section_header_padding_bottom": "small",
+        "heading": "",
+        "heading_flourish": true,
+        "heading_underline": "none",
+        "heading_size": "h2",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "padding_top": 50,
+        "padding_bottom": 40,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 0,
+        "custom_id": "",
+        "custom_class": ""
+      }
+    },
+    "image_with_text_DewtER": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_d9KaQQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ metaobjects.winery.settlement.image_2_title.value }}",
+            "heading_flourish": false,
+            "heading_underline": "pistachio",
+            "heading_size": "h2"
+          }
+        },
+        "subheading_aUheLG": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "{{ metaobjects.winery.settlement.subheading_1.value }}"
+          }
+        },
+        "text_j7UUY3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ metaobjects.winery.settlement.image_2_text | metafield_tag }}</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_d9KaQQ",
+        "subheading_aUheLG",
+        "text_j7UUY3"
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "image": "{{ metaobjects.winery.settlement.image_2.value }}",
+        "mobile_image": "{{ metaobjects.winery.settlement.image_2.value }}",
+        "image_width": "50%",
+        "image_position": "right",
+        "vertical_alignment": "center",
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "padding_left": 0,
+        "padding_right": 0,
+        "align_content_container": "none",
+        "mobile_padding_left": 15,
+        "mobile_padding_right": 15,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "rich_text_hMtn87": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_CkNVFB": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ metaobjects.winery.settlement.rich_text_quote.value }}",
+            "heading_style": "script",
+            "heading_size": "h3",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false
+          }
+        },
+        "text_MRbamP": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "highlight_style": "none"
+          }
+        },
+        "button_tUxNxR": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_CkNVFB",
+        "text_MRbamP",
+        "button_tUxNxR"
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "inverse",
+        "enable_kiwi_background": true,
+        "text_alignment": "center",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "padding_top_mobile": 60,
+        "padding_bottom_mobile": 90,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "custom_content_CVB7DF": {
+      "type": "custom-content",
+      "blocks": {
+        "image_CaAnXR": {
+          "type": "image",
+          "settings": {
+            "image": "{{ metaobjects.winery.settlement._image_3.value }}",
+            "mobile_image": "shopify://shop_images/BB__6391_large_df6cf62a-2f3e-430d-82b6-dd4693edf61e.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "text_y6iYbi": {
+          "type": "text",
+          "settings": {
+            "color_scheme": "background-1",
+            "title": "",
+            "heading_size": "h2",
+            "subheading": "",
+            "text": "<p>{{ metaobjects.winery.settlement.image_3_text | metafield_tag }}</p>",
+            "alignment": "center",
+            "align_text": "center",
+            "padding_left": 0,
+            "padding_right": 0,
+            "align_content_container": "none",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "width": "50%",
+            "mobile_color_scheme": "",
+            "mobile_padding_left": 15,
+            "mobile_padding_right": 15,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "image_CaAnXR",
+        "text_y6iYbi"
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "section_header_padding_bottom": "medium",
+        "heading": "",
+        "heading_flourish": true,
+        "heading_underline": "none",
+        "heading_size": "h2",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "padding_top": 40,
+        "padding_bottom": 50,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40,
+        "custom_id": "",
+        "custom_class": ""
+      }
+    },
+    "video_rntXXi": {
+      "type": "video",
+      "settings": {
+        "container": "container",
+        "section_header_padding_bottom": "medium",
+        "heading": "",
+        "heading_flourish": false,
+        "heading_underline": "none",
+        "heading_size": "h2",
+        "description": "",
+        "video_type": "external",
+        "shopify_video": "{{ metaobjects.winery.settlement.video.value }}",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "video_ratio": "adapt",
+        "autoplay_video": false,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "featured_collection_XwQaUx": {
+      "type": "featured-collection",
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "section_header_padding_bottom": "medium",
+        "header_layout": "vertical",
+        "heading": "{{ metaobjects.winery.settlement.subheading.value }}",
+        "heading_flourish": false,
+        "heading_underline": "none",
+        "subheading": "",
+        "description": "",
+        "collection": "{{ metaobjects.winery.settlement.featured_collection.value }}",
+        "limit": 4,
+        "columns": 4,
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "pcard_image_ratio": "",
+        "show_vendor": false,
+        "enable_slider": true,
+        "show_nav": false,
+        "show_dots": false,
+        "show_all_button_on_top": false,
+        "button_label": "",
+        "button_style": "btn--primary",
+        "enable_swipe_mobile": false,
+        "column_mobile": "1",
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 60,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "custom_content_DEwcqm": {
+      "type": "custom-content",
+      "blocks": {
+        "image_card_BeGJX7": {
+          "type": "image_card",
+          "settings": {
+            "layout": "layout7",
+            "text_color": "#000000",
+            "image": "shopify://shop_images/Murray_profile.jpg",
+            "image_overlay_opacity": 0,
+            "sub_heading": "",
+            "subheading_divider": false,
+            "heading": "Murray Cook",
+            "heading_size": "h2",
+            "description": "<p>Dog Point's Winemaker</p>",
+            "button_label": "Read more",
+            "button_link": "shopify://collections/cabernet-franc-wine",
+            "button_style": "btn--underline",
+            "vertical_content_padding": 40,
+            "vertical_content_padding_mobile": 40,
+            "alignment": "center",
+            "width": "33%",
+            "animations": "inherit"
+          }
+        },
+        "image_card_ydGVTc": {
+          "type": "image_card",
+          "settings": {
+            "layout": "layout7",
+            "text_color": "#000000",
+            "image": "shopify://shop_images/richelle-tyney-500x500-1.png",
+            "mobile_image": "shopify://shop_images/richelle-tyney-500x500-1.png",
+            "image_overlay_opacity": 0,
+            "sub_heading": "",
+            "subheading_divider": false,
+            "heading": "Richelle Tyney",
+            "heading_size": "h2",
+            "description": "<p>Greywacke's Winemaker</p>",
+            "button_label": "Read more",
+            "button_link": "",
+            "button_style": "btn--underline",
+            "vertical_content_padding": 40,
+            "vertical_content_padding_mobile": 40,
+            "alignment": "center",
+            "width": "33%",
+            "animations": "inherit"
+          }
+        },
+        "image_card_CpNtbi": {
+          "type": "image_card",
+          "settings": {
+            "layout": "layout7",
+            "text_color": "#000000",
+            "image": "shopify://shop_images/brian_bw.jpg",
+            "mobile_image": "shopify://shop_images/brian_bw.jpg",
+            "image_overlay_opacity": 0,
+            "sub_heading": "",
+            "subheading_divider": false,
+            "heading": "Brian Bicknell",
+            "heading_size": "h2",
+            "description": "<p>Mahi's Owner & Winemaker</p>",
+            "button_label": "Read more",
+            "button_link": "",
+            "button_style": "btn--underline",
+            "vertical_content_padding": 40,
+            "vertical_content_padding_mobile": 40,
+            "alignment": "center",
+            "width": "33%",
+            "animations": "inherit"
+          }
+        },
+        "text_w6harM": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "",
+            "title": "Talk about your brand",
+            "heading_size": "h2",
+            "subheading": "",
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "alignment": "center",
+            "align_text": "left",
+            "padding_left": 0,
+            "padding_right": 0,
+            "align_content_container": "none",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "width": "50%",
+            "mobile_color_scheme": "",
+            "mobile_padding_left": 15,
+            "mobile_padding_right": 15,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "image_card_BeGJX7",
+        "image_card_ydGVTc",
+        "image_card_CpNtbi",
+        "text_w6harM"
+      ],
+      "disabled": true,
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "section_header_padding_bottom": "medium",
+        "heading": "Meet our Makers",
+        "heading_flourish": true,
+        "heading_underline": "none",
+        "heading_size": "h2",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 30,
+        "custom_id": "",
+        "custom_class": ""
+      }
+    },
+    "rich_text_YHcqtn": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_9hy3LY": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_style": "script",
+            "heading_size": "h2",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false
+          }
+        },
+        "text_PezBfJ": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "highlight_style": "none"
+          }
+        },
+        "button_PmgpmK": {
+          "type": "button",
+          "settings": {
+            "button_label": "Meet more of our Makers",
+            "button_link": "",
+            "button_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_9hy3LY",
+        "text_PezBfJ",
+        "button_PmgpmK"
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "accent",
+        "enable_kiwi_background": false,
+        "text_alignment": "center",
+        "padding_top": 30,
+        "padding_bottom": 34,
+        "padding_top_mobile": 60,
+        "padding_bottom_mobile": 90,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "hero_KhtGFt",
+    "custom_content_Ef9UXH",
+    "rich_text_Wyn3zH",
+    "image_with_text_nJqV9U",
+    "hero_RFBpDP",
+    "custom_content_U877iE",
+    "image_with_text_DewtER",
+    "rich_text_hMtn87",
+    "custom_content_CVB7DF",
+    "video_rntXXi",
+    "featured_collection_XwQaUx",
+    "custom_content_DEwcqm",
+    "rich_text_YHcqtn"
+  ]
+}

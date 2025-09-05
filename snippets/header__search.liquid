@@ -1,0 +1,173 @@
+{% liquid
+  assign show_search = section.settings.show_search
+  assign predictive_search_enabled = settings.predictive_search_enabled
+  assign most_searched_keywords = settings.predictive_search_most_searched_keywords
+  assign predictive_search_collection = settings.predictive_search_collection
+  assign product_title_class = 'text-product-title font-' | append: settings.pcard_title_font
+%}
+<link rel="stylesheet" href="{{ 'search-drawer.css' | asset_url }}" media="print" onload="this.media='all'">
+<noscript>
+  {{ 'search-drawer.css' | asset_url | stylesheet_tag }}
+</noscript>
+
+{% if show_search %}
+  <div class="header-search-form {{ search_form_class }}">
+    {%- if predictive_search_enabled -%}
+    <predictive-search class="h-full" data-loading-text="{{ 'accessibility.loading' | t }}">
+    {%- endif -%}
+      <form action="{{ routes.search_url }}" method="get" role="search" class="f-search-drawer__form h-full flex flex-col">
+        <div
+          class="site-header__search site-header__link no-js-hidden"
+          data-drawer="#Drawer-Search"
+        >
+          <div class="f-search-drawer__field w-full{% if template contains 'search' %} active{% endif %}">
+            <label class="visually-hidden" for="f-search-drawer-input">{{ 'general.search.search' | t }}</label>
+            <input class="form-control focus-none f-search-drawer__input"
+              id="f-search-drawer-input"
+              type="search"
+              name="q"
+              value="{{ search.terms | escape }}"
+              placeholder="{{ 'general.search.placeholder' | t }}"
+              data-drawer-focus
+              {% if predictive_search_enabled %}
+                role="combobox"
+                aria-expanded="false"
+                aria-owns="f-predictive-search-results"
+                aria-controls="f-predictive-search-results"
+                aria-haspopup="listbox"
+                aria-autocomplete="list"
+                autocorrect="off"
+                autocomplete="off"
+                autocapitalize="off"
+                spellcheck="false"
+                data-predictive-search-input
+              {% endif %}
+            >
+            <input type="hidden" name="options[prefix]" value="last">
+            <search-drawer-toggle>
+              <span class="f-search-drawer__field-icon">
+                {% render "icon-search" %}
+                {% render "icon-close" %}
+              </span>
+            </search-drawer-toggle>
+          </div>
+
+          <search-drawer-toggle>
+            <button
+              class="btn btn--plain focus-inset site-header__search-toggle site-header__link"
+              data-tippy-theme="color-{{ color_schema }}"
+              data-tippy-content="{{ 'general.search.search' | t }}"
+              data-tippy-placement="bottom"
+              aria-label="{{ 'general.search.search' | t }}"
+              aria-haspopup="dialog"
+              type="button"
+            >
+              {% render "icon-search" %}
+            </button>
+          </search-drawer-toggle>
+        </div>
+        <noscript>
+          <details>
+            <summary aria-label="{{ 'general.search.search' | t }}" aria-haspopup="dialog">
+              <span class="site-header__search site-header__element" data-drawer="#Drawer-Search">
+                <span class="btn btn--plain btn--icon focus-inset site-header__search-toggle site-header__link">
+                  {% render 'icon-search' %}
+                </span>
+              </span>
+              {% render 'icon-close', class: 'hidden' %}
+            </summary>
+            <div class="f-search-no-js">
+              <form action="{{ routes.search_url }}" method="get" role="search" class="f-search-no-js__form">
+                <div class="f-search-no-js__field w-full">
+                  <label class="visually-hidden" for="f-search-no-js-input">{{ 'general.search.search' | t }}</label>
+                  <input
+                    class="form-control focus-inset f-search-no-js__input"
+                    id="f-search-no-js-input"
+                    type="text"
+                    name="q"
+                    value=""
+                    placeholder="{{ 'general.search.placeholder' | t }}"
+                  >
+                  <input type="hidden" name="options[prefix]" value="last">
+                  <button type="submit" class="btn btn--plain" aria-label="{{ 'general.search.search' | t }}">
+                    {% render 'icon-search' %}
+                  </button>
+                </div>
+              </form>
+            </div>
+          </details>
+        </noscript>
+
+        <div class="header-search-form__dropdown" data-open="false">
+          <div class="f-search-drawer f-drawer__content">
+            <div class="f-drawer__scroller">
+              {% if most_searched_keywords != blank %}
+                {%- assign keywords = most_searched_keywords | split: ',' -%}
+                <div class="f-predictive-search__keywords f-predictive-search__block">
+                  <h4 class="f-predictive-search__subheading font-body-bolder">{{ 'general.search.popular_searches' | t }}:</h4>
+                  <ul class="list-none flex flex-wrap">
+                    {% for keyword in keywords %}
+                      <li>
+                        <a href="{{ routes.search_url }}?type=product&options%5Bprefix%5D=last&q={{- keyword | strip -}}">
+                          {{- keyword | strip -}}
+                        </a>
+                      </li>
+                    {% endfor %}
+                  </ul>
+                </div>
+              {% endif %}
+              {% if predictive_search_collection != blank %}
+                {%- assign recommend_collection = collections[predictive_search_collection] -%}
+                <div class="f-predictive-search__recommendations f-predictive-search__block f-predictive-search__block-products">
+                  <h4 class="f-predictive-search__subheading font-body-bolder">{{ 'general.search.most_searched_products' | t }}:</h4>
+                  <ul class="f-predictive-search__results-list list-none" role="listbox" aria-labelledby="f-predictive-search-results-list">
+                    {% for product in recommend_collection.products limit: 4 %}
+                      <li role="option" aria-selected="false">
+                        <a href="{{ product.url }}" class="f-predictive-search__item f-image-hover-effect__{{settings.image_hover_effect}}" tabindex="-1">
+                          {%- if product.featured_media != blank -%}
+                            <div class="f-predictive-search__item-image">
+                              <responsive-image class="f-predictive-search__item-image f-image" style="--aspect-ratio: {{ product.featured_media.preview_image.aspect_ratio | default: '1' }}">
+                                <img
+                                  src="{{ product.featured_media | image_url: width: 150 }}"
+                                  alt="{{ product.featured_media.alt }}"
+                                  width="70"
+                                  height="{{ 70 | divided_by: product.featured_media.preview_image.aspect_ratio }}"
+                                  loading="lazy"
+                                >
+                              </responsive-image>
+                            </div>
+                          {%- endif -%}
+                          <div class="f-predictive-search__item-content">
+                            {%- if settings.predictive_search_show_vendor -%}
+                              <span class="visually-hidden">{{ 'accessibility.vendor' | t }}</span>
+                              <div class="f-predictive-search__item-vendor text-subtext">{{ product.vendor }}</div>
+                            {%- endif -%}
+                            <h3 class="f-predictive-search__item-heading {{ product_title_class }}">{{ product.title }}</h3>
+                          </div>
+                        </a>
+                      </li>
+                    {%- endfor -%}
+                  </ul>
+                </div>
+              {% endif %}
+              {%- if predictive_search_enabled -%}
+                <div class="f-predictive-search f-predictive-search--drawer" tabindex="-1" data-predictive-search>
+                  <div class="f-predictive-search__loading-state">
+                    {% render 'icon-spinner' %}
+                  </div>
+                </div>
+
+                <span class="visually-hidden" role="status" aria-hidden="true" data-predictive-search-status></span>
+              {%- endif -%}
+            </div>
+          </div>
+        </div>
+      </form>
+    {%- if predictive_search_enabled -%}
+      </predictive-search>
+    {%- endif -%}
+  </div>
+{% endif %}
+{%- if predictive_search_enabled -%}
+  <script src="{{ 'search-drawer.js' | asset_url }}" defer="defer"></script>
+{%- endif -%}

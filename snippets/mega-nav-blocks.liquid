@@ -1,0 +1,127 @@
+{%- case block.type -%}
+  {% when 'banner' %}
+    {% capture block_type %}
+      {% liquid
+        assign image = block.settings.image
+      %}
+      {% if image != blank %}
+        <div id="Banner-{{ block.id }}" class="f-site-nav__mega-addon f-site-nav__mega-addon--banner" style="--banner-width: {{ block.settings.banner_width }}px">
+          {% assign image_link = block.settings.link %}
+          {% capture sizes %}
+            {%- if image.width >= 165 -%}{{ image | image_url: width: 165 }} 165w,{%- endif -%}
+            {%- if image.width >= 360 -%}{{ image | image_url: width: 360 }} 360w,{%- endif -%}
+            {%- if image.width >= 533 -%}{{ image | image_url: width: 533 }} 533w,{%- endif -%}
+            {%- if image.width >= 720 -%}{{ image | image_url: width: 720 }} 720w,{%- endif -%}
+            {%- if image.width >= 940 -%}{{ image | image_url: width: 940 }} 940w,{%- endif -%}
+            {%- if image.width >= 1066 -%}{{ image | image_url: width: 1066 }} 1066w,{%- endif -%}
+            {{ image | image_url }} {{ image.width }}w
+          {% endcapture %}
+
+          <a href="{{ image_link }}" target="_blank">
+            <responsive-image class="f-image" data-image-loading style="--aspect-ratio: {{ image.aspect_ratio }}">
+              <img
+                srcset="{{ sizes }}"
+                src="{{ image | image_url: width: 533 }}"
+                sizes="(min-width: {{ settings.container_width }}px) {{ settings.container_width | minus: 130 | divided_by: 4 }}px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
+                alt="{{ image.alt | escape }}"
+                loading="lazy"
+                width="{{ image.width }}"
+                height="{{ image.height }}"
+              >
+            </responsive-image>
+          </a>
+        </div>
+      {% endif %}
+    {% endcapture %}
+  {% when 'product' %}
+    {% capture block_type %}
+      {% liquid
+        assign product_ids = 'product_1,product_2,product_3,product_4,product_5,product_6' | split: ','
+        assign addon_column = block.settings.addon_column
+      %}
+      {{ 'component-product-card.css' | asset_url | stylesheet_tag: preload: true }}
+      <div id="Products-list-{{ block.id }}" class="f-site-nav__mega-addon f-site-nav__mega-addon--product w-full" style="--max-width: {{ addon_column }}%;">
+        <div class="w-full f-grid f-site-nav__mega-addon--wrapper" style="gap: 2rem;">
+          {% for product_id in product_ids %}
+            {% if block.settings[product_id] == blank %}{% continue %}{% endif %}
+            <div class="f-column">
+              {% render 'product-card',
+                product: block.settings[product_id],
+                show_vendor: false,
+                show_product_option: false
+              %}
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    {% endcapture %}
+  {% when 'collection' %}
+    {% capture block_type %}
+      <link rel="stylesheet" href="{{ 'component-collection-card.css' | asset_url }}" media="print" onload="this.media='all'">
+      {%- liquid
+        assign collection_ids = 'collection_1,collection_2,collection_3,collection_4,collection_5,collection_6' | split: ','
+        assign addon_column = block.settings.addon_column
+        assign card_style = block.settings.card_style
+        assign text_color = block.settings.text_color
+        assign text_alignment = 'center'
+        assign show_count = true
+        assign image_ratio = 'adapt'
+      -%}
+      <div id="Collections-list-{{ block.id }}" class="f-site-nav__mega-addon f-site-nav__mega-addon--collection w-full" style="--max-width: {{ addon_column }}%;">
+        <div class="w-full f-grid f-site-nav__mega-addon--wrapper" style="gap: 3rem;">
+          {%- for collection_id in collection_ids -%}
+            {%- if block.settings[collection_id] == blank -%}{% continue %}{%- endif -%}
+            {%- render 'collection-card',
+              collection: block.settings[collection_id],
+              card_style: card_style,
+              text_color: text_color,
+              text_alignment: text_alignment,
+              image_ratio: image_ratio,
+              show_count: show_count
+            -%}
+          {%- endfor -%}
+        </div>
+      </div>
+    {% endcapture %}
+  {% when 'custom' %}
+    {% capture block_type %}
+      {% liquid
+        assign collection_ids = 'image_1,image_2,image_3,image_4,image_5' | split: ','
+        assign addon_column = block.settings.addon_column
+      %}
+      <div id="Image-list-{{ block.id }}" class="f-site-nav__mega-addon f-site-nav__mega-addon--collection w-full" style="--max-width: {{ addon_column }}%;">
+        <div class="w-full f-grid f-site-nav__mega-addon--wrapper">
+          {%- for i in (1..6) -%}
+            {%- liquid
+              assign image_id = 'image_' | append: i
+              assign title_id = 'title_' | append: i
+              assign desc_id = 'description_' | append: i
+              assign link_id = 'url_' | append: i
+              assign button_label_id = 'button_label_' | append: i
+              assign button_style_id = 'button_style_' | append: i
+              assign content_position_id = 'content_position_' | append: i
+              assign heading_size_id = 'heading_size_' | append: i
+              assign color_scheme_id = 'color_scheme_' | append: i
+              assign image = block.settings[image_id]
+              assign title = block.settings[title_id]
+              assign description = block.settings[desc_id]
+              assign button_label = block.settings[button_label_id]
+              assign button_style = block.settings[button_style_id]
+              assign content_position = block.settings[content_position_id]
+              assign heading_size = block.settings[heading_size_id]
+              assign color_scheme = block.settings[color_scheme_id]
+              if image and link and title
+                render 'custom-card', title: title, description: description, image: image, link: block.settings[link_id], color_scheme: color_scheme, heading_size: heading_size, button_label: button_label, button_style: button_style, content_position: content_position
+              endif
+           -%}
+          {%- endfor -%}
+        </div>
+      </div>
+    {% endcapture %}
+  {% else %}
+    {% capture block_type %}{% endcapture %}
+{%- endcase -%}
+
+{%- if block_type != blank -%}
+  {{- block_type -}}
+{%- endif -%}

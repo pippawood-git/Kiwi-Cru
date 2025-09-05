@@ -1,0 +1,115 @@
+.f-tabs__header {
+  margin-bottom: var(--header-padding-bottom);
+}
+.f-tabs__header:not(.product-tabs__header) {
+  align-items: center;
+}
+.f-tabs__header-group {
+  position: relative;
+  display: inline-grid;
+  grid-auto-flow: column;
+  grid-auto-columns: max-content;
+  justify-content: flex-start;
+  vertical-align: top;
+  gap: var(--spacing-18);
+  overflow: hidden auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.f-tabs__header-group::-webkit-scrollbar {
+  display: none;
+}
+.f-information-tabs .f-tabs__header-group {
+  margin-bottom: 0;
+  box-shadow: none;
+}
+@media (max-width: 639.98px) {
+  .f-tabs__header-group {
+    gap: 2.4rem;
+  }
+}
+.f-tabs__header--horizontal .section__header {
+  padding-bottom: 1.6rem;
+}
+@media (min-width: 768px) {
+  .f-tabs__header--horizontal .section__header {
+    padding-bottom: 0;
+  }
+}
+.f-tabs__nav {
+  font-family: var(--font-heading-family);
+  font-size: var(--font-size-xs);
+  line-height: var(--font-size-xs);
+  word-spacing: 1px;
+  position: relative;
+  padding: 0.8rem 0 var(--spacing-6);
+  cursor: pointer;
+  transition: 0.3s all;
+  background: none !important;
+  box-shadow: none;
+  text-transform: inherit;
+  height: auto;
+  margin: 0;
+}
+.f-tabs__nav::before {
+  content: '';
+  display: block;
+  background: rgb(var(--kiwi));
+  width: 0;
+  height: 2px;
+  position: absolute;
+  left: auto;
+  right: 0;
+  bottom: 0;
+  transition: 0.25s width ease-in-out;
+}
+.f-tabs__nav:hover,
+.f-tabs__nav[aria-selected='true'] {
+  color: var(--color-text-body) !important;
+}
+.f-tabs__nav:hover::before,
+.f-tabs__nav[aria-selected='true']::before {
+  width: 100%;
+  left: 0;
+  right: auto;
+}
+@media (max-width: 639.98px) {
+  .f-tabs__nav {
+    font-size: calc(var(--font-body-size) * 1px);
+  }
+}
+.f-tabs__content {
+  animation: f-fade-in 0.45s ease;
+}
+.f-tabs__view-all {
+  margin-top: 4rem;
+}
+@media (min-width: 768px) {
+  .f-tabs .collapsible__button {
+    display: none;
+  }
+  .f-tabs__content-inner {
+    height: auto !important;
+    padding-inline: var(--main-spacing);
+  }
+  .f-tabs__content-inner .py-sm {
+    padding-top: 1rem;
+  }
+  .f-tabs__content-inner .py-sm p {
+    word-spacing: 0.6px;
+    letter-spacing: 0;
+  }
+}
+@media (max-width: 767.98px) {
+  .f-tabs--collapsible .f-tabs__content {
+    display: block !important;
+  }
+  .f-product-tabs__blocks .collapsible__button {
+    padding: 1.7rem 2.1rem 1.7rem 0;
+  }
+  .f-product-tabs__blocks .collapsible__button span {
+    font-family: var(--font-heading-family);
+    letter-spacing: 0;
+    font-weight: 400;
+  }
+}

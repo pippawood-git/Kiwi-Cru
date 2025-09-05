@@ -1,0 +1,708 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "video_hero_HFaP8y": {
+      "type": "video-hero",
+      "blocks": {
+        "title_aDkYjy": {
+          "type": "title",
+          "disabled": true,
+          "settings": {
+            "title": "Video with text overlay",
+            "heading_size": "h2"
+          }
+        },
+        "text_36yGVj": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Use overlay text to give your customers insight into your brand.<br/> Select imagery and text that relates to your style and story.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "title_aDkYjy",
+        "text_36yGVj"
+      ],
+      "settings": {
+        "container": "container-full",
+        "video_type": "shopify",
+        "shopify_video": "shopify://files/videos/shutterstock_3529893825.mov",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "image_overlay_opacity": 40,
+        "hero_height": "large",
+        "content_in_container": false,
+        "content_position": "center",
+        "text_alignment": "center",
+        "vertical_content_padding": 40,
+        "text_color": "#ffffff",
+        "hero_height_mobile": "large",
+        "content_position_mobile": "left-bottom",
+        "show_text_below": true,
+        "text_alignment_mobile": "left",
+        "vertical_content_padding_mobile": 40,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit",
+        "enable_bg_zoom_effect": true
+      }
+    },
+    "rich_text_jeF6Uq": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_rgUaKA": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_style": "script",
+            "heading_size": "h2",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false
+          }
+        },
+        "text_6RDdwT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.<br> Add details on availability, style, or even provide a review.</p>",
+            "highlight_style": "none"
+          }
+        }
+      },
+      "block_order": [
+        "heading_rgUaKA",
+        "text_6RDdwT"
+      ],
+      "disabled": true,
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "enable_kiwi_background": true,
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "padding_top_mobile": 60,
+        "padding_bottom_mobile": 90,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "rich_text_9xJaTD": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_DtQKmw": {
+          "type": "heading",
+          "settings": {
+            "heading": "What Sustainability Means to Us",
+            "heading_style": "heading",
+            "heading_size": "h2",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false
+          }
+        },
+        "text_p4dVnU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Kiwi Cru is about bringing you great wines, made by outstanding people who are committed to sustainability and to leaving the planet better than they found it. </p><p></p><p>And the impressive thing is that’s not such a tall order when it comes to New Zealand. They have put sustainability at the heart of what they do for decades now. In fact, the industry implemented a Sustainable Winegrowing certification programme as long ago as 1995. </p><p>And today, New Zealand is a <em><strong>global leader</strong></em> in low intervention wine making. </p>",
+            "highlight_style": "none"
+          }
+        }
+      },
+      "block_order": [
+        "heading_DtQKmw",
+        "text_p4dVnU"
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "enable_kiwi_background": false,
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "padding_top_mobile": 60,
+        "padding_bottom_mobile": 0,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "rich_text_JGiRqq": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_nyafjX": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_style": "heading",
+            "heading_size": "h2",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false
+          }
+        },
+        "text_mrcbJY": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>Pair text with an image to focus on your chosen product, collection, or blog post.<br/> Add details on availability, style, or even provide a review. Named after the stunning Amphitheatre single vineyard site in the Omaka Valley is dedicated entirely to the production of organic, old vine single vineyard expressions of very special sites in Marlborough.</h4>",
+            "highlight_style": "none"
+          }
+        }
+      },
+      "block_order": [
+        "heading_nyafjX",
+        "text_mrcbJY"
+      ],
+      "disabled": true,
+      "settings": {
+        "container": "container",
+        "color_schema": "inverse",
+        "enable_kiwi_background": true,
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "padding_top_mobile": 60,
+        "padding_bottom_mobile": 90,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "gallery_images_7UWK7R": {
+      "type": "gallery-images",
+      "blocks": {
+        "image_w3hE3j": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Kiwicru_CentralOtago_1039_Te_Kano_Final_Selects_-_3500px_-v2_1069afc2-0858-415b-b646-f23a21b628f2.jpg",
+            "mobile_image": "shopify://shop_images/Kiwicru_CentralOtago_1039_Te_Kano_Final_Selects_-_3500px_-v2_1069afc2-0858-415b-b646-f23a21b628f2.jpg",
+            "text": "",
+            "text_size": "medium",
+            "link": ""
+          }
+        },
+        "image_BpFN8C": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/shutterstock_658600318_a5308af2-3980-4851-843b-8a741a782cf5.jpg",
+            "mobile_image": "shopify://shop_images/shutterstock_658600318_a5308af2-3980-4851-843b-8a741a782cf5.jpg",
+            "text": "",
+            "text_size": "medium",
+            "link": ""
+          }
+        },
+        "image_hReey3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Kiwicru_CentralOtago_0331_Two_Paddocks_Final_Selects_-_3500px_-v2_d05d83bb-aa65-43d5-8de5-e6a63bf5787d.jpg",
+            "mobile_image": "shopify://shop_images/Kiwicru_CentralOtago_0331_Two_Paddocks_Final_Selects_-_3500px_-v2_1c14e867-e680-4f00-b60d-a0bb82acdf9e.jpg",
+            "text": "",
+            "text_size": "medium",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_w3hE3j",
+        "image_BpFN8C",
+        "image_hReey3"
+      ],
+      "settings": {
+        "container": "container-fluid",
+        "color_schema": "",
+        "section_header_padding_bottom": "large",
+        "heading": "",
+        "heading_size": "h2",
+        "heading_flourish": false,
+        "heading_underline": "none",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn--primary",
+        "image_ratio": "adapt",
+        "columns": 3,
+        "column_gap": "medium",
+        "layout": "grid",
+        "metro_item_color_schema": "",
+        "enable_slider": false,
+        "show_nav": false,
+        "show_dots": false,
+        "enable_swipe_mobile": false,
+        "column_mobile": "1",
+        "padding_top": 12,
+        "padding_bottom": 50,
+        "padding_top_mobile": 60,
+        "padding_bottom_mobile": 40,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "rich_text_x9Ur4d": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_VD3Xht": {
+          "type": "heading",
+          "settings": {
+            "heading": "<em><strong>ManaakiWhenua, Manaaki Tangata,Haere Whakamua</strong></em>",
+            "heading_style": "script",
+            "heading_size": "h1",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false
+          }
+        },
+        "text_7CXYL6": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>If we take care of the earth, and take care of<br/>the people, we will take care of the future</em></p>",
+            "highlight_style": "none"
+          }
+        }
+      },
+      "block_order": [
+        "heading_VD3Xht",
+        "text_7CXYL6"
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "inverse",
+        "enable_kiwi_background": true,
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "padding_top": 40,
+        "padding_bottom": 34,
+        "padding_top_mobile": 60,
+        "padding_bottom_mobile": 90,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "rich_text_d7wJBb": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_HpXVGf": {
+          "type": "heading",
+          "settings": {
+            "heading": "Learn More About Sustainability",
+            "heading_style": "script",
+            "heading_size": "h2",
+            "highlight_style": "underline",
+            "enable_highlight_text_color": true
+          }
+        },
+        "text_i6ydYn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Sustainability is the most important issue of our time, and we are proud to be associated with....</p>",
+            "highlight_style": "none"
+          }
+        }
+      },
+      "block_order": [
+        "heading_HpXVGf",
+        "text_i6ydYn"
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "background-1",
+        "enable_kiwi_background": false,
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "padding_top": 40,
+        "padding_bottom": 0,
+        "padding_top_mobile": 20,
+        "padding_bottom_mobile": 0,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "custom_content_dznyz6": {
+      "type": "custom-content",
+      "blocks": {
+        "image_card_kxcGzU": {
+          "type": "image_card",
+          "settings": {
+            "layout": "layout7",
+            "text_color": "#000000",
+            "image": "shopify://shop_images/NZSWlogo_black_f20af8c3-9981-4e45-b7c4-751dcfc81236.png",
+            "mobile_image": "shopify://shop_images/NZSWlogo_black_f20af8c3-9981-4e45-b7c4-751dcfc81236.png",
+            "image_ratio": "adapt",
+            "image_overlay_opacity": 0,
+            "sub_heading": "",
+            "subheading_divider": false,
+            "heading": "Sustainable Winegrowing",
+            "heading_size": "h3",
+            "description": "<p>Launched in 1995, SWNZ is widely recognised as a world-leading sustainability programme and was one of the first to be established in the wine world. 98% of New Zealand's vineyard area is SWNZ certified.</p>",
+            "button_label": "",
+            "button_link": "https://www.nzwine.com/en/sustainability/swnz/",
+            "button_style": "btn--underline",
+            "vertical_content_padding": 40,
+            "vertical_content_padding_mobile": 40,
+            "alignment": "center",
+            "width": "50%",
+            "animations": "inherit"
+          }
+        },
+        "image_card_6iErb6": {
+          "type": "image_card",
+          "settings": {
+            "layout": "layout7",
+            "text_color": "#000000",
+            "image": "shopify://shop_images/organic.webp",
+            "mobile_image": "shopify://shop_images/organic.webp",
+            "image_ratio": "1/1",
+            "image_overlay_opacity": 0,
+            "sub_heading": "",
+            "subheading_divider": false,
+            "heading": "Organic Winegrowers",
+            "heading_size": "h3",
+            "description": "<p>Organic Winegrowers New Zealand (OWNZ) is a grower-led organisation dedicated to supporting organic wine production. Currently over 10% of New Zealand wineries hold organic certification, including many iconic, world-renowned producers.</p>",
+            "button_label": "",
+            "button_link": "https://www.organicwinenz.com/",
+            "button_style": "btn--underline",
+            "vertical_content_padding": 40,
+            "vertical_content_padding_mobile": 40,
+            "alignment": "center",
+            "width": "50%",
+            "animations": "inherit"
+          }
+        },
+        "image_card_4p3D9M": {
+          "type": "image_card",
+          "settings": {
+            "layout": "layout7",
+            "text_color": "#000000",
+            "image": "shopify://shop_images/the-porto-protocol-logo.webp",
+            "mobile_image": "shopify://shop_images/the-porto-protocol-logo.webp",
+            "image_ratio": "1/1",
+            "image_overlay_opacity": 0,
+            "sub_heading": "",
+            "subheading_divider": false,
+            "heading": "The Porto Protocol",
+            "heading_size": "h3",
+            "description": "<p>The Porto Protocol is a global movement acting as a catalyst for actions to mitigate climate change and promote sustainability of the wine industry. It has more than 250 members, spread across 5 continents, 20 countries, and the entire wine value chain.</p>",
+            "button_label": "",
+            "button_link": "https://www.portoprotocol.com/",
+            "button_style": "btn--underline",
+            "vertical_content_padding": 40,
+            "vertical_content_padding_mobile": 40,
+            "alignment": "center",
+            "width": "50%",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "image_card_kxcGzU",
+        "image_card_6iErb6",
+        "image_card_4p3D9M"
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "section_header_padding_bottom": "medium",
+        "heading": "",
+        "heading_flourish": true,
+        "heading_underline": "none",
+        "heading_size": "h2",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "padding_top": 52,
+        "padding_bottom": 50,
+        "padding_top_mobile": 28,
+        "padding_bottom_mobile": 40,
+        "custom_id": "",
+        "custom_class": ""
+      }
+    },
+    "image_with_usp_dFJKGH": {
+      "type": "image-with-usp",
+      "blocks": {
+        "heading_V7bGRi": {
+          "type": "heading",
+          "settings": {
+            "heading": "Facing the Food Miles Question",
+            "heading_flourish": false,
+            "heading_underline": "pistachio"
+          }
+        },
+        "usp_P3aU4P": {
+          "type": "usp",
+          "settings": {
+            "usp_heading": "",
+            "text": "<h4><strong>Do Food Miles Matter?</strong></h4><p>How can a wine be considered sustainable if it’s travelled from New Zealand? It’s an obvious question. Wouldn’t it be better came from somewhere nearer to the UK?</p>"
+          }
+        },
+        "usp_Jrhhie": {
+          "type": "usp",
+          "settings": {
+            "usp_heading": "",
+            "text": "<h4> Well, 'Yes' and 'No' </h4><p>‘Yes’, if the only measure of environmental impact were emissions from transport, and ‘no’, if all the other factors which contribute to a complex process from grape to glass are taken into account.</p>"
+          }
+        },
+        "usp_f8BJVh": {
+          "type": "usp",
+          "settings": {
+            "usp_heading": "",
+            "text": "<h4><strong>World Class Wine Production</strong></h4><p>And that’s where New Zealand wine production is the best in the world. Particularly their focused efforts on efficient water use, zero waste to landfill, enhancing the health of soils and regenerative agriculture.</p>"
+          }
+        },
+        "usp_XbTG6X": {
+          "type": "usp",
+          "settings": {
+            "usp_heading": "",
+            "text": "<h4>Net Zero by 2050</h4><p>The recent launch of <a href=\"https://www.nzwine.com/en/sustainability/roadmap-to-net-zero/\" target=\"_blank\" title=\"https://www.nzwine.com/en/sustainability/roadmap-to-net-zero/\">Roadmap to Net Zero</a> (carbon neutral) by 2050 is a testament to their work (once it arrives in the UK it’s up to us).  </p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_V7bGRi",
+        "usp_P3aU4P",
+        "usp_Jrhhie",
+        "usp_f8BJVh",
+        "usp_XbTG6X"
+      ],
+      "settings": {
+        "media_type": "image",
+        "color_schema": "",
+        "image": "shopify://shop_images/iStock-1066406890.jpg",
+        "mobile_image": "shopify://shop_images/iStock-1066406890_08672537-ccc5-42e6-8fcc-f74fc68ebaa5.jpg",
+        "video_ratio": "adapt",
+        "image_position": "right",
+        "padding_top": 48,
+        "padding_bottom": 50,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 10,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "custom_content_ncqryz": {
+      "type": "custom-content",
+      "blocks": {
+        "image_cV47UU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/iStock-1826896757.jpg",
+            "mobile_image": "shopify://shop_images/iStock-1826896757.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "text_DqG89J": {
+          "type": "text",
+          "settings": {
+            "color_scheme": "",
+            "title": "",
+            "heading_size": "h2",
+            "subheading": "",
+            "text": "<h2><span style=\"text-decoration:underline\">Climate Considerate Couriers</span></h2><p>Road transport is something we can’t avoid, but we can make choices about how we do it and who we work with. Which is why your deliveries are made by DHL<strong>,</strong> committed to being a net positive organisation. </p>",
+            "alignment": "center",
+            "align_text": "center",
+            "padding_left": 0,
+            "padding_right": 0,
+            "align_content_container": "none",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "width": "50%",
+            "mobile_color_scheme": "",
+            "mobile_padding_left": 15,
+            "mobile_padding_right": 15,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "image_cV47UU",
+        "text_DqG89J"
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "section_header_padding_bottom": "small",
+        "heading": "",
+        "heading_flourish": true,
+        "heading_underline": "none",
+        "heading_size": "h2",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40,
+        "custom_id": "",
+        "custom_class": ""
+      }
+    },
+    "custom_content_ccYVFU": {
+      "type": "custom-content",
+      "blocks": {
+        "text_B8UVnN": {
+          "type": "text",
+          "settings": {
+            "color_scheme": "",
+            "title": "",
+            "heading_size": "h2",
+            "subheading": "",
+            "text": "<h2><span style=\"text-decoration:underline\">Packaging with Purpose</span></h2><p>When you receive a Kiwi Cru delivery, you’ll find the box is brown cardboard (non-coloured boxes require fewer chemicals to make). It’s made from recycled material and uses soy-based ink for our logo. </p><p>Sealed with a gummed paper-water activated tape, which is the only tape on the market that is 100% recyclable, biodegradable and manufactured from renewable materials.</p><p>Once you’ve opened it, you’ll see that the packaging is also made from 100% recycled materials, called <a href=\"https://egipulp.com/6-bottle/\" target=\"_blank\" title=\"https://egipulp.com/6-bottle/\"><strong>PulpSafe</strong></a><strong>.</strong> It’s light (so easier to transport), and like the box, it’s completely recyclable. We also like it because it’s really effective at minimising breakages, which means there’s less transportation and packaging necessary as a result.</p>",
+            "alignment": "center",
+            "align_text": "center",
+            "padding_left": 0,
+            "padding_right": 0,
+            "align_content_container": "none",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "width": "50%",
+            "mobile_color_scheme": "",
+            "mobile_padding_left": 15,
+            "mobile_padding_right": 15,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "image_GXdm3d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/shutterstock_2312769309.jpg",
+            "mobile_image": "shopify://shop_images/shutterstock_2312769309.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "text_B8UVnN",
+        "image_GXdm3d"
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "section_header_padding_bottom": "medium",
+        "heading": "",
+        "heading_flourish": true,
+        "heading_underline": "none",
+        "heading_size": "h2",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40,
+        "custom_id": "",
+        "custom_class": ""
+      }
+    },
+    "custom_content_cfNwfn": {
+      "type": "custom-content",
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "section_header_padding_bottom": "medium",
+        "heading": "",
+        "heading_flourish": true,
+        "heading_underline": "none",
+        "heading_size": "h2",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "padding_top": 0,
+        "padding_bottom": 50,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 0,
+        "custom_id": "",
+        "custom_class": ""
+      }
+    },
+    "featured_collection_XwQaUx": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "section_header_padding_bottom": "medium",
+        "header_layout": "vertical",
+        "heading": "{{ metaobjects.winery[\"ata-rangi\"].winery_name.value }}",
+        "heading_flourish": true,
+        "heading_underline": "none",
+        "subheading": "",
+        "description": "",
+        "collection": "{{ metaobjects.winery[\"ata-rangi\"].featured_collection.value }}",
+        "limit": 4,
+        "columns": 4,
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "pcard_image_ratio": "",
+        "show_vendor": false,
+        "enable_slider": false,
+        "show_nav": false,
+        "show_dots": false,
+        "show_all_button_on_top": false,
+        "button_label": "",
+        "button_style": "btn--primary",
+        "enable_swipe_mobile": false,
+        "column_mobile": "1",
+        "padding_top": 0,
+        "padding_bottom": 50,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "video_hero_HFaP8y",
+    "rich_text_jeF6Uq",
+    "rich_text_9xJaTD",
+    "rich_text_JGiRqq",
+    "gallery_images_7UWK7R",
+    "rich_text_x9Ur4d",
+    "rich_text_d7wJBb",
+    "custom_content_dznyz6",
+    "image_with_usp_dFJKGH",
+    "custom_content_ncqryz",
+    "custom_content_ccYVFU",
+    "custom_content_cfNwfn",
+    "featured_collection_XwQaUx"
+  ]
+}

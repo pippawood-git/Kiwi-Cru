@@ -1,0 +1,654 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "16540498779afc678b": {
+      "type": "hero",
+      "blocks": {
+        "16540498776329c8d1-0": {
+          "type": "title",
+          "settings": {
+            "title": "Who We Are",
+            "heading_flourish": false,
+            "heading_underline": "none",
+            "heading_size": "h1"
+          }
+        },
+        "text_kn8wcE": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "16540498776329c8d1-0",
+        "text_kn8wcE"
+      ],
+      "settings": {
+        "container": "container-full",
+        "image": "shopify://shop_images/DSC07282.jpg",
+        "image_mobile": "shopify://shop_images/DSC07282.jpg",
+        "image_overlay_opacity": 50,
+        "hero_height": "large",
+        "content_in_container": true,
+        "content_width": "narrow",
+        "content_position": "left-bottom",
+        "text_alignment": "left",
+        "text_color": "#ffffff",
+        "hero_height_mobile": "adapt",
+        "content_position_mobile": "left-bottom",
+        "show_text_below": false,
+        "text_alignment_mobile": "left",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit",
+        "enable_bg_zoom_effect": true
+      }
+    },
+    "rich_text_MKKnyU": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_BYQBqh": {
+          "type": "heading",
+          "settings": {
+            "heading": "Kia ora, and welcome to Kiwi Cru!",
+            "heading_style": "script",
+            "heading_size": "h2",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false
+          }
+        },
+        "text_MLD3UQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We’re a specialist retailer and event provider, bringing lesser-known, high-quality New Zealand wines to the UK.</p><p>Through our Wine Club and tasting events, we help customers discover the hidden gems of Aotearoa’s wine world - wines made with care, character, and a strong sense of place.</p><p>We love wine, full stop. But our real passion is New Zealand. We’ve explored the country’s wine regions from top to bottom - visiting vineyards, meeting the people behind the wines, and tasting the bottles you won’t find everywhere else. </p><p>Now, we’re excited to share them with you.</p>",
+            "highlight_style": "none"
+          }
+        }
+      },
+      "block_order": [
+        "heading_BYQBqh",
+        "text_MLD3UQ"
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "background-1",
+        "enable_kiwi_background": false,
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "padding_top": 60,
+        "padding_bottom": 40,
+        "padding_top_mobile": 60,
+        "padding_bottom_mobile": 0,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "gallery_images_XjTPKg": {
+      "type": "gallery-images",
+      "blocks": {
+        "image_mErjGB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Te_Kano_LS1_web_Eliza_autumn.jpg",
+            "mobile_image": "shopify://shop_images/Te_Kano_LS1_web_Eliza_autumn.jpg",
+            "text": "",
+            "text_size": "medium",
+            "link": ""
+          }
+        },
+        "image_MDtbGg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Nautilus_Estate_Clay_Hills_Vineyard.jpg",
+            "mobile_image": "shopify://shop_images/Nautilus_Estate_Clay_Hills_Vineyard_f800507d-6e16-406b-85f5-d3f5c2967067.jpg",
+            "text": "",
+            "text_size": "medium",
+            "link": ""
+          }
+        },
+        "image_ThQwYH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Kiwicru_CentralOtago_2125_Burn_Cottage_Final_Selects_-_3500px_-v2_c0087fc3-bca6-44d4-84d0-a5bb1f2838be.jpg",
+            "mobile_image": "shopify://shop_images/Kiwicru_CentralOtago_2125_Burn_Cottage_Final_Selects_-_3500px_-v2_c0087fc3-bca6-44d4-84d0-a5bb1f2838be.jpg",
+            "text": "",
+            "text_size": "medium",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_mErjGB",
+        "image_MDtbGg",
+        "image_ThQwYH"
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "section_header_padding_bottom": "medium",
+        "heading": "",
+        "heading_size": "h2",
+        "heading_flourish": false,
+        "heading_underline": "none",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn--primary",
+        "image_ratio": "adapt",
+        "columns": 3,
+        "column_gap": "medium",
+        "layout": "grid",
+        "metro_item_color_schema": "",
+        "enable_slider": false,
+        "show_nav": false,
+        "show_dots": false,
+        "enable_swipe_mobile": false,
+        "column_mobile": "1",
+        "padding_top": 0,
+        "padding_bottom": 50,
+        "padding_top_mobile": 60,
+        "padding_bottom_mobile": 60,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "rich_text_gf8wiV": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_BiYRNC": {
+          "type": "heading",
+          "settings": {
+            "heading": "<em>\"For anybody who has visited New Zealand, you will understand what I mean when I say that the colours there seem brighter, the personalities bigger and the energy for life so great. I finally understood this “dialled up” expression I perceived in their wines was merely a translation of life in this truly beautiful place\".                                                                                                Julie Dupouy, thetaste.ie</em>",
+            "heading_style": "script",
+            "heading_size": "h3",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false
+          }
+        },
+        "text_TBNBt8": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "highlight_style": "none"
+          }
+        }
+      },
+      "block_order": [
+        "heading_BiYRNC",
+        "text_TBNBt8"
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "inverse",
+        "enable_kiwi_background": true,
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "padding_top_mobile": 60,
+        "padding_bottom_mobile": 60,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "image_with_usp_EhKMWR": {
+      "type": "image-with-usp",
+      "blocks": {
+        "heading_TpnfJV": {
+          "type": "heading",
+          "settings": {
+            "heading": "Meet Our Founder",
+            "heading_flourish": false,
+            "heading_underline": "pistachio"
+          }
+        },
+        "text_cHQze3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Having worked for some time in various wine roles in the UK, Pippa got a chance to spend some time in Australia, again working in wine. Whilst she was there, she took the opportunity to explore New Zealand and immediately became hooked – you know – love at first sight kind of hooked!</p><p>And of course, who could blame her? New Zealand is simply breathtaking—there’s no other way to put it. Nature went all out there. And it’s not just about the views. The people are incredibly warm and welcoming, and there's a real sense of adventure everywhere you go. The indigenous Māori culture is deeply rooted in a profound connection to the land, an ethos which echoes throughout the winemaking regions. </p><p>And let’s not forget the spectacular wine regions, which stretch 1000 miles from subtropical Northland to Central Otago, home to the world’s most southerly vineyards.</p><p>Pippa’s next step became a simple one: to share her love of New Zealand wines and the commitment and skill of those making them. And so, on landing back in the UK, she founded Kiwi Cru.</p><p>Since then, she’s been able to talk some talented people into joining her….</p>"
+          }
+        },
+        "button_eUgJCJ": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Find Out More",
+            "button_link": "/",
+            "button_style": "btn--primary",
+            "button_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_TpnfJV",
+        "text_cHQze3",
+        "button_eUgJCJ"
+      ],
+      "settings": {
+        "media_type": "image",
+        "color_schema": "",
+        "image": "shopify://shop_images/DSC01062_1.jpg",
+        "mobile_image": "shopify://shop_images/DSC01062_1.jpg",
+        "video_ratio": "adapt",
+        "image_position": "left",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 20,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "multicolumn_9didmf": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_GBjW3x": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Lara-Sayegh_square.jpg",
+            "mobile_image": "shopify://shop_images/Lara-Sayegh_square.jpg",
+            "image_link": "",
+            "title": "Lara",
+            "heading_size": "h4",
+            "text": "<p>Lara is the e-commerce guru behind our online wine shop, making sure it looks great, runs smoothly, and ordering your favourite bottle is quick and easy. </p><p>Her ‘Tasting notes’? Well, she’s <strong>‘beautifully structured, elegant and well balanced’ </strong>sums her up!</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "column_CcMDxY": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ash_headshot_56205261-309f-432c-8cd4-0fb4d9e2a303.jpg",
+            "mobile_image": "shopify://shop_images/ash_headshot_56205261-309f-432c-8cd4-0fb4d9e2a303.jpg",
+            "image_link": "",
+            "title": "Ash",
+            "heading_size": "h4",
+            "text": "<p>As a Kiwi living in London, Ash is a huge champion for the wines of her homeland. Luckily for us, all that enthusiasm finds its way into all things social at Kiwi Cru.  </p><p>If she were a wine, we reckon she’d be a Riesling – <strong>bright, lively, and ‘sweet as’</strong>… </p>",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "column_Qbpfcg": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Greta_Codyre_fb40f54b-d41c-4e49-a681-963ce6b53402.jpg",
+            "mobile_image": "shopify://shop_images/Greta_Codyre_fb40f54b-d41c-4e49-a681-963ce6b53402.jpg",
+            "image_link": "",
+            "title": "Greta",
+            "heading_size": "h4",
+            "text": "<p>Greta’s also a Kiwi but living in sunny Perth. Having worked in wineries across the world, she’s now blending all that experience with her knack for storytelling, so that every email is engaging. </p><p>What type of wine might she be? Definitely a <strong>super versatile, and<br/>full of life </strong>Sauvignon Blanc.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "column_QQHC9k": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/WhatsApp_Image_2025-03-24_at_10.33.19_1_eaf5a418-26f2-4ac2-a52d-9fcad01ffbea.jpg",
+            "mobile_image": "shopify://shop_images/WhatsApp_Image_2025-03-24_at_10.33.19_1_eaf5a418-26f2-4ac2-a52d-9fcad01ffbea.jpg",
+            "image_link": "",
+            "title": "Alice",
+            "heading_size": "h4",
+            "text": "<p>Alice connects our Kiwi Cru community in the real world through tasting events, pop-ups and partnerships, just about anywhere she can find an excuse to enjoy delicious NZ wine.</p><p>Alice's favourite wines arealways<strong> dry, </strong>though we definitely wouldn’t say the same about her personality!</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        }
+      },
+      "block_order": [
+        "column_GBjW3x",
+        "column_CcMDxY",
+        "column_Qbpfcg",
+        "column_QQHC9k"
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "section_header_padding_bottom": "medium",
+        "heading": "Meet The Kiwi Cru",
+        "heading_flourish": false,
+        "heading_underline": "pistachio",
+        "heading_size": "h2",
+        "description": "",
+        "header_alignment": "left",
+        "layout": "vertical",
+        "text_alignment": "center",
+        "image_width": "fullwidth",
+        "columns": 4,
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "enable_swipe_mobile": false,
+        "column_mobile": "1",
+        "column_gap_mobile": "extra-small",
+        "row_gap_mobile": "extra-small",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 4,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "custom_content_VBkry6": {
+      "type": "custom-content",
+      "blocks": {
+        "image_card_zLEPzx": {
+          "type": "image_card",
+          "settings": {
+            "layout": "layout7",
+            "text_color": "#000000",
+            "image": "shopify://shop_images/Lara-Sayegh_square.jpg",
+            "mobile_image": "shopify://shop_images/Lara-Sayegh_square.jpg",
+            "image_ratio": "adapt",
+            "image_overlay_opacity": 0,
+            "sub_heading": "",
+            "subheading_divider": false,
+            "heading": "Lara",
+            "heading_size": "h2",
+            "description": "<p>Lara is the e-commerce guru behind our online wine shop, making sure it looks great, runs smoothly, and ordering your favourite bottle is quick and easy. </p><p>Her ‘Tasting notes’? Well, she’s <strong>‘beautifully structured, elegant and well balanced’ </strong>sums her up!</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--underline",
+            "vertical_content_padding": 40,
+            "vertical_content_padding_mobile": 40,
+            "alignment": "center",
+            "width": "50%",
+            "animations": "inherit"
+          }
+        },
+        "image_card_mVgya4": {
+          "type": "image_card",
+          "settings": {
+            "layout": "layout7",
+            "text_color": "#000000",
+            "image": "shopify://shop_images/Greta_Codyre_fb40f54b-d41c-4e49-a681-963ce6b53402.jpg",
+            "mobile_image": "shopify://shop_images/Greta_Codyre_fb40f54b-d41c-4e49-a681-963ce6b53402.jpg",
+            "image_ratio": "adapt",
+            "image_overlay_opacity": 0,
+            "sub_heading": "",
+            "subheading_divider": false,
+            "heading": "Greta",
+            "heading_size": "h2",
+            "description": "<p>Greta’s also a Kiwi but living in sunny Perth. After having travelled the world working in<br/>wineries, she knows her wines and since then took her passion for wine digital. Greta ensures every email is engaging, educational and a little bit fun. What type of wine might she be?</p><p>What type of wine might she be? Definitely a <strong>super versatile, sociable and full of life </strong>Chardonnay.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--underline",
+            "vertical_content_padding": 40,
+            "vertical_content_padding_mobile": 40,
+            "alignment": "center",
+            "width": "50%",
+            "animations": "inherit"
+          }
+        },
+        "image_card_khd9hU": {
+          "type": "image_card",
+          "settings": {
+            "layout": "layout7",
+            "text_color": "#000000",
+            "image": "shopify://shop_images/ash_headshot_56205261-309f-432c-8cd4-0fb4d9e2a303.jpg",
+            "mobile_image": "shopify://shop_images/ash_headshot_56205261-309f-432c-8cd4-0fb4d9e2a303.jpg",
+            "image_ratio": "adapt",
+            "image_overlay_opacity": 0,
+            "sub_heading": "",
+            "subheading_divider": false,
+            "heading": "Ash",
+            "heading_size": "h2",
+            "description": "<p>As a Kiwi living in London, Ash is a huge champion for the wines of her homeland. Luckily for us, all that enthusiasm finds its way into all things social at Kiwi Cru.  </p><p>If she were a wine, we reckon she’d be a Riesling – <strong>bright, lively, and ‘sweet as’</strong>… </p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--underline",
+            "vertical_content_padding": 40,
+            "vertical_content_padding_mobile": 40,
+            "alignment": "center",
+            "width": "50%",
+            "animations": "inherit"
+          }
+        },
+        "image_card_3URCmj": {
+          "type": "image_card",
+          "settings": {
+            "layout": "layout7",
+            "text_color": "#000000",
+            "image": "shopify://shop_images/WhatsApp_Image_2025-03-24_at_10.33.19_1_eaf5a418-26f2-4ac2-a52d-9fcad01ffbea.jpg",
+            "mobile_image": "shopify://shop_images/WhatsApp_Image_2025-03-24_at_10.33.19_1_eaf5a418-26f2-4ac2-a52d-9fcad01ffbea.jpg",
+            "image_ratio": "adapt",
+            "image_overlay_opacity": 0,
+            "sub_heading": "",
+            "subheading_divider": false,
+            "heading": "Alice",
+            "heading_size": "h2",
+            "description": "<p>Alice connects our Kiwi Cru community in the real world through parties, pop-ups, and just about anywhere she can find an excuse to host an event to enjoy delicious NZ wine.</p><p>Alice's favourite wines are<strong> </strong>always<strong> dry, </strong>though we're <strong>uncertain that metaphor </strong>truly <strong>applies to her personality.</strong></p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "vertical_content_padding": 40,
+            "vertical_content_padding_mobile": 40,
+            "alignment": "center",
+            "width": "50%",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "image_card_zLEPzx",
+        "image_card_mVgya4",
+        "image_card_khd9hU",
+        "image_card_3URCmj"
+      ],
+      "disabled": true,
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "section_header_padding_bottom": "small",
+        "heading": "Meet The Kiwi Cru",
+        "heading_flourish": true,
+        "heading_underline": "none",
+        "heading_size": "h2",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40,
+        "custom_id": "",
+        "custom_class": ""
+      }
+    },
+    "rich_text_LwHNMh": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_KKw4n4": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_style": "script",
+            "heading_size": "h2",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false
+          }
+        },
+        "text_hgUyPL": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.<br> Add details on availability, style, or even provide a review.</p>",
+            "highlight_style": "none"
+          }
+        },
+        "button_pGTWpX": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_KKw4n4",
+        "text_hgUyPL",
+        "button_pGTWpX"
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "enable_kiwi_background": false,
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "hero_HqAkwY": {
+      "type": "hero",
+      "blocks": {
+        "title_MAWchr": {
+          "type": "title",
+          "settings": {
+            "title": "Meet our Makers",
+            "heading_flourish": false,
+            "heading_underline": "pistachio",
+            "heading_size": "h1"
+          }
+        },
+        "text_beFLyB": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        },
+        "button_dkTnA6": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn more",
+            "button_link": "shopify://pages/winemakers",
+            "button_style": "btn--secondary",
+            "button_size": "btn--medium"
+          }
+        }
+      },
+      "block_order": [
+        "title_MAWchr",
+        "text_beFLyB",
+        "button_dkTnA6"
+      ],
+      "settings": {
+        "container": "container-full",
+        "image": "shopify://shop_images/Ben_Glover_hand_harvesting_v2017_Zephyr_small_d18c9164-c979-479d-8c6b-1a72474f4de1.jpg",
+        "image_mobile": "shopify://shop_images/Ben_Glover_hand_harvesting_v2017_Zephyr_small_1.jpg",
+        "image_overlay_opacity": 40,
+        "hero_height": "medium",
+        "content_in_container": false,
+        "content_width": "narrow",
+        "content_position": "center",
+        "text_alignment": "center",
+        "text_color": "#ffffff",
+        "hero_height_mobile": "large",
+        "content_position_mobile": "center",
+        "show_text_below": false,
+        "text_alignment_mobile": "center",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit",
+        "enable_bg_zoom_effect": true
+      }
+    },
+    "rich_text_fpEnCC": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Ng48Xk": {
+          "type": "heading",
+          "settings": {
+            "heading": "Curious to learn more about what New Zealand wine has to offer? We’d love to hear from you.",
+            "heading_style": "script",
+            "heading_size": "h3",
+            "highlight_style": "drawer_line",
+            "enable_highlight_text_color": true
+          }
+        },
+        "text_e3PCEK": {
+          "type": "text",
+          "settings": {
+            "text": "<h3><a href=\"/pages/contact\" title=\"Contact\"><em><strong>Get in Touch</strong></em></a></h3>",
+            "highlight_style": "drawer_line"
+          }
+        },
+        "button_L4cKh4": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Let's have a chat",
+            "button_link": "shopify://pages/contact",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Ng48Xk",
+        "text_e3PCEK",
+        "button_L4cKh4"
+      ],
+      "custom_css": [],
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "enable_kiwi_background": false,
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "padding_top_mobile": 52,
+        "padding_bottom_mobile": 50,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16540498779afc678b",
+    "rich_text_MKKnyU",
+    "gallery_images_XjTPKg",
+    "rich_text_gf8wiV",
+    "image_with_usp_EhKMWR",
+    "multicolumn_9didmf",
+    "custom_content_VBkry6",
+    "rich_text_LwHNMh",
+    "hero_HqAkwY",
+    "rich_text_fpEnCC"
+  ]
+}

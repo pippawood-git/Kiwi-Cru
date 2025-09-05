@@ -1,0 +1,31 @@
+{{ 'main-404.css' | asset_url | stylesheet_tag }}
+
+<div class="f-template-404 f-section">
+  <div class="text-center">
+    <h1 class="title">{{ 'templates.404.title' | t }}</h1>
+    <p class="subtitle text-subtext">{{ 'templates.404.subtext' | t }}</p>
+    <a href="{{ section.settings.btn_link }}" class="btn btn--primary">
+      {{ section.settings.btn_text }}
+    </a>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "t:sections.main-404.name",
+  "class": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "btn_text",
+      "label": "t:sections.main-404.settings.btn_text.label",
+      "default": "t:sections.main-404.settings.btn_text.default"
+    },
+    {
+      "type": "url",
+      "id": "btn_link",
+      "label": "t:sections.main-404.settings.btn_link.label"
+    }
+  ]
+}
+{% endschema %}

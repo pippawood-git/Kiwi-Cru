@@ -1,0 +1,183 @@
+:root {
+  /* Spacing */
+  --spacing-0: 0;
+  --spacing-1: 2px;
+  --spacing-2: 4px;
+  --spacing-4: 8px;
+  --spacing-6: 12px;
+  --spacing-8: 16px;
+  --spacing-10: 20px;
+  --spacing-12: 24px;
+  --spacing-14: 28px;
+  --spacing-16: 32px;
+  --spacing-18: 36px;
+  --spacing-20: 40px;
+  --spacing-25: 50px;
+  --spacing-30: 60px;
+
+  /* Typography */
+  --font-family-roca-light: Roca;
+  --font-family-nothing-you-could-do: NothingYouCouldDo;
+
+  /* Typography line height */
+  --font-line-height-body: var(--font-line-height-xs);
+  --font-line-height-h4: var(--font-line-height-s);
+  --font-line-height-h3: var(--font-line-height-m);
+  --font-line-height-h2: var(--font-line-height-l);
+  --font-line-height-h1: var(--font-line-height-xl);
+
+  /* Typography headings */
+  --font-size-body: var(--font-size-xs);
+  --font-size-h4: var(--font-size-s);
+  --font-size-h3: var(--font-size-m);
+  --font-size-h2: var(--font-size-l);
+  --font-size-h1: var(--font-size-xl);
+
+  /* Font Family */
+  --font-family-base: lato;
+  --font-family-heading: Roca;
+
+  /* Font Weight */
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  /* Colours */
+  --olive: var(--color-primary-1);
+  --charcoal: var(--color-primary-2);
+  --kiwi: var(--color-primary-3);
+  --black: var(--color-primary-4);
+  --white: var(--color-primary-5);
+  --pearl: var(--color-secondary-1);
+  --pistachio: var(--color-secondary-2);
+  --sun: var(--color-secondary-3);
+  --green: var(--color-notifications_1);
+  --red: var(--color-notifications_2);
+  --charcoal-50: rgba(var(--color-primary-2), 0.5);
+  --kiwi-50: rgba(var(--color-primary-3), 0.5);
+  --olive-20: rgba(var(--color-primary-1), 0.2);
+  --olive-50: rgba(var(--color-primary-1), 0.5);
+  --pistachio-30: rgba(var(--color-secondary-2), 0.3);
+  --olive-hex: #545531;
+}
+
+@media screen and (max-width: 989px) {
+  :root {
+    /* Typography line height */
+    --font-line-height-xxs: 16px;
+    --font-line-height-xs: 22px;
+    --font-line-height-s: 26px;
+    --font-line-height-m: 26px;
+    --font-line-height-l: 32px;
+    --font-line-height-xl: 40px;
+
+    /* Typography Font Size */
+    --font-size-xxs: 12px;
+    --font-size-xs: 16px;
+    --font-size-s: 18px;
+    --font-size-m: 20px;
+    --font-size-l: 26px;
+    --font-size-xl: 32px;
+
+    /* Widths */
+    --min-width-contained: 288px;
+    --min-width-full: 320px;
+    --max-width-contained: 716px;
+    --max-width-full: 748px;
+    --main-spacing: var(--spacing-8);
+    --main-space-between: var(--spacing-14);
+  }
+}
+@media screen and (min-width: 750px) and (max-width: 989px) {
+  :root {
+    /* Widths */
+    --min-width-contained: 650px;
+    --min-width-full: 750px;
+    --max-width-contained: 889px;
+    --max-width-full: 989px;
+    --main-space-between: var(--spacing-16);
+    --main-spacing: var(--spacing-20);
+  }
+}
+@media screen and (min-width: 990px) {
+  :root {
+    /* Typography line height */
+    --font-line-height-xxs: 16px;
+    --font-line-height-xs: 22px;
+    --font-line-height-s: 26px;
+    --font-line-height-m: 32px;
+    --font-line-height-l: 42px;
+    --font-line-height-xl: 52px;
+
+    /* Typography Font Size */
+    --font-size-xxs: 12px;
+    --font-size-xs: 16px;
+    --font-size-s: 20px;
+    --font-size-m: 28px;
+    --font-size-l: 35px;
+    --font-size-xl: 44px;
+
+    /* Spacing */
+    --main-space-between: var(--spacing-20);
+    --main-spacing: var(--spacing-25);
+  }
+}
+@media screen and (min-width: 1440px) {
+  :root {
+    /* Widths */
+    --min-width-contained: 890px;
+    --min-width-full: 990px;
+    --max-width-contained: 1340px;
+    --max-width-full: 1920px;
+  }
+}
+@font-face {
+  font-family: Roca;
+  src: url('Roca-Light.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+}
+@font-face {
+  font-family: Roca;
+  src: url('Roca-Regular.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: Roca;
+  src: url('Roca-Bold.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: Roca;
+  src: url('Roca-Light-Italic.woff2') format('woff2');
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+}
+@font-face {
+  font-family: Roca;
+  src: url('Roca-Italic.woff2') format('woff2');
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: Roca;
+  src: url('Roca-Bold-Italic.woff2') format('woff2');
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: NothingYouCouldDo;
+  src: url('NothingYouCouldDo-Regular.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}

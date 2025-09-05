@@ -1,0 +1,914 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_NXc6Gg": {
+      "type": "slideshow",
+      "blocks": {
+        "video_kgUh6f": {
+          "type": "video",
+          "settings": {
+            "shopify_video": "shopify://files/videos/SocialEdit_1_1080p.mov",
+            "video_alt_text": "",
+            "image_overlay_opacity": 35,
+            "content_position": "left-bottom",
+            "text_alignment": "left",
+            "text_color": "#ffffff",
+            "title": "Bringing you the true essence of New Zealand Wine",
+            "heading_size": "h-xl",
+            "subheading": "",
+            "description": "<p>No shortcuts, just honest flavours and the passionate craft of our winemaker friends</p>",
+            "desc_size": "text-desc-base",
+            "button_text_1": "Shop All Wines",
+            "button_link_1": "shopify://collections/all",
+            "button_style_1": "btn--secondary",
+            "button_size_1": "",
+            "button_text_2": "",
+            "button_link_2": "",
+            "button_style_2": "btn--primary",
+            "button_size_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "video_kgUh6f"
+      ],
+      "settings": {
+        "container": "container-full",
+        "slideshow_height": "large",
+        "show_dots": true,
+        "show_nav": false,
+        "autoplay": false,
+        "autorotate_speed": 3,
+        "pagination_background": "light",
+        "controls_position": "center",
+        "pagination_style": "dots",
+        "show_text_below": true,
+        "text_alignment_mobile": "center",
+        "accessibility_info": "Slideshow about our brand",
+        "custom_id": "",
+        "custom_class": "",
+        "enable_bg_zoom_effect": false
+      }
+    },
+    "product_tabs_N9gKqr": {
+      "type": "product-tabs",
+      "blocks": {
+        "tab_7ty8nm": {
+          "type": "tab",
+          "settings": {
+            "title": "Best Sellers",
+            "collection": "best-sellers"
+          }
+        },
+        "tab_zAzzkC": {
+          "type": "tab",
+          "settings": {
+            "title": "White Wines",
+            "collection": "white-wine"
+          }
+        },
+        "tab_NcMePD": {
+          "type": "tab",
+          "settings": {
+            "title": "Red Wines",
+            "collection": "red-wine"
+          }
+        }
+      },
+      "block_order": [
+        "tab_7ty8nm",
+        "tab_zAzzkC",
+        "tab_NcMePD"
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "layout": "horizontal",
+        "heading": "Our Top Picks",
+        "heading_flourish": true,
+        "heading_underline": "none",
+        "heading_size": "h2",
+        "description": "",
+        "limit": 4,
+        "columns": 4,
+        "column_gap": "extra-large",
+        "row_gap": "small",
+        "enable_slider": false,
+        "show_nav": false,
+        "show_dots": false,
+        "pcard_image_ratio": "",
+        "show_vendor": false,
+        "button_label": "View Full Collection",
+        "button_style": "btn--underline",
+        "enable_swipe_mobile": true,
+        "column_mobile": "2",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "image_with_text_slider_yEmPGK": {
+      "type": "image-with-text-slider",
+      "blocks": {
+        "slide_LX4Ugb": {
+          "type": "slide",
+          "settings": {
+            "slide_color_scheme": "inverse",
+            "background": "shopify://shop_images/SORRELRIVER-7.jpg",
+            "mb_background": "shopify://shop_images/SORRELRIVER-7.jpg",
+            "product_1": "sorrell-auntsfield-sauvignon-blanc-2022",
+            "product_2": "sorrell-the-wrekin-chardonnay-2022",
+            "content_position": "center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "title": "New Arrivals",
+            "heading_flourish": false,
+            "heading_underline": "kiwi",
+            "heading_size": "h2",
+            "subheading": "",
+            "description": "<p>Fresh faces, fresh flavours - meet the latest arrivals to the Kiwi Cru lineup.</p>",
+            "desc_size": "text-desc-base",
+            "button_text_1": "",
+            "button_link_1": "shopify://collections/chardonnay-wine",
+            "button_style_1": "btn--primary",
+            "button_size_1": ""
+          }
+        },
+        "slide_jawRNz": {
+          "type": "slide",
+          "settings": {
+            "slide_color_scheme": "inverse",
+            "background": "shopify://shop_images/Churton_Pinot_2022.jpg",
+            "mb_background": "shopify://shop_images/Churton_Pinot_2022.jpg",
+            "product_1": "sorrell-churton-pinot-noir-2023",
+            "product_2": "lawsons-dry-hills-pinot-noir-2020",
+            "content_position": "center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "title": "New Arrivals ",
+            "heading_flourish": false,
+            "heading_underline": "kiwi",
+            "heading_size": "h2",
+            "subheading": "",
+            "description": "<p>Just landed: a batch of brilliant new wines from producers we’re excited about.</p>",
+            "desc_size": "text-desc-base",
+            "button_text_1": "",
+            "button_link_1": "shopify://collections/chardonnay-wine",
+            "button_style_1": "btn--primary",
+            "button_size_1": ""
+          }
+        },
+        "slide_GPhVyE": {
+          "type": "slide",
+          "settings": {
+            "slide_color_scheme": "inverse",
+            "background": "shopify://shop_images/Kiwicru_CentralOtago_1400_Amisfield_Final_Selects_-_3500px_-v2_1.jpg",
+            "mb_background": "shopify://shop_images/Kiwicru_CentralOtago_1400_Amisfield_Final_Selects_-_3500px_-v2_1.jpg",
+            "product_1": "pegasus-bay-pinot-noir-2020",
+            "product_2": "pegasus-bay-prima-donna-pinot-noir-2019",
+            "content_position": "center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "title": "New Arrivals",
+            "heading_flourish": false,
+            "heading_underline": "kiwi",
+            "heading_size": "h2",
+            "subheading": "",
+            "description": "<p>Fresh faces, fresh flavours - meet the latest arrivals to the Kiwi Cru lineup.</p>",
+            "desc_size": "text-desc-base",
+            "button_text_1": "Button label",
+            "button_link_1": "",
+            "button_style_1": "btn--primary",
+            "button_size_1": ""
+          }
+        },
+        "slide_WGY8VG": {
+          "type": "slide",
+          "settings": {
+            "slide_color_scheme": "inverse",
+            "background": "shopify://shop_images/Estate_and_Reserve_Sauvigon_Blanc_LDH_Jan_092.jpg",
+            "mb_background": "shopify://shop_images/Estate_and_Reserve_Sauvigon_Blanc_LDH_Jan_092.jpg",
+            "product_1": "lawsons-dry-hills-sauvignon-blanc-2023",
+            "product_2": "mahi-alais-sauvignon-blanc-2019",
+            "content_position": "center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "title": "New Arrivals",
+            "heading_flourish": false,
+            "heading_underline": "kiwi",
+            "heading_size": "h2",
+            "subheading": "",
+            "description": "<p>Just landed: a batch of brilliant new wines from producers we’re excited about.</p>",
+            "desc_size": "text-desc-base",
+            "button_text_1": "Button label",
+            "button_link_1": "",
+            "button_style_1": "btn--primary",
+            "button_size_1": ""
+          }
+        },
+        "video_MgA9Jg": {
+          "type": "video",
+          "disabled": true,
+          "settings": {
+            "slide_color_scheme": "accent",
+            "shopify_video": "shopify://files/videos/shutterstock_3529893825.mov",
+            "video_alt_text": "TEST",
+            "product_1": "akarua-pinot-noir-central-otago-2022",
+            "product_2": "akitu-a2-pinot-noir-2020",
+            "content_position": "center",
+            "text_alignment": "center",
+            "title": "Video slide",
+            "heading_flourish": false,
+            "heading_underline": "kiwi",
+            "heading_size": "h2",
+            "subheading": "",
+            "description": "<p>Tell your brand's story through images</p>",
+            "desc_size": "text-desc-base",
+            "button_text_1": "Button label",
+            "button_link_1": "",
+            "button_style_1": "btn--primary",
+            "button_size_1": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_LX4Ugb",
+        "slide_jawRNz",
+        "slide_GPhVyE",
+        "slide_WGY8VG",
+        "video_MgA9Jg"
+      ],
+      "settings": {
+        "container": "container-full",
+        "slider_height": "large",
+        "image_width": 50,
+        "image_position": "left",
+        "show_dots": false,
+        "show_nav": true,
+        "autoplay": true,
+        "autorotate_speed": 5,
+        "controls_position": "center",
+        "pagination_style": "counter",
+        "padding_top": 0,
+        "padding_bottom": 50,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 28,
+        "accessibility_info": "Slideshow about our brand",
+        "custom_id": "",
+        "custom_class": "",
+        "enable_bg_zoom_effect": false
+      }
+    },
+    "multicolumn_itVXxj": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_z8nHwW": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/AdobeStock_1016723375_Preview.jpg",
+            "image_link": "shopify://collections/white-wine",
+            "title": "White",
+            "heading_size": "h4",
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "column_84RpFE": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/AdobeStock_984656208_Preview.jpg",
+            "image_link": "shopify://collections/red-wine",
+            "title": "Red",
+            "heading_size": "h4",
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "column_tkkjcM": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/AdobeStock_270042785_Preview_d822f57a-9999-4a4a-b35d-73632d162d4f.jpg",
+            "image_link": "",
+            "title": "Sparkling",
+            "heading_size": "h4",
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "column_EYPeEH": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/AdobeStock_539830952_Preview_e8a3f209-3806-498f-9a47-21a415e1991f.jpg",
+            "image_link": "",
+            "title": "Orange",
+            "heading_size": "h4",
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "column_4CG3dy": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/AdobeStock_292839205_Preview.jpg",
+            "image_link": "",
+            "title": "Sweet",
+            "heading_size": "h4",
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        }
+      },
+      "block_order": [
+        "column_z8nHwW",
+        "column_84RpFE",
+        "column_tkkjcM",
+        "column_EYPeEH",
+        "column_4CG3dy"
+      ],
+      "disabled": true,
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "section_header_padding_bottom": "medium",
+        "heading": "",
+        "heading_flourish": false,
+        "heading_underline": "none",
+        "heading_size": "h2",
+        "description": "",
+        "header_alignment": "center",
+        "layout": "vertical",
+        "text_alignment": "center",
+        "image_width": "fullwidth",
+        "columns": 5,
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "enable_swipe_mobile": false,
+        "column_mobile": "1",
+        "column_gap_mobile": "extra-small",
+        "row_gap_mobile": "extra-small",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 4,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "image_with_usp_3UPdYx": {
+      "type": "image-with-usp",
+      "blocks": {
+        "heading_TKnqtc": {
+          "type": "heading",
+          "settings": {
+            "heading": "Wines Made With Care",
+            "heading_flourish": false,
+            "heading_underline": "pistachio"
+          }
+        },
+        "usp_p3hdmT": {
+          "type": "usp",
+          "settings": {
+            "usp_icon": "shopify://shop_images/kiwi-3-sun_B.png",
+            "usp_heading": "Why Organic Matters",
+            "text": "<p>Organic and biodynamic winemaking puts care at the centre - of farming, of flavour, and of future thinking. It’s better for the land, the wine, and the people who share it.</p>"
+          }
+        },
+        "usp_Dfgc6V": {
+          "type": "usp",
+          "settings": {
+            "usp_icon": "shopify://shop_images/svg_kiwi-6-sun_c64d86b7-6932-4152-81f1-6995e630c6e5.svg",
+            "usp_heading": "In Partnership With Nature",
+            "text": "<p>No intervention, no shortcuts. Just healthy soils, thriving ecosystems, and vineyards full of life.<em> (Did you know 96% of NZ vineyards are sustainably certified?).</em></p>"
+          }
+        },
+        "usp_aeGwA6": {
+          "type": "usp",
+          "settings": {
+            "usp_icon": "shopify://shop_images/kiwi-2-sun_49f78377-2664-4dfe-8f5f-c2f05f78668c.svg",
+            "usp_heading": "A Movement Taking Root",
+            "text": "<p>Across NZ, a number of winemakers are working organically, biodynamically, & regeneratively - crafting wines with a sense of place and the season which shaped them.</p>"
+          }
+        },
+        "usp_C8Y8TR": {
+          "type": "usp",
+          "settings": {
+            "usp_icon": "shopify://shop_images/kiwi-1-sun_21f25161-aa6e-40dd-b788-61877cef62b9.svg",
+            "usp_heading": "Meet The Makers",
+            "text": "<p>We partner with producers who farm with intention and humility – people who see wine as a reflection of their values, not just a product. You can taste the difference.</p>"
+          }
+        },
+        "button_tx89EM": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Organic Wines",
+            "button_link": "shopify://collections/organic-wine",
+            "button_style": "btn--primary",
+            "button_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_TKnqtc",
+        "usp_p3hdmT",
+        "usp_Dfgc6V",
+        "usp_aeGwA6",
+        "usp_C8Y8TR",
+        "button_tx89EM"
+      ],
+      "settings": {
+        "media_type": "image",
+        "color_schema": "",
+        "image": "shopify://shop_images/Jason_Holding_Sauvignon_Blanc_Grapes_-_Loveblock_20bf174a-1de6-43f0-8a80-a3f22fbb06b4.jpg",
+        "mobile_image": "shopify://shop_images/Jason_Holding_Sauvignon_Blanc_Grapes_-_Loveblock_20bf174a-1de6-43f0-8a80-a3f22fbb06b4.jpg",
+        "shopify_video": "shopify://files/videos/Share your brand story by adding a video to your store.mp4",
+        "video_ratio": "adapt",
+        "image_position": "left",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 20,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "rich_text_GbMaUH": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_8wkWAG": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_style": "script",
+            "heading_size": "h2",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false
+          }
+        },
+        "text_aAh3Ph": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.<br/> Add details on availability, style, or even provide a review.</p>",
+            "highlight_style": "none"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8wkWAG",
+        "text_aAh3Ph"
+      ],
+      "disabled": true,
+      "settings": {
+        "container": "container",
+        "color_schema": "background-1",
+        "enable_kiwi_background": false,
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "padding_top_mobile": 60,
+        "padding_bottom_mobile": 90,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "image_with_text_slider_deqrmw": {
+      "type": "image-with-text-slider",
+      "blocks": {
+        "slide_tUMHRX": {
+          "type": "slide",
+          "settings": {
+            "slide_color_scheme": "scheme-bc4a096f-47f9-4141-9ef7-6cfa59db2227",
+            "background": "shopify://shop_images/DSC07303.jpg",
+            "mb_background": "shopify://shop_images/DSC07303.jpg",
+            "product_1": "discover-kiwi-treasures-tasting",
+            "product_2": "new-zealand-art-x-wine-where-palette-meets-palate",
+            "content_position": "center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "title": "What's On?",
+            "heading_flourish": false,
+            "heading_underline": "kiwi",
+            "heading_size": "h2",
+            "subheading": "",
+            "description": "<p>Join us at one of our upcoming events, where every glass of exceptional wine is an invitation to share stories and create lasting memories.</p>",
+            "desc_size": "text-desc-base",
+            "button_text_1": "",
+            "button_link_1": "",
+            "button_style_1": "btn--primary",
+            "button_size_1": ""
+          }
+        },
+        "slide_FgyKnf": {
+          "type": "slide",
+          "settings": {
+            "slide_color_scheme": "scheme-bc4a096f-47f9-4141-9ef7-6cfa59db2227",
+            "background": "shopify://shop_images/DSC01501.jpg",
+            "mb_background": "shopify://shop_images/DSC01501.jpg",
+            "product_1": "discover-kiwi-treasures-tasting",
+            "product_2": "new-zealand-art-x-wine-where-palette-meets-palate",
+            "content_position": "center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "title": "What's On?",
+            "heading_flourish": false,
+            "heading_underline": "kiwi",
+            "heading_size": "h2",
+            "subheading": "",
+            "description": "<p>Join us at one of our upcoming events, where every glass of exceptional wine is an invitation to share stories and create lasting memories.</p>",
+            "desc_size": "text-desc-base",
+            "button_text_1": "",
+            "button_link_1": "",
+            "button_style_1": "btn--primary",
+            "button_size_1": ""
+          }
+        },
+        "video_T8ftai": {
+          "type": "video",
+          "disabled": true,
+          "settings": {
+            "slide_color_scheme": "accent",
+            "shopify_video": "shopify://files/videos/shutterstock_3529893825.mov",
+            "video_alt_text": "TEST",
+            "product_1": "akarua-pinot-noir-central-otago-2022",
+            "product_2": "akitu-a2-pinot-noir-2020",
+            "content_position": "center",
+            "text_alignment": "center",
+            "title": "Video slide",
+            "heading_flourish": false,
+            "heading_underline": "kiwi",
+            "heading_size": "h2",
+            "subheading": "",
+            "description": "<p>Tell your brand's story through images</p>",
+            "desc_size": "text-desc-base",
+            "button_text_1": "Button label",
+            "button_link_1": "",
+            "button_style_1": "btn--primary",
+            "button_size_1": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_tUMHRX",
+        "slide_FgyKnf",
+        "video_T8ftai"
+      ],
+      "disabled": true,
+      "settings": {
+        "container": "container-full",
+        "slider_height": "large",
+        "image_width": 50,
+        "image_position": "right",
+        "show_dots": true,
+        "show_nav": false,
+        "autoplay": false,
+        "autorotate_speed": 3,
+        "controls_position": "center",
+        "pagination_style": "dots",
+        "padding_top": 40,
+        "padding_bottom": 50,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 28,
+        "accessibility_info": "Slideshow about our brand",
+        "custom_id": "",
+        "custom_class": "",
+        "enable_bg_zoom_effect": false
+      }
+    },
+    "featured_collection_bgifGg": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "section_header_padding_bottom": "medium",
+        "header_layout": "horizontal",
+        "heading": "Mixed Cases",
+        "heading_flourish": true,
+        "heading_underline": "none",
+        "subheading": "",
+        "description": "",
+        "collection": "mixed-cases",
+        "limit": 8,
+        "columns": 4,
+        "column_gap": "extra-large",
+        "row_gap": "medium",
+        "pcard_image_ratio": "",
+        "show_vendor": false,
+        "enable_slider": true,
+        "show_nav": false,
+        "show_dots": false,
+        "show_all_button_on_top": false,
+        "button_label": "View Full Collection",
+        "button_style": "btn--underline",
+        "enable_swipe_mobile": true,
+        "column_mobile": "2",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "174471678350e4c12b": {
+      "type": "apps",
+      "blocks": {
+        "rebuy_personalization_engine_rebuy_widget_PNNjR7": {
+          "type": "shopify://apps/rebuy-personalization-engine/blocks/rebuy-widget/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
+          "settings": {
+            "enabled": true,
+            "id": "207194",
+            "product_id_enabled": true,
+            "collection_id_enabled": true
+          }
+        }
+      },
+      "block_order": [
+        "rebuy_personalization_engine_rebuy_widget_PNNjR7"
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "heading": "",
+        "description": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40
+      }
+    },
+    "rich_text_CLFg73": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_KmUwxw": {
+          "type": "heading",
+          "settings": {
+            "heading": "<em>Kiwi Cru</em> is committed to sustainability and to leaving the planet better than we found it. Find out what <em>sustainability</em> means to us…",
+            "heading_style": "script",
+            "heading_size": "h2",
+            "highlight_style": "drawer_line",
+            "enable_highlight_text_color": true
+          }
+        },
+        "button_8Mi7AR": {
+          "type": "button",
+          "settings": {
+            "button_label": "Read more",
+            "button_link": "shopify://pages/sustainable",
+            "button_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_KmUwxw",
+        "button_8Mi7AR"
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "inverse",
+        "enable_kiwi_background": true,
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "padding_top_mobile": 60,
+        "padding_bottom_mobile": 90,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "custom_content_p4kEY9": {
+      "type": "custom-content",
+      "blocks": {
+        "image_card_eFqjgL": {
+          "type": "image_card",
+          "settings": {
+            "layout": "layout7",
+            "text_color": "#000000",
+            "image": "{{ metaobjects.winery[\"trinity-hill\"].image_2.value }}",
+            "image_hover": "{{ metaobjects.winery[\"trinity-hill\"].image.value }}",
+            "mobile_image": "{{ metaobjects.winery[\"trinity-hill\"].image_2.value }}",
+            "image_ratio": "3/4",
+            "image_overlay_opacity": 0,
+            "sub_heading": "{{ metaobjects.winery[\"trinity-hill\"].subheading_1.value }}",
+            "subheading_divider": false,
+            "heading": "{{ metaobjects.winery[\"trinity-hill\"].winery_name.value }}",
+            "heading_size": "h3",
+            "description": "",
+            "button_label": "Find Out More",
+            "button_link": "{{ metaobjects.winery[\"trinity-hill\"].system.url }}",
+            "button_style": "btn--underline",
+            "vertical_content_padding": 40,
+            "vertical_content_padding_mobile": 40,
+            "alignment": "center",
+            "width": "33%",
+            "animations": "inherit"
+          }
+        },
+        "image_card_WgTfqd": {
+          "type": "image_card",
+          "settings": {
+            "layout": "layout7",
+            "text_color": "#000000",
+            "image": "{{ metaobjects.winery.loveblock.image_2.value }}",
+            "image_hover": "{{ metaobjects.winery.loveblock._image_3.value }}",
+            "mobile_image": "{{ metaobjects.winery.loveblock.image_2.value }}",
+            "image_ratio": "3/4",
+            "image_overlay_opacity": 0,
+            "sub_heading": "{{ metaobjects.winery.loveblock.subheading_1.value }}",
+            "subheading_divider": false,
+            "heading": "{{ metaobjects.winery.loveblock.winery_name.value }}",
+            "heading_size": "h3",
+            "description": "",
+            "button_label": "Find Out More",
+            "button_link": "{{ metaobjects.winery.loveblock.system.url }}",
+            "button_style": "btn--underline",
+            "vertical_content_padding": 40,
+            "vertical_content_padding_mobile": 40,
+            "alignment": "center",
+            "width": "33%",
+            "animations": "inherit"
+          }
+        },
+        "image_card_FTdRKy": {
+          "type": "image_card",
+          "settings": {
+            "layout": "layout7",
+            "text_color": "#000000",
+            "image": "{{ metaobjects.winery[\"palliser-estate\"].image_2.value }}",
+            "image_hover": "{{ metaobjects.winery[\"palliser-estate\"]._image_1.value }}",
+            "mobile_image": "{{ metaobjects.winery[\"palliser-estate\"].image_2.value }}",
+            "image_ratio": "3/4",
+            "image_overlay_opacity": 0,
+            "sub_heading": "{{ metaobjects.winery[\"palliser-estate\"].subheading_1.value }}",
+            "subheading_divider": false,
+            "heading": "{{ metaobjects.winery[\"palliser-estate\"].winery_name.value }}",
+            "heading_size": "h3",
+            "description": "",
+            "button_label": "Find Out More",
+            "button_link": "{{ metaobjects.winery[\"palliser-estate\"].system.url }}",
+            "button_style": "btn--underline",
+            "vertical_content_padding": 40,
+            "vertical_content_padding_mobile": 40,
+            "alignment": "center",
+            "width": "33%",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "image_card_eFqjgL",
+        "image_card_WgTfqd",
+        "image_card_FTdRKy"
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "section_header_padding_bottom": "medium",
+        "heading": "Meet The Makers",
+        "heading_flourish": true,
+        "heading_underline": "none",
+        "heading_size": "h2",
+        "description": "",
+        "button_label": "View All",
+        "button_link": "shopify://pages/winemakers",
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40,
+        "custom_id": "",
+        "custom_class": ""
+      }
+    },
+    "image_with_usp_PBhmek": {
+      "type": "image-with-usp",
+      "blocks": {
+        "heading_9F6JYx": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Wine Regions",
+            "heading_flourish": false,
+            "heading_underline": "pistachio"
+          }
+        },
+        "text_xpawWP": {
+          "type": "text",
+          "settings": {
+            "text": "<p>From <strong>coastal vineyards to alpine valleys</strong>, New Zealand’s wine regions are as <strong>breathtaking</strong> as they are <strong>diverse.</strong><br/></p><p>Stretching 1600 kilometres, from <strong>sunny Northland</strong> down to the <strong>dramatic landscapes of Central Otago,</strong> they offer a variety of stunning landscapes, climates, diverse soils, and passionate winemakers. Each region produces wines that reflect the places they are from. </p>"
+          }
+        },
+        "button_UeXnYw": {
+          "type": "button",
+          "settings": {
+            "button_label": "Explore Our Regions",
+            "button_link": "shopify://pages/our-regions",
+            "button_style": "btn--primary",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "heading_9F6JYx",
+        "text_xpawWP",
+        "button_UeXnYw"
+      ],
+      "settings": {
+        "media_type": "image",
+        "color_schema": "background-1",
+        "image": "shopify://shop_images/New-Zealand-Map-2040px_copy_51efee82-1a83-4958-af72-de34f68a1442.webp",
+        "mobile_image": "shopify://shop_images/New-Zealand-Map-2040px_copy_0c03528d-2bf6-472e-a2cf-ac5dd33d3ec3.webp",
+        "video_ratio": "adapt",
+        "image_position": "right",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "featured_blog_HtL4zY": {
+      "type": "featured-blog",
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "heading": "Blogs",
+        "heading_flourish": true,
+        "heading_underline": "none",
+        "heading_size": "h2",
+        "subheading": "",
+        "description": "",
+        "blog": "news",
+        "image_aspect_ratio": "1/1",
+        "article_heading_size": "h3",
+        "show_date": true,
+        "show_excerpt": false,
+        "show_readmore": false,
+        "button_label": "Read More",
+        "button_style": "btn--underline",
+        "limit": 4,
+        "columns": 4,
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "enable_slider": false,
+        "show_dots": false,
+        "show_nav": false,
+        "enable_swipe_mobile": true,
+        "column_mobile": "1",
+        "show_excerpt_mobile": true,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    }
+  },
+  "order": [
+    "slideshow_NXc6Gg",
+    "product_tabs_N9gKqr",
+    "image_with_text_slider_yEmPGK",
+    "multicolumn_itVXxj",
+    "image_with_usp_3UPdYx",
+    "rich_text_GbMaUH",
+    "image_with_text_slider_deqrmw",
+    "featured_collection_bgifGg",
+    "174471678350e4c12b",
+    "rich_text_CLFg73",
+    "custom_content_p4kEY9",
+    "image_with_usp_PBhmek",
+    "featured_blog_HtL4zY"
+  ]
+}

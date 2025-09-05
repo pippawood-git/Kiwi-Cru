@@ -1,0 +1,554 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero_fAXdhn": {
+      "type": "hero",
+      "blocks": {
+        "title_RfkU3q": {
+          "type": "title",
+          "settings": {
+            "title": "Upcoming Events",
+            "heading_flourish": false,
+            "heading_underline": "none",
+            "heading_size": "h1"
+          }
+        },
+        "text_W7jY9k": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Join us for a tasting of discovery, great conversation, and exceptional wine. Each event explores a theme from the world of New Zealand wine. Hosted by the Kiwi Cru team, and joined by winemakers and friends from the NZ wine world.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "title_RfkU3q",
+        "text_W7jY9k"
+      ],
+      "name": "t:sections.hero.presets.name",
+      "settings": {
+        "container": "container-full",
+        "image": "shopify://shop_images/000141480029.jpg",
+        "image_mobile": "shopify://shop_images/000141480029.jpg",
+        "image_overlay_opacity": 40,
+        "hero_height": "large",
+        "content_in_container": false,
+        "content_width": "narrow",
+        "content_position": "left-bottom",
+        "text_alignment": "left",
+        "text_color": "#ffffff",
+        "hero_height_mobile": "large",
+        "content_position_mobile": "left-bottom",
+        "show_text_below": true,
+        "text_alignment_mobile": "center",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit",
+        "enable_bg_zoom_effect": true
+      }
+    },
+    "video_hero_a3yJcH": {
+      "type": "video-hero",
+      "blocks": {
+        "title_GN48AK": {
+          "type": "title",
+          "settings": {
+            "title": "Upcoming Events",
+            "heading_size": "h-xl"
+          }
+        },
+        "text_YdagKG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Join us for a tasting of discovery, great conversation, and exceptional wine. Each event explores a theme from the world of New Zealand wine. Hosted by the Kiwi Cru team, and joined by winemakers and friends from the NZ wine world.</p>"
+          }
+        },
+        "button_eaTCNq": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "button_size": "",
+            "button_second_label": "",
+            "button_second_link": "",
+            "button_second_style": "btn--primary",
+            "button_second_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "title_GN48AK",
+        "text_YdagKG",
+        "button_eaTCNq"
+      ],
+      "disabled": true,
+      "name": "Video hero",
+      "settings": {
+        "container": "container-full",
+        "video_type": "shopify",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "image_overlay_opacity": 40,
+        "hero_height": "large",
+        "content_in_container": true,
+        "content_position": "left-bottom",
+        "text_alignment": "left",
+        "vertical_content_padding": 40,
+        "text_color": "#ffffff",
+        "hero_height_mobile": "large",
+        "content_position_mobile": "left-bottom",
+        "show_text_below": true,
+        "text_alignment_mobile": "left",
+        "vertical_content_padding_mobile": 40,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit",
+        "enable_bg_zoom_effect": true
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "blocks": {
+        "4ed3ca22-53a8-4d7d-a4d8-4375e98681f8": {
+          "type": "banner",
+          "settings": {
+            "collection": "all"
+          }
+        }
+      },
+      "block_order": [
+        "4ed3ca22-53a8-4d7d-a4d8-4375e98681f8"
+      ],
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "container": "container",
+        "color_schema": "background-1",
+        "image_height": "adapt",
+        "text_alignment": "center",
+        "show_breadcrumb": false,
+        "show_desc": true,
+        "show_collection_image": false,
+        "image_position": "use_image_as_background",
+        "image_overlay_opacity": 0,
+        "animations": "inherit",
+        "enable_bg_zoom_effect": true
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "custom_css": [],
+      "settings": {
+        "container": "container",
+        "products_per_page": 12,
+        "columns": 3,
+        "enable_product_count": false,
+        "enable_filtering": true,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "paginate_type": "number",
+        "padding_top": 0,
+        "padding_bottom": 50,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 28
+      }
+    },
+    "image_with_text_tQbY7K": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_KLFraT": {
+          "type": "heading",
+          "settings": {
+            "heading": "South Coast Wine Festival: 8th-10th August",
+            "heading_flourish": false,
+            "heading_underline": "pistachio",
+            "heading_size": "h2"
+          }
+        },
+        "text_LtzXBY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Kiwi Cru is all about sharing great wines with great people — and this summer, we’re heading to the <a href=\"https://southcoastwinefestival.co.uk/\" target=\"_blank\" title=\"https://southcoastwinefestival.co.uk/\"><strong>South Coast Wine Festival</strong>!</a> We’ll be pouring some of our favourite hidden gems and hosting a masterclass - we’d love to see you there.</p><p>Don’t miss out — <a href=\"https://southcoastwinefestival.co.uk/whats-on/\"><strong>register for your tickets</strong></a><strong> </strong>and come enjoy the full tasting experience with us..</p>"
+          }
+        },
+        "button_XALeRU": {
+          "type": "button",
+          "settings": {
+            "button_label": "Register your ticket",
+            "button_link": "https://registration.southcoastwinefestival.co.uk/scwf/register",
+            "button_style": "btn--primary",
+            "button_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_KLFraT",
+        "text_LtzXBY",
+        "button_XALeRU"
+      ],
+      "disabled": true,
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "image": "shopify://shop_images/South-Coast-Wine-Festival-2025.jpg",
+        "mobile_image": "shopify://shop_images/South-Coast-Wine-Festival-2025.jpg",
+        "image_width": "50%",
+        "image_position": "left",
+        "vertical_alignment": "center",
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "padding_left": 0,
+        "padding_right": 0,
+        "align_content_container": "none",
+        "mobile_padding_left": 15,
+        "mobile_padding_right": 15,
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "hero_BAfNwR": {
+      "type": "hero",
+      "blocks": {
+        "title_wctkgE": {
+          "type": "title",
+          "settings": {
+            "title": "Corporate or Private Events",
+            "heading_flourish": false,
+            "heading_underline": "kiwi",
+            "heading_size": "h2"
+          }
+        },
+        "text_h7Vqaf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Whether you're planning a team get-together, client event, or private celebration, we create relaxed, thoughtful wine experiences tailored to your group. </p><p>Expect great wines, good conversation, and a fresh take on New Zealand in every glass.</p>"
+          }
+        },
+        "button_7M7ETg": {
+          "type": "button",
+          "settings": {
+            "button_label": "Find Out More",
+            "button_link": "shopify://pages/corporate-private-events",
+            "button_style": "btn--secondary",
+            "button_size": "btn--medium"
+          }
+        }
+      },
+      "block_order": [
+        "title_wctkgE",
+        "text_h7Vqaf",
+        "button_7M7ETg"
+      ],
+      "settings": {
+        "container": "container-full",
+        "image": "shopify://shop_images/DSC07305.jpg",
+        "image_mobile": "shopify://shop_images/DSC07305.jpg",
+        "image_overlay_opacity": 60,
+        "hero_height": "medium",
+        "content_in_container": true,
+        "content_width": "wide",
+        "content_position": "left-middle",
+        "text_alignment": "left",
+        "text_color": "#ffffff",
+        "hero_height_mobile": "medium",
+        "content_position_mobile": "center",
+        "show_text_below": false,
+        "text_alignment_mobile": "left",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit",
+        "enable_bg_zoom_effect": true
+      }
+    },
+    "featured_collection_LVB9XU": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "section_header_padding_bottom": "medium",
+        "header_layout": "horizontal",
+        "heading": "Previously",
+        "heading_flourish": true,
+        "heading_underline": "none",
+        "subheading": "",
+        "description": "<p>Lorem ipsum odor amet, consectetuer adipiscing elit. Sapien donec volutpat vel montes fames nisl sem. Etiam amet himenaeos placerat donec duis dolor. Facilisi massa magnis vestibulum semper ligula. Aenean pulvinar fusce fringilla in nibh laoreet vivamus dolor. Euismod pharetra leo vel tempus taciti.</p>",
+        "collection": "past-events",
+        "limit": 8,
+        "columns": 3,
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "pcard_image_ratio": "",
+        "show_vendor": false,
+        "enable_slider": true,
+        "show_nav": false,
+        "show_dots": false,
+        "show_all_button_on_top": true,
+        "button_label": "View All",
+        "button_style": "btn--underline",
+        "enable_swipe_mobile": true,
+        "column_mobile": "1",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "collapsible_tabs_4RYYTC": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "content_Cnf4MG": {
+          "type": "content",
+          "settings": {
+            "icon": "none",
+            "title": "Do you send physical tickets or is it all e-tickets? ",
+            "content": "<p>We do not send out physical tickets for our events. An email confirming registration will be sent to the booker who has purchased the ticket(s) and this email can be used as confirmation upon arrival at the event.  </p>",
+            "custom_liquid": "",
+            "content_page": "",
+            "open": false
+          }
+        },
+        "content_MyV3nb": {
+          "type": "content",
+          "settings": {
+            "icon": "none",
+            "title": "I’ve purchased an event as a gift. Is there anything I need to do? ",
+            "content": "<p>Please  <a href=\"/pages/corporate-private-events\" target=\"_blank\" title=\"Corporate Private Events\">contact us </a>with the name and date of the tasting, along with the names, telephone number and email address of the recipient. This is so we can contact them directly with the details of the event. </p>",
+            "custom_liquid": "",
+            "content_page": "",
+            "open": false
+          }
+        },
+        "content_HJekM3": {
+          "type": "content",
+          "settings": {
+            "icon": "none",
+            "title": "I’ve included a gift message. How will this be delivered? ",
+            "content": "<p>If you’d like a gift letter to be sent out, please <a href=\"/pages/contact\" title=\"Contact\"> <strong>contact us</strong></a></p>",
+            "custom_liquid": "",
+            "content_page": "",
+            "open": false
+          }
+        },
+        "content_93zPem": {
+          "type": "content",
+          "settings": {
+            "icon": "none",
+            "title": "Do I need to know lots about wine to attend? ",
+            "content": "<p>Absolutely not! Our events target a range of experience and knowledge levels, and we try to make this clear on our event pages. If you’re unsure if an event is for you, simply contact <strong>events@kiwicru.com</strong> and we will try to help. </p>",
+            "custom_liquid": "",
+            "content_page": "",
+            "open": false
+          }
+        },
+        "content_RVBLc8": {
+          "type": "content",
+          "settings": {
+            "icon": "none",
+            "title": "What is your cancellation policy? ",
+            "content": "<p>Full details on our cancellation policy can be found <strong>here</strong>. (see below) </p>",
+            "custom_liquid": "",
+            "content_page": "",
+            "open": false
+          }
+        },
+        "content_kmadxJ": {
+          "type": "content",
+          "settings": {
+            "icon": "none",
+            "title": "Can I join a waiting list for sold out events? ",
+            "content": "<p>Yes. Please do feel free to join our waiting lists for sold out events. If tickets become available you will be contacted by email. </p>",
+            "custom_liquid": "",
+            "content_page": "",
+            "open": false
+          }
+        },
+        "content_j7wXRV": {
+          "type": "content",
+          "settings": {
+            "icon": "none",
+            "title": "Cancellation Policy: Is there a charge if I cancel tasting tickets? ",
+            "content": "<p>If you wish to cancel a ticket that you have purchased for a tasting or other event, please contact us as soon as possible. If you cancel your ticket at least 14 days before the date of the event a full refund will be arranged. If you cancel your ticket later than 14 days before the date of the event, we will seek to find another buyer for your ticket. If we are able to re-sell your ticket, a full refund will be arranged. If we are not able to re-sell your ticket, you will not be entitled to a refund (but you may still attend the event, if you change your mind) </p>",
+            "custom_liquid": "",
+            "content_page": "",
+            "open": false
+          }
+        }
+      },
+      "block_order": [
+        "content_Cnf4MG",
+        "content_MyV3nb",
+        "content_HJekM3",
+        "content_93zPem",
+        "content_RVBLc8",
+        "content_kmadxJ",
+        "content_j7wXRV"
+      ],
+      "disabled": true,
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "section_header_padding_bottom": "medium",
+        "heading": "FAQ",
+        "heading_flourish": true,
+        "heading_size": "h2",
+        "subheading": "",
+        "description": "",
+        "padding_top": 54,
+        "padding_bottom": 52,
+        "mobile_top_padding": 40,
+        "mobile_bottom_padding": 40,
+        "enable_bottom_border": false,
+        "item_heading_font": "body-bolder",
+        "item_heading_size": "h6",
+        "column_gap": "medium",
+        "content_width": "full",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "rich_text_Ftp6RW": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_f8PzDp": {
+          "type": "heading",
+          "settings": {
+            "heading": "Need some more help? Read our <em> </em><a href=\"/pages/faqs\" title=\"FAQs\"><em>FAQs</em></a>",
+            "heading_style": "heading",
+            "heading_size": "h2",
+            "highlight_style": "drawer_line",
+            "enable_highlight_text_color": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_f8PzDp"
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "background-1",
+        "enable_kiwi_background": false,
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "padding_top": 40,
+        "padding_bottom": 62,
+        "padding_top_mobile": 60,
+        "padding_bottom_mobile": 90,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "multicolumn_kFyfkz": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_miy3HA": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-07-22_at_14.25.39.jpg",
+            "mobile_image": "shopify://shop_images/Screenshot_2025-07-22_at_14.25.39.jpg",
+            "image_link": "https://www.instagram.com/p/DMQCnfLiyjy/?hl=en&img_index=1",
+            "title": "",
+            "heading_size": "h3",
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "column_zYM4LL": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/organic.jpg",
+            "mobile_image": "shopify://shop_images/organic.jpg",
+            "image_link": "https://www.instagram.com/p/DMIUQ9cC_Be/?hl=en&img_index=1",
+            "title": "",
+            "heading_size": "h3",
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "column_xYA8YN": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/event.jpg",
+            "mobile_image": "shopify://shop_images/event.jpg",
+            "image_link": "https://www.instagram.com/p/DLxyUQjsz2L/?hl=en",
+            "title": "",
+            "heading_size": "h3",
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        }
+      },
+      "block_order": [
+        "column_miy3HA",
+        "column_zYM4LL",
+        "column_xYA8YN"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "section_header_padding_bottom": "medium",
+        "heading": "#kiwicru",
+        "heading_flourish": false,
+        "heading_underline": "none",
+        "heading_size": "h1",
+        "description": "<p>Follow us on <a href=\"https://www.instagram.com/kiwicruwines/?hl=en\" target=\"_blank\" title=\"https://www.instagram.com/kiwicruwines/?hl=en\"><strong>Instagram</strong></a></p>",
+        "header_alignment": "left",
+        "layout": "vertical",
+        "text_alignment": "center",
+        "image_width": "fullwidth",
+        "columns": 3,
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "enable_swipe_mobile": false,
+        "column_mobile": "1",
+        "column_gap_mobile": "extra-small",
+        "row_gap_mobile": "extra-small",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 4,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    }
+  },
+  "order": [
+    "hero_fAXdhn",
+    "video_hero_a3yJcH",
+    "banner",
+    "product-grid",
+    "image_with_text_tQbY7K",
+    "hero_BAfNwR",
+    "featured_collection_LVB9XU",
+    "collapsible_tabs_4RYYTC",
+    "rich_text_Ftp6RW",
+    "multicolumn_kFyfkz"
+  ]
+}

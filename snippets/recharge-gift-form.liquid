@@ -1,0 +1,97 @@
+{% if product.tags contains 'Recharge Gift Product' %}
+  {% assign max_date = 'now' | date: "%s" | plus: 5256000 | date: "%Y-%m-%d" %}
+
+  <div class="gift-form__wrapper">
+    <input type="checkbox" id="toggle_gift_form" class="toggle_gift_form hidden" />
+    <label for="toggle_gift_form" class="btn btn--primary w-full">{{ 'products.product.subscriptions.add_gift_details_button' | t }}</label>
+
+    <div class="gift-form__fields" id="gift_form">
+      <div class="field flex-1">
+        <label class="form-label visually-hidden" for="gift_recipient_first_name">{{ 'products.product.subscriptions.recipient_first_name_label' | t }}</label>
+        <input
+          class="form-control"
+          id="gift_recipient_first_name"
+          type="text"
+          name="properties[__rc_gift_recipient_first_name]"
+          placeholder="{{ 'products.product.subscriptions.recipient_first_name_label' | t }}"
+          required
+          maxlength="50"
+          pattern=".*\S+.*"
+          form="{{ product_form_id }}"
+        />
+      </div>
+
+      <div class="field flex-1">
+        <label class="form-label visually-hidden" for="gift_recipient_last_name">{{ 'products.product.subscriptions.recipient_last_name_label' | t }}</label>
+        <input
+          class="form-control"
+          id="gift_recipient_last_name"
+          type="text"
+          name="properties[__rc_gift_recipient_last_name]"
+          placeholder="{{ 'products.product.subscriptions.recipient_last_name_label' | t }}"
+          required
+          maxlength="50"
+          pattern=".*\S+.*"
+          form="{{ product_form_id }}"
+        />
+      </div>
+
+      <div class="field w-full">
+        <label class="form-label visually-hidden" for="gift_recipient_email">{{ 'products.product.subscriptions.recipient_email_label' | t }}</label>
+        <input
+          class="form-control"
+          id="gift_recipient_email"
+          type="email"
+          name="properties[__rc_gift_recipient_email]"
+          placeholder="{{ 'products.product.subscriptions.recipient_email_label' | t }}"
+          required
+          maxlength="320"
+          form="{{ product_form_id }}"
+        />
+      </div>
+
+      <div class="field w-full">
+        <label class="form-label visually-hidden" for="gift_message">{{ 'products.product.subscriptions.gift_message_label' | t }}</label>
+        <textarea
+          class="form-control"
+          id="gift_message"
+          name="properties[__rc_gift_recipient_note]"
+          placeholder="{{ 'products.product.subscriptions.gift_message_label' | t }}"
+          rows="3"
+          required
+          maxlength="200"
+          form="{{ product_form_id }}"
+        ></textarea>
+      </div>
+
+      <div class="field flex-1">
+        <label class="form-label visually-hidden" for="gift_sender_name">{{ 'products.product.subscriptions.sender_name_label' | t }}</label>
+        <input
+          class="form-control"
+          id="gift_sender_name"
+          type="text"
+          name="properties[__rc_gift_sender_name]"
+          placeholder="{{ 'products.product.subscriptions.sender_name_label' | t }}"
+          required
+          maxlength="50"
+          form="{{ product_form_id }}"
+        />
+      </div>
+
+      <div class="field flex-1">
+        <label class="form-label visually-hidden" for="gift_notification_scheduled_at">{{ 'products.product.subscriptions.send_on' | t }}</label>
+        <input
+          class="form-control"
+          id="gift_notification_scheduled_at"
+          type="date"
+          name="properties[__rc_gift_notification_scheduled_at]"
+          required
+          value="{{ 'now' | date: '%Y-%m-%d' }}"
+          min="{{ 'now' | date: '%Y-%m-%d' }}"
+          max="{{ max_date }}"
+          form="{{ product_form_id }}"
+        />
+      </div>
+    </div>
+  </div>
+{% endif %}

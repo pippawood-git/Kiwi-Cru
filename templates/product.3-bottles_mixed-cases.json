@@ -1,0 +1,559 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "collection_tags_qzCb88": {
+          "type": "collection_tags",
+          "settings": {}
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h-xl"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_sale_badge": true,
+            "sale_badge_type": "percentage"
+          }
+        },
+        "description_pmJPXw": {
+          "type": "description",
+          "settings": {}
+        },
+        "winery_rAtLiY": {
+          "type": "winery",
+          "settings": {}
+        },
+        "subscription_7NdUbL": {
+          "type": "subscription",
+          "disabled": true,
+          "settings": {}
+        },
+        "recharge_subscriptions_subscription_widget_rqW779": {
+          "type": "shopify://apps/recharge-subscriptions/blocks/subscription-widget/371eed76-0b44-4869-9813-730372ea378e",
+          "disabled": true,
+          "settings": {
+            "product": "red-wine-subscription"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_atc_button": true,
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": true
+          }
+        },
+        "rebuy_personalization_engine_rebuy_widget_jggRgi": {
+          "type": "shopify://apps/rebuy-personalization-engine/blocks/rebuy-widget/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
+          "settings": {
+            "enabled": true,
+            "id": "204900",
+            "product_id_enabled": true,
+            "collection_id_enabled": false
+          }
+        }
+      },
+      "block_order": [
+        "collection_tags_qzCb88",
+        "title",
+        "price",
+        "description_pmJPXw",
+        "winery_rAtLiY",
+        "subscription_7NdUbL",
+        "recharge_subscriptions_subscription_widget_rqW779",
+        "quantity_selector",
+        "buy_buttons",
+        "rebuy_personalization_engine_rebuy_widget_jggRgi"
+      ],
+      "custom_css": [],
+      "settings": {
+        "container": "container",
+        "show_breadcrumb": false,
+        "enable_sticky_info": false,
+        "media_layout": "stacked",
+        "media_size": "medium",
+        "mobile_thumbnails": "hide",
+        "enable_image_zoom": true,
+        "enable_video_looping": false,
+        "show_featured_media": false
+      }
+    },
+    "product_information_tabs_XNXrQd": {
+      "type": "product-information-tabs",
+      "blocks": {
+        "description_NThzRE": {
+          "type": "description",
+          "settings": {
+            "header": "Description",
+            "default_open": true
+          }
+        },
+        "shipping_KwLLTq": {
+          "type": "shipping",
+          "settings": {
+            "header": "Delivery Information",
+            "default_open": true
+          }
+        }
+      },
+      "block_order": [
+        "description_NThzRE",
+        "shipping_KwLLTq"
+      ],
+      "disabled": true,
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "padding_top": 50,
+        "padding_bottom": 0,
+        "padding_top_mobile": 28,
+        "padding_bottom_mobile": 0,
+        "custom_id": "",
+        "custom_class": ""
+      }
+    },
+    "image_with_text_bhmKxC": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_UtneJ6": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ product.metafields.custom.mixed_cases | metafield_text: field: 'bottle_1_product_title' }}",
+            "heading_flourish": false,
+            "heading_underline": "pistachio",
+            "heading_size": "h2"
+          }
+        },
+        "text_pViYjN": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ product.metafields.custom.mixed_cases | metafield_text: field: 'bottle_1_text' }}</p>"
+          }
+        },
+        "button_LmcVWg": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn more",
+            "button_link": "{{ product.metafields.custom.bottle_url_1.value }}",
+            "button_style": "btn--primary",
+            "button_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_UtneJ6",
+        "text_pViYjN",
+        "button_LmcVWg"
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "image": "{{ product.metafields.custom.bottle_image_1.value }}",
+        "mobile_image": "{{ product.metafields.custom.bottle_image_1.value }}",
+        "image_width": "50%",
+        "image_position": "right",
+        "vertical_alignment": "center",
+        "column_gap": "none",
+        "row_gap": "small",
+        "padding_left": 40,
+        "padding_right": 72,
+        "align_content_container": "left",
+        "mobile_padding_left": 15,
+        "mobile_padding_right": 15,
+        "padding_top": 50,
+        "padding_bottom": 0,
+        "padding_top_mobile": 28,
+        "padding_bottom_mobile": 0,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "image_with_text_FTmyYD": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_LqiUXb": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ product.metafields.custom.mixed_cases | metafield_text: field: 'bottle_2_product_title' }}",
+            "heading_flourish": false,
+            "heading_underline": "pistachio",
+            "heading_size": "h2"
+          }
+        },
+        "text_7ezJeU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ product.metafields.custom.mixed_cases | metafield_text: field: 'bottle_2_text' }}</p>"
+          }
+        },
+        "button_dFaUD6": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn more",
+            "button_link": "{{ product.metafields.custom.bottle_url_2.value }}",
+            "button_style": "btn--primary",
+            "button_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_LqiUXb",
+        "text_7ezJeU",
+        "button_dFaUD6"
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "image": "{{ product.metafields.custom.bottle_image_2.value }}",
+        "mobile_image": "shopify://shop_images/iStock-1077526740.jpg",
+        "image_width": "50%",
+        "image_position": "left",
+        "vertical_alignment": "center",
+        "column_gap": "none",
+        "row_gap": "small",
+        "padding_left": 40,
+        "padding_right": 72,
+        "align_content_container": "left",
+        "mobile_padding_left": 15,
+        "mobile_padding_right": 15,
+        "padding_top": 50,
+        "padding_bottom": 0,
+        "padding_top_mobile": 28,
+        "padding_bottom_mobile": 0,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "image_with_text_N3TQcX": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_ctCVcW": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ product.metafields.custom.mixed_cases | metafield_text: field: 'bottle_3_product_title' }}",
+            "heading_flourish": false,
+            "heading_underline": "pistachio",
+            "heading_size": "h2"
+          }
+        },
+        "text_FKTi3Q": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ product.metafields.custom.mixed_cases | metafield_text: field: 'bottle_3_text' }}</p>"
+          }
+        },
+        "button_GMNctU": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn more",
+            "button_link": "{{ product.metafields.custom.bottle_url_3.value }}",
+            "button_style": "btn--primary",
+            "button_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_ctCVcW",
+        "text_FKTi3Q",
+        "button_GMNctU"
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "background-1",
+        "image": "{{ product.metafields.custom.bottle_image_3.value }}",
+        "mobile_image": "shopify://shop_images/iStock-1077526740.jpg",
+        "image_width": "50%",
+        "image_position": "right",
+        "vertical_alignment": "center",
+        "column_gap": "none",
+        "row_gap": "small",
+        "padding_left": 40,
+        "padding_right": 72,
+        "align_content_container": "left",
+        "mobile_padding_left": 15,
+        "mobile_padding_right": 15,
+        "padding_top": 50,
+        "padding_bottom": 0,
+        "padding_top_mobile": 28,
+        "padding_bottom_mobile": 0,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "image_with_text_cmYVXU": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_jqaQeJ": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ product.metafields.custom.image_with_text_2.value.title.value }}",
+            "heading_flourish": false,
+            "heading_underline": "sun",
+            "heading_size": "h2"
+          }
+        },
+        "text_Dg4a8n": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ product.metafields.custom.image_with_text_2.value.text | metafield_tag }}</p>"
+          }
+        },
+        "button_pKp8RU": {
+          "type": "button",
+          "settings": {
+            "button_label": "{{ product.metafields.custom.image_with_text_2.value.button_text.value }}",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "button_size": "btn--medium"
+          }
+        }
+      },
+      "block_order": [
+        "heading_jqaQeJ",
+        "text_Dg4a8n",
+        "button_pKp8RU"
+      ],
+      "settings": {
+        "container": "container-full",
+        "color_schema": "",
+        "image": "{{ product.metafields.custom.image_with_text_2.value.image.value }}",
+        "mobile_image": "{{ product.metafields.custom.image_with_text_2.value.mobile_image.value }}",
+        "image_width": "50%",
+        "image_position": "left",
+        "vertical_alignment": "center",
+        "column_gap": "none",
+        "row_gap": "small",
+        "padding_left": 72,
+        "padding_right": 50,
+        "align_content_container": "right",
+        "mobile_padding_left": 16,
+        "mobile_padding_right": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_mobile": 28,
+        "padding_bottom_mobile": 28,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "custom_content_p4kEY9": {
+      "type": "custom-content",
+      "blocks": {
+        "image_card_eFqjgL": {
+          "type": "image_card",
+          "settings": {
+            "layout": "layout7",
+            "text_color": "#000000",
+            "image": "{{ product.metafields.custom.maker_1.value.image.value }}",
+            "image_hover": "{{ product.metafields.custom.maker_1.value.secondary_image_on_hover.value }}",
+            "mobile_image": "{{ product.metafields.custom.maker_1.value.mobile_image.value }}",
+            "image_ratio": "adapt",
+            "image_overlay_opacity": 0,
+            "sub_heading": "",
+            "subheading_divider": false,
+            "heading": "{{ product.metafields.custom.maker_1.value.name.value }}",
+            "heading_size": "h2",
+            "description": "<p>{{ product.metafields.custom.maker_1.value.description | metafield_tag }}</p>",
+            "button_label": "{{ product.metafields.custom.maker_1.value.button_text.value }}",
+            "button_link": "{{ product.metafields.custom.maker_1.value.button_link.value }}",
+            "button_style": "btn--underline",
+            "vertical_content_padding": 40,
+            "vertical_content_padding_mobile": 40,
+            "alignment": "top",
+            "width": "33%",
+            "animations": "inherit"
+          }
+        },
+        "image_card_WgTfqd": {
+          "type": "image_card",
+          "settings": {
+            "layout": "layout7",
+            "text_color": "#000000",
+            "image": "{{ product.metafields.custom.maker_2.value.image.value }}",
+            "image_hover": "{{ product.metafields.custom.maker_2.value.secondary_image_on_hover.value }}",
+            "mobile_image": "{{ product.metafields.custom.maker_2.value.mobile_image.value }}",
+            "image_ratio": "adapt",
+            "image_overlay_opacity": 0,
+            "sub_heading": "",
+            "subheading_divider": false,
+            "heading": "{{ product.metafields.custom.maker_2.value.name.value }}",
+            "heading_size": "h2",
+            "description": "<p>{{ product.metafields.custom.maker_2.value.description | metafield_tag }}</p>",
+            "button_label": "{{ product.metafields.custom.maker_2.value.button_text.value }}",
+            "button_link": "{{ product.metafields.custom.maker_2.value.button_link.value }}",
+            "button_style": "btn--underline",
+            "vertical_content_padding": 40,
+            "vertical_content_padding_mobile": 40,
+            "alignment": "top",
+            "width": "33%",
+            "animations": "inherit"
+          }
+        },
+        "image_card_FTdRKy": {
+          "type": "image_card",
+          "settings": {
+            "layout": "layout7",
+            "text_color": "#000000",
+            "image": "{{ product.metafields.custom.maker_3.value.image.value }}",
+            "image_hover": "{{ product.metafields.custom.maker_3.value.secondary_image_on_hover.value }}",
+            "mobile_image": "{{ product.metafields.custom.maker_3.value.mobile_image.value }}",
+            "image_ratio": "adapt",
+            "image_overlay_opacity": 0,
+            "sub_heading": "",
+            "subheading_divider": false,
+            "heading": "{{ product.metafields.custom.maker_3.value.name.value }}",
+            "heading_size": "h2",
+            "description": "<p>{{ product.metafields.custom.maker_3.value.description | metafield_tag }}</p>",
+            "button_label": "{{ product.metafields.custom.maker_3.value.button_text.value }}",
+            "button_link": "{{ product.metafields.custom.maker_3.value.button_link.value }}",
+            "button_style": "btn--underline",
+            "vertical_content_padding": 40,
+            "vertical_content_padding_mobile": 40,
+            "alignment": "top",
+            "width": "33%",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "image_card_eFqjgL",
+        "image_card_WgTfqd",
+        "image_card_FTdRKy"
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "section_header_padding_bottom": "medium",
+        "heading": "",
+        "heading_flourish": false,
+        "heading_underline": "none",
+        "heading_size": "h2",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 28,
+        "custom_id": "",
+        "custom_class": ""
+      }
+    },
+    "product_tabs_tJbUtH": {
+      "type": "product-tabs",
+      "blocks": {
+        "tab_abbBRt": {
+          "type": "tab",
+          "settings": {
+            "title": "Similar Wines",
+            "collection": "sustainable"
+          }
+        },
+        "tab_JaAErC": {
+          "type": "tab",
+          "settings": {
+            "title": "From the Same Area",
+            "collection": "new"
+          }
+        }
+      },
+      "block_order": [
+        "tab_abbBRt",
+        "tab_JaAErC"
+      ],
+      "disabled": true,
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "layout": "horizontal",
+        "heading": "You May Also Like",
+        "heading_flourish": true,
+        "heading_underline": "none",
+        "heading_size": "h2",
+        "description": "",
+        "limit": 3,
+        "columns": 3,
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "enable_slider": false,
+        "show_nav": false,
+        "show_dots": false,
+        "pcard_image_ratio": "",
+        "show_vendor": false,
+        "button_label": "",
+        "button_style": "btn--primary",
+        "enable_swipe_mobile": true,
+        "column_mobile": "2",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 28,
+        "padding_bottom_mobile": 28,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "17418815809f2f9cbd": {
+      "type": "apps",
+      "blocks": {
+        "rebuy_personalization_engine_rebuy_widget_8MKbGx": {
+          "type": "shopify://apps/rebuy-personalization-engine/blocks/rebuy-widget/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
+          "settings": {
+            "enabled": true,
+            "id": "204902",
+            "product_id_enabled": true,
+            "collection_id_enabled": false
+          }
+        }
+      },
+      "block_order": [
+        "rebuy_personalization_engine_rebuy_widget_8MKbGx"
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "heading": "",
+        "description": "",
+        "padding_top": 0,
+        "padding_bottom": 50,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40
+      }
+    }
+  },
+  "order": [
+    "main",
+    "17418815809f2f9cbd",
+    "product_information_tabs_XNXrQd",
+    "image_with_text_bhmKxC",
+    "image_with_text_FTmyYD",
+    "image_with_text_N3TQcX",
+    "image_with_text_cmYVXU",
+    "custom_content_p4kEY9",
+    "product_tabs_tJbUtH"
+  ]
+}

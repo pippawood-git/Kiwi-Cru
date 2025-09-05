@@ -1,0 +1,336 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero_eBxC4D": {
+      "type": "hero",
+      "blocks": {
+        "title_c7xHfe": {
+          "type": "title",
+          "settings": {
+            "title": "{{ collection.title }}",
+            "heading_flourish": false,
+            "heading_underline": "none",
+            "heading_size": "h1"
+          }
+        },
+        "text_idHtC3": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        },
+        "button_JXTPnR": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "/",
+            "button_style": "btn--underline",
+            "button_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "title_c7xHfe",
+        "text_idHtC3",
+        "button_JXTPnR"
+      ],
+      "settings": {
+        "container": "container-full",
+        "image": "{{ collection.image }}",
+        "image_mobile": "{{ collection.image }}",
+        "image_overlay_opacity": 40,
+        "hero_height": "medium",
+        "content_in_container": true,
+        "content_width": "narrow",
+        "content_position": "left-bottom",
+        "text_alignment": "left",
+        "text_color": "#ffffff",
+        "hero_height_mobile": "large",
+        "content_position_mobile": "left-bottom",
+        "show_text_below": false,
+        "text_alignment_mobile": "left",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit",
+        "enable_bg_zoom_effect": true
+      }
+    },
+    "multicolumn_Xfknky": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_BnpfDK": {
+          "type": "column",
+          "settings": {
+            "image": "{{ metaobjects.region.marlborough.banner_image_sqaure_multicolumn.value }}",
+            "mobile_image": "{{ metaobjects.region.marlborough.banner_image_sqaure_multicolumn.value }}",
+            "image_link": "{{ metaobjects.region.marlborough.marlborough.value }}",
+            "title": "{{ metaobjects.region.marlborough.name.value }}",
+            "heading_size": "h6",
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "column_x9XxFk": {
+          "type": "column",
+          "settings": {
+            "image": "{{ metaobjects.region[\"hawkes-bay\"].banner_image_sqaure_multicolumn.value }}",
+            "mobile_image": "{{ metaobjects.region[\"hawkes-bay\"].banner_image_sqaure_multicolumn.value }}",
+            "image_link": "{{ metaobjects.region[\"hawkes-bay\"].marlborough.value }}",
+            "title": "{{ metaobjects.region[\"hawkes-bay\"].name.value }}",
+            "heading_size": "h6",
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "column_nRTgaf": {
+          "type": "column",
+          "settings": {
+            "image": "{{ metaobjects.region.auckland.banner_image_sqaure_multicolumn.value }}",
+            "mobile_image": "{{ metaobjects.region.auckland.banner_image_sqaure_multicolumn.value }}",
+            "image_link": "{{ metaobjects.region.auckland.marlborough.value }}",
+            "title": "{{ metaobjects.region.auckland.name.value }}",
+            "heading_size": "h6",
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "column_dh79e8": {
+          "type": "column",
+          "settings": {
+            "image": "{{ metaobjects.region[\"north-canterbury\"].banner_image_sqaure_multicolumn.value }}",
+            "mobile_image": "{{ metaobjects.region[\"north-canterbury\"].banner_image_sqaure_multicolumn.value }}",
+            "image_link": "{{ metaobjects.region[\"north-canterbury\"].marlborough.value }}",
+            "title": "{{ metaobjects.region[\"north-canterbury\"].name.value }}",
+            "heading_size": "h6",
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "column_BNww77": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "{{ metaobjects.region.martinborough.banner_image_sqaure_multicolumn.value }}",
+            "mobile_image": "{{ metaobjects.region.martinborough.banner_image_sqaure_multicolumn.value }}",
+            "image_link": "{{ metaobjects.region.martinborough.system.url }}",
+            "title": "{{ metaobjects.region.martinborough.name.value }}",
+            "heading_size": "h6",
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "column_RH4gjL": {
+          "type": "column",
+          "settings": {
+            "image": "{{ metaobjects.region[\"central-otago\"].banner_image_sqaure_multicolumn.value }}",
+            "mobile_image": "{{ metaobjects.region[\"central-otago\"].banner_image_sqaure_multicolumn.value }}",
+            "image_link": "{{ metaobjects.region[\"central-otago\"].marlborough.value }}",
+            "title": "{{ metaobjects.region[\"central-otago\"].name.value }}",
+            "heading_size": "h6",
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        }
+      },
+      "block_order": [
+        "column_BnpfDK",
+        "column_x9XxFk",
+        "column_nRTgaf",
+        "column_dh79e8",
+        "column_BNww77",
+        "column_RH4gjL"
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "section_header_padding_bottom": "medium",
+        "heading": "",
+        "heading_flourish": false,
+        "heading_underline": "none",
+        "heading_size": "h2",
+        "description": "",
+        "header_alignment": "center",
+        "layout": "vertical",
+        "text_alignment": "center",
+        "image_width": "fullwidth",
+        "columns": 6,
+        "column_gap": "medium",
+        "row_gap": "small",
+        "enable_swipe_mobile": false,
+        "column_mobile": "3",
+        "column_gap_mobile": "small",
+        "row_gap_mobile": "small",
+        "padding_top": 40,
+        "padding_bottom": 20,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 20,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "blocks": {
+        "4ed3ca22-53a8-4d7d-a4d8-4375e98681f8": {
+          "type": "banner",
+          "settings": {
+            "collection": "all"
+          }
+        }
+      },
+      "block_order": [
+        "4ed3ca22-53a8-4d7d-a4d8-4375e98681f8"
+      ],
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "container": "container",
+        "color_schema": "background-1",
+        "image_height": "adapt",
+        "text_alignment": "center",
+        "show_breadcrumb": false,
+        "show_desc": true,
+        "show_collection_image": false,
+        "image_position": "use_image_as_background",
+        "image_overlay_opacity": 0,
+        "animations": "inherit",
+        "enable_bg_zoom_effect": true
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "custom_css": [],
+      "settings": {
+        "container": "container",
+        "products_per_page": 50,
+        "columns": 3,
+        "enable_product_count": false,
+        "enable_filtering": true,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "paginate_type": "number",
+        "padding_top": 0,
+        "padding_bottom": 50,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 28
+      }
+    },
+    "testimonials_Q6Hm6R": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_yLj3Vn": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>Tellus quisque fames torquent, faucibus amet tincidunt. Nulla morbi curae euismod platea dignissim cursus est. </p>",
+            "author": "Author's Name",
+            "bio": "",
+            "product": "",
+            "icon": "none"
+          }
+        },
+        "testimonial_iTwx86": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>Tellus quisque fames torquent, faucibus amet tincidunt. Nulla morbi curae euismod platea dignissim cursus est. </p>",
+            "author": "Author's Name",
+            "bio": "",
+            "product": "",
+            "icon": "none"
+          }
+        },
+        "testimonial_3w4UnC": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>Tellus quisque fames torquent, faucibus amet tincidunt. Nulla morbi curae euismod platea dignissim cursus est. </p>",
+            "author": "Author's Name",
+            "bio": "",
+            "product": "",
+            "icon": "none"
+          }
+        },
+        "testimonial_MiBfkk": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>Tellus quisque fames torquent, faucibus amet tincidunt. Nulla morbi curae euismod platea dignissim cursus est. </p>",
+            "author": "Author's Name",
+            "bio": "",
+            "product": "",
+            "icon": "none"
+          }
+        },
+        "testimonial_QffVzj": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>Tellus quisque fames torquent, faucibus amet tincidunt. Nulla morbi curae euismod platea dignissim cursus est. </p>",
+            "author": "Author's Name",
+            "bio": "",
+            "product": "",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_yLj3Vn",
+        "testimonial_iTwx86",
+        "testimonial_3w4UnC",
+        "testimonial_MiBfkk",
+        "testimonial_QffVzj"
+      ],
+      "disabled": true,
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "section_header_padding_bottom": "medium",
+        "heading": "Reviews",
+        "heading_flourish": false,
+        "heading_underline": "none",
+        "heading_size": "h2",
+        "description": "",
+        "design": "fancy",
+        "stars_color": "#444444",
+        "columns": 4,
+        "column_gap": "medium",
+        "enable_slider": true,
+        "show_dots": true,
+        "show_nav": false,
+        "autoplay": false,
+        "autoplay_timeout": 5,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    }
+  },
+  "order": [
+    "hero_eBxC4D",
+    "multicolumn_Xfknky",
+    "banner",
+    "product-grid",
+    "testimonials_Q6Hm6R"
+  ]
+}

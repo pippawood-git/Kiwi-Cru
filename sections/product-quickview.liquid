@@ -1,0 +1,192 @@
+{% liquid
+  assign product_form_id = 'product-form-' | append: section.id
+
+  assign first_3d_model = product.media | where: 'media_type', 'model' | first
+
+  assign subscription_desc = product.metafields.custom.subscription_short_description
+  assign subscription_date = product.metafields.custom.subscription_end_date | date: "%s"
+
+  assign has_divider = false
+  if subscription_date != blank
+    assign has_divider = true
+  endif
+%}
+
+<modal-dialog id="QuickView-Modal" data-product-handle="{{ product.handle }}" class="f-modal f-modal-quickview{% if product.tags contains 'Subscription' %} quickview-subscribe{% endif %}" style="--modal-width: 980px">
+  <product-recently-viewed data-product-id="{{ product.id }}" class="f:hidden"></product-recently-viewed>
+  <div class="f-modal__content" role="dialog" aria-label="Quick view" aria-modal="true" tabindex="-1">
+    <div class="f-modal__inner scroll-container">
+      <button
+        id="ModalClose-QuickView"
+        type="button"
+        class="f-modal__close"
+        aria-label="{{ 'accessibility.close' | t }}"
+      >
+        {% render 'icon-close' %}
+      </button>
+      <div data-section-id="{{ section.id }}">
+        <div class="f-product-quickview flex flex-wrap">
+          {% if product.images.size > 0 %}
+            <div class="f-product-quickview__media w-full">
+              {% render 'product-media',
+                product: product,
+                section: section,
+                show_featured_media: settings.qv_show_featured_media
+              %}
+            </div>
+          {% endif %}
+          <div class="f-product-quickview__summary w-full">
+            {% if settings.qv_show_custom_tag %}
+              <div class="f-product-single__block f-product-single__block--badge">
+                {%- liquid
+                  assign has_tags = false
+                  for tag in product.tags
+                    if tag contains 'tag__'
+                      assign has_tags = true
+                    endif
+                  endfor
+                -%}
+                {%- if has_tags -%}
+                  <div class="f-product__tags">
+                    {% for tag in product.tags %}
+                      {% if tag contains 'tag__' %}
+                        {%- liquid
+                          assign tag_content = tag | split: '__' | last
+                          assign type = tag_content | split: '_' | first
+                          assign tag_name = tag_content | split: '_' | last
+                        -%}
+                        <span class="f-badge f-badge--{{ type }}">
+                          {{ tag_name }}
+                        </span>
+                      {% endif %}
+                    {% endfor %}
+                  </div>
+                {%- endif -%}
+              </div>
+            {% endif %}
+            <div class="f-product-single__block f-product-single__block--title">
+              {% if settings.qv_show_vendor %}
+                <p class="f-product__vendor text-upper text-subtext">
+                  {{ product.vendor }}
+                </p>
+              {% endif %}
+              <h2 class="f-product-single__title h2">
+                {{ product.title | escape }}
+              </h2>
+            </div>
+            <div class="f-product-single__block f-product-single__block--price{% if has_divider %} section__heading--underline section__heading--underline-pistachio{% endif %}">
+              <div id="f-product-price-{{ section.id }}" role="status">
+                {% render 'price', product: product %}
+              </div>
+            </div>
+            {% if subscription_desc != blank %}
+              <p class="product-card__subscription-desc">{{ subscription_desc }}</p>
+            {% endif %}
+
+            {% if product.metafields.custom.product_variant_links != blank %}
+              {% liquid
+                assign default_variant_links_group = 'products.product.bottle_size_label' | t
+                assign variant_links_group = product.metafields.custom.variant_links_group | default: default_variant_links_group
+              %}
+              <p class="product-variant__label">{{ variant_links_group }}</p>
+              <div class="product-variant__item-wrapper">
+                {% for product_variant in product.metafields.custom.product_variant_links.value %}
+                  <button data-product-quickview="{{ product_variant.handle }}" data-bottle-size="{{ product_variant.metafields.custom.bottle_size }}" class="product-variant__item button{% if product_variant.url == product.url %} active{% endif %}">
+                    {{ product_variant.metafields.custom.bottle_size }}
+                  </button>
+                {% endfor %}
+              </div>
+            {% endif %}
+            <div class="f-product-single__block f-product-single__block--variant_picker">
+              {% render 'variant-picker',
+                color_schema: 'background-1',
+                product: product,
+                show_size_chart: true,
+                update_browser_history: false,
+                show_selected_value: false,
+                disable_preselected: true
+              %}
+            </div>
+            <div class="subscription-container">
+              {% if product.selling_plan_groups.size > 0 %}
+                <p class="quickview-subscribe__label">{{ 'products.product.subscribe_how_often' | t }}</p>
+              {% endif %}
+              {% for group in product.selling_plan_groups %}
+                {% assign first_loop = false %}
+                {% if forloop.first %}
+                  {% assign first_loop = true %}
+                {% endif %}
+                {% for selling_plan in group.selling_plans %}
+                  <input type="radio" id="selling_plan_{{ selling_plan.id }}" class="product-quickview__selling-plan" form="{{ product_form_id }}" name="selling_plan" value="{{ selling_plan.id }}" {%- if first_loop %} checked="checked"{% endif %}>
+                  <label for="selling_plan_{{ selling_plan.id }}">
+                    {% render 'icon-subscription-checkbox' %}
+                    {% render 'icon-subscription-checkbox-filled' %}
+                    {{ selling_plan.name }}
+                  </label>
+                {% endfor %}
+              {% endfor %}
+            </div>
+            {% render 'recharge-gift-form', product_form_id: product_form_id %}
+            {% if settings.qv_show_quantity_selector %}
+              <div class="f-product-single__block f-product-single__block--quantity_selector">
+                <div class="f-product-single__info-quantity">
+                  {% render 'quantity-input',
+                    section_id: section.id,
+                    form_id: product_form_id,
+                    min: 1,
+                    product_title: product.title,
+                    show_label: true
+                  %}
+                </div>
+              </div>
+            {% endif %}
+            <div class="f-product-single__block f-product-single__block--buy_buttons{% if product.template_suffix == "subscription" %} subscription{% endif %}">
+              <product-form class="f-product-form">
+                {%- form 'product',
+                  product,
+                  id: product_form_id,
+                  class: 'quickview-product-form',
+                  novalidate: 'novalidate',
+                  data-type: 'add-to-cart-form'
+                -%}
+                  <input
+                    type="hidden"
+                    name="id"
+                    value="{{ product.selected_or_first_available_variant.id }}"
+                    disabled
+                  >
+                  <div class="f-product-form__buttons">
+                    <button
+                      type="submit"
+                      name="add"
+                      class="f-product-form__submit btn btn--primary"
+                      disabled
+                    >
+                      <span>
+                        {%- if product.selected_or_first_available_variant.available -%}
+                          {{ 'products.product.add_to_cart' | t }}
+                        {%- else -%}
+                          {{ 'products.product.sold_out' | t }}
+                        {%- endif -%}
+                      </span>
+                      {% render 'icon-spinner' %}
+                    </button>
+                    {% if subscription_date != blank %}
+                      <p class="subscription__cancel-text">{{ 'products.product.subscribe_cancel_text' | t }}</p>
+                    {% endif %}
+                    <div class="f-product-form__error-message-wrapper" role="alert"></div>
+                  </div>
+                {%- endform -%}
+              </product-form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</modal-dialog>
+{%- if first_3d_model -%}
+  <script type="application/json" id="ModelJSON-{{ product.id }}">
+    {{ product.media | where: 'media_type', 'model' | json }}
+  </script>
+{%- endif -%}

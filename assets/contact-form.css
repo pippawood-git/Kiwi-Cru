@@ -1,0 +1,98 @@
+.f-contact-form,
+.f-contact-form .container {
+  position: relative;
+}
+.f-contact-form__background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.f-contact-form__background:has(~ .container .form-message--success) {
+  display: none;
+}
+.f-contact-form .f-contact-form__fields {
+  max-width: 500px;
+  margin: 0 auto;
+  row-gap: var(--spacing-8);
+}
+.f-contact-form__fields.f-flex .f-column {
+  padding: 0;
+}
+.f-contact-form__wrapper .form-control {
+  background-color: rgb(var(--pearl));
+}
+.f-contact-form__wrapper input {
+  height: 4.8rem;
+}
+.f-contact-form__fields .form-field {
+  margin: 0;
+}
+.f-contact-form__fields .form-submit button {
+  min-width: 19.4rem;
+}
+.f-contact-form-design-2 .form-control {
+  border: 0;
+  border-bottom: 0.2rem solid var(--color-border);
+  padding: 0;
+  box-shadow: none !important;
+}
+.f-contact-form__fields textarea {
+  min-height: 213px;
+  max-width: 100%;
+}
+.f-contact-form__fields .btn {
+  min-width: 170px;
+}
+.contact__details,
+.contact__details + p {
+  text-align: center;
+}
+.contact__details + p {
+  font-size: var(--font-size-xxs);
+  line-height: var(--font-line-height-xxs);
+}
+.contact__details h3 {
+  display: inline-block;
+  padding: 0 var(--spacing-6) 0 var(--spacing-4);
+  margin-bottom: 1.8rem;
+}
+.contact-form__description {
+  width: 100%;
+  text-align: center;
+  padding: var(--spacing-16) 0;
+}
+@media (max-width: 767px) {
+  .f-contact-form__background.desktop {
+    display: none;
+  }
+  .f-contact-form__background.mobile {
+    object-fit: unset;
+  }
+  .contact__details span {
+    display: block;
+    text-align: left;
+    text-wrap: nowrap;
+    margin-bottom: var(--spacing-6);
+  }
+  .contact__details h3 {
+    padding: 0;
+  }
+  .contact-form__description {
+    margin: 0;
+    padding: var(--spacing-14) 0;
+  }
+}
+@media (min-width: 768px) {
+  .f-contact-form__background.mobile {
+    display: none;
+  }
+}
+.site-main:has(.f-contact-form__wrapper .form-message--success) .f-contact-form {
+  min-height: 10rem;
+  display: flex;
+  padding: 0;
+  align-items: center;
+}

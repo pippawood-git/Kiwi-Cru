@@ -1,0 +1,52 @@
+{% liquid
+  assign form_id = section.id | append: '_'
+  assign show_cart = section.settings.show_cart
+  assign show_account = section.settings.show_account
+  assign show_language_selector = section.settings.show_language_selector
+  assign show_country_selector = section.settings.show_country_selector
+  assign mobile_show_cart = section.settings.mobile_show_cart
+  comment
+    assign mobile_show_account = section.settings.mobile_show_account
+  endcomment
+
+  assign cart_class = 'hidden'
+  if show_cart
+    assign cart_class = cart_class | append: ' lg:inline-flex'
+  endif
+  if show_cart and mobile_show_cart
+    assign cart_class = ''
+  endif
+  if show_cart == false and mobile_show_cart
+    assign cart_class = 'lg:hidden'
+  endif
+%}
+
+<div class="site-header__addons flex items-center {{ custom_class }}">
+  {% if show_country_selector %}
+    <div class="site-header__element f-tablet-hidden">
+      {% render 'country-selector', plain: true, class: 'site-header__link', form_id: form_id %}
+    </div>
+  {% endif %}
+  {% if show_language_selector %}
+    <div class="site-header__element f-tablet-hidden">
+      {% render 'language-selector', plain: true, class: 'site-header__link', form_id: form_id %}
+    </div>
+  {% endif %}
+  {% liquid
+    comment
+    endcomment
+    assign search_form_class = ''
+    if section.settings.layout == 'design-3'
+      assign search_form_class = 'xl:hidden'
+    endif
+  %}
+  {% render 'header__search', section: section, search_form_class: search_form_class, color_schema: color_schema %}
+  {% if shop.customer_accounts_enabled and show_account %}
+    <div class="site-header__element hidden margin-inline-start--small addons-inline--small hidden md:flex">
+      {% render 'user-links', block: block, link_class: 'site-header__link', color_schema: color_schema %}
+    </div>
+  {% endif %}
+  <div class="site-header__element addons-inline--small {{ cart_class }} flex">
+    {% render 'cart-link', block: block, link_class: 'site-header__link', color_schema: color_schema %}
+  </div>
+</div>

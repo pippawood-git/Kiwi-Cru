@@ -1,0 +1,1644 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "collection_list_ywz3XL": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_mAxz4K": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "title": ""
+          }
+        },
+        "featured_collection_xFPqXf": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "title": ""
+          }
+        },
+        "featured_collection_kMbbgM": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "title": ""
+          }
+        },
+        "featured_collection_RAzrbt": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "title": ""
+          }
+        },
+        "featured_collection_JTiABD": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "title": ""
+          }
+        },
+        "featured_collection_hcQcXt": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "title": ""
+          }
+        },
+        "featured_collection_DYxybg": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "title": ""
+          }
+        },
+        "featured_collection_VQrA8J": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_mAxz4K",
+        "featured_collection_xFPqXf",
+        "featured_collection_kMbbgM",
+        "featured_collection_RAzrbt",
+        "featured_collection_JTiABD",
+        "featured_collection_hcQcXt",
+        "featured_collection_DYxybg",
+        "featured_collection_VQrA8J"
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "section_header_padding_bottom": "medium",
+        "header_layout": "vertical",
+        "heading": "Collections",
+        "heading_flourish": true,
+        "heading_underline": "sun",
+        "heading_size": "h2",
+        "description": "",
+        "title_font": "heading",
+        "title_size": "h6",
+        "card_style": "1",
+        "text_alignment": "center",
+        "text_color": "#000000",
+        "image_ratio": "adapt",
+        "show_count": false,
+        "inline_count": false,
+        "columns": 4,
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "show_all_button_on_top": false,
+        "button_label": "",
+        "button_url": "",
+        "button_style": "btn--primary",
+        "enable_slider": false,
+        "show_dots": false,
+        "show_nav": false,
+        "enable_swipe_mobile": true,
+        "column_mobile": "2",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "mobile_top_padding": 40,
+        "mobile_bottom_padding": 40,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "slideshow_ewyyEp": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_r76ExX": {
+          "type": "slide",
+          "settings": {
+            "background": "shopify://shop_images/contact-mob-nooverlay.png",
+            "mb_background": "shopify://shop_images/meet-the-makers-2.png",
+            "image_overlay_opacity": 0,
+            "content_position": "center",
+            "text_alignment": "center",
+            "text_color": "#000000",
+            "title": "Image slide",
+            "heading_size": "h2",
+            "subheading": "",
+            "description": "<p>Tell your brand's story through images</p>",
+            "desc_size": "text-desc-base",
+            "button_text_1": "Button label",
+            "button_link_1": "",
+            "button_style_1": "btn--primary",
+            "button_size_1": "",
+            "button_text_2": "",
+            "button_link_2": "",
+            "button_style_2": "btn--primary",
+            "button_size_2": ""
+          }
+        },
+        "slide_xkWHBq": {
+          "type": "slide",
+          "settings": {
+            "image_overlay_opacity": 0,
+            "content_position": "center",
+            "text_alignment": "center",
+            "text_color": "#000000",
+            "title": "Image slide",
+            "heading_size": "h2",
+            "subheading": "",
+            "description": "<p>Tell your brand's story through images</p>",
+            "desc_size": "text-desc-base",
+            "button_text_1": "Button label",
+            "button_link_1": "",
+            "button_style_1": "btn--primary",
+            "button_size_1": "",
+            "button_text_2": "",
+            "button_link_2": "",
+            "button_style_2": "btn--primary",
+            "button_size_2": ""
+          }
+        },
+        "slide_p3rpDK": {
+          "type": "slide",
+          "settings": {
+            "image_overlay_opacity": 0,
+            "content_position": "center",
+            "text_alignment": "center",
+            "text_color": "#000000",
+            "title": "Image slide",
+            "heading_size": "h2",
+            "subheading": "",
+            "description": "<p>Tell your brand's story through images</p>",
+            "desc_size": "text-desc-base",
+            "button_text_1": "Button label",
+            "button_link_1": "",
+            "button_style_1": "btn--primary",
+            "button_size_1": "",
+            "button_text_2": "",
+            "button_link_2": "",
+            "button_style_2": "btn--primary",
+            "button_size_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_r76ExX",
+        "slide_xkWHBq",
+        "slide_p3rpDK"
+      ],
+      "settings": {
+        "container": "container-full",
+        "slideshow_height": "large",
+        "show_dots": true,
+        "show_nav": false,
+        "autoplay": false,
+        "autorotate_speed": 3,
+        "pagination_background": "light",
+        "controls_position": "center",
+        "pagination_style": "dots",
+        "show_text_below": false,
+        "text_alignment_mobile": "center",
+        "accessibility_info": "Slideshow about our brand",
+        "custom_id": "",
+        "custom_class": "",
+        "enable_bg_zoom_effect": false
+      }
+    },
+    "multicolumn_UyWKNK": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_3TbX8d": {
+          "type": "column",
+          "settings": {
+            "image_link": "",
+            "title": "Column",
+            "heading_size": "h3",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "column_xQ6Pdd": {
+          "type": "column",
+          "settings": {
+            "image_link": "",
+            "title": "Column",
+            "heading_size": "h3",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "column_QxDfbF": {
+          "type": "column",
+          "settings": {
+            "image_link": "",
+            "title": "Column",
+            "heading_size": "h3",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "column_YN8ied": {
+          "type": "column",
+          "settings": {
+            "image_link": "",
+            "title": "Column",
+            "heading_size": "h3",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        }
+      },
+      "block_order": [
+        "column_3TbX8d",
+        "column_xQ6Pdd",
+        "column_QxDfbF",
+        "column_YN8ied"
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "section_header_padding_bottom": "medium",
+        "heading": "Heading",
+        "heading_flourish": true,
+        "heading_underline": "sun",
+        "heading_size": "h2",
+        "description": "",
+        "header_alignment": "center",
+        "layout": "vertical",
+        "text_alignment": "center",
+        "image_width": "fullwidth",
+        "columns": 4,
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "enable_swipe_mobile": false,
+        "column_mobile": "1",
+        "column_gap_mobile": "extra-small",
+        "row_gap_mobile": "extra-small",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "contact_form_xwkRhK": {
+      "type": "contact-form",
+      "blocks": {
+        "name_6BVtQk": {
+          "type": "name",
+          "settings": {
+            "label": "Name",
+            "placeholder": "Enter your name",
+            "field_width": "full",
+            "hide_label": true,
+            "required": false
+          }
+        },
+        "email_WAmH8a": {
+          "type": "email",
+          "settings": {
+            "label": "Email",
+            "placeholder": "Enter your email",
+            "field_width": "full",
+            "hide_label": true
+          }
+        },
+        "message_HVKMJ7": {
+          "type": "message",
+          "settings": {
+            "label": "Message",
+            "placeholder": "Enter your message",
+            "hide_label": true
+          }
+        }
+      },
+      "block_order": [
+        "name_6BVtQk",
+        "email_WAmH8a",
+        "message_HVKMJ7"
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "heading": "Contact form",
+        "heading_flourish": true,
+        "heading_underline": "sun",
+        "section_header_padding_bottom": "medium",
+        "heading_size": "h2",
+        "description": "",
+        "form_design": "design-1",
+        "form_width": 500,
+        "form_alignment": "center",
+        "button_label": "Send",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "video_Cr73eL": {
+      "type": "video",
+      "settings": {
+        "container": "container",
+        "section_header_padding_bottom": "medium",
+        "heading": "Video",
+        "heading_flourish": true,
+        "heading_underline": "sun",
+        "heading_size": "h2",
+        "description": "",
+        "video_type": "external",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "video_ratio": "adapt",
+        "autoplay_video": false,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "custom_liquid_gK6bT8": {
+      "type": "custom-liquid",
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "custom_liquid": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40
+      }
+    },
+    "scrolling_promotion_8jAjPN": {
+      "type": "scrolling-promotion",
+      "blocks": {
+        "image_Rz6MDF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/contact-mob-nooverlay.png",
+            "mobile_image": "shopify://shop_images/meet-the-makers-2.png",
+            "image_height": 120,
+            "image_link": "",
+            "use_custom_spacing": false,
+            "margin_left": 10,
+            "margin_right": 10,
+            "margin_left_mobile": 10,
+            "margin_right_mobile": 10
+          }
+        },
+        "image_PwGqez": {
+          "type": "image",
+          "settings": {
+            "image_height": 120,
+            "image_link": "",
+            "use_custom_spacing": false,
+            "margin_left": 10,
+            "margin_right": 10,
+            "margin_left_mobile": 10,
+            "margin_right_mobile": 10
+          }
+        },
+        "image_np66EE": {
+          "type": "image",
+          "settings": {
+            "image_height": 120,
+            "image_link": "",
+            "use_custom_spacing": false,
+            "margin_left": 10,
+            "margin_right": 10,
+            "margin_left_mobile": 10,
+            "margin_right_mobile": 10
+          }
+        },
+        "image_VtYNyb": {
+          "type": "image",
+          "settings": {
+            "image_height": 120,
+            "image_link": "",
+            "use_custom_spacing": false,
+            "margin_left": 10,
+            "margin_right": 10,
+            "margin_left_mobile": 10,
+            "margin_right_mobile": 10
+          }
+        }
+      },
+      "block_order": [
+        "image_Rz6MDF",
+        "image_PwGqez",
+        "image_np66EE",
+        "image_VtYNyb"
+      ],
+      "settings": {
+        "container": "container-full",
+        "color_schema": "",
+        "section_header_padding_bottom": "medium",
+        "heading": "Heading",
+        "heading_flourish": true,
+        "heading_underline": "sun",
+        "heading_size": "h2",
+        "description": "",
+        "alignment": "center",
+        "direction": "left",
+        "pause_on_hover": false,
+        "speed": 1,
+        "item_gap": 50,
+        "item_gap_mobile": 30,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40,
+        "custom_id": "",
+        "custom_class": ""
+      }
+    },
+    "image_comparison_9UnGaH": {
+      "type": "image-comparison",
+      "blocks": {
+        "image_MTCYKB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/contact-mob-nooverlay.png",
+            "image_mobile": "shopify://shop_images/meet-the-makers-2.png",
+            "heading": "Before",
+            "color_scheme": "",
+            "heading_plain_text": false
+          }
+        },
+        "image_9LEYm3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Rectangle16.png",
+            "image_mobile": "shopify://shop_images/meet-the-makers-1.png",
+            "heading": "After",
+            "color_scheme": "",
+            "heading_plain_text": false
+          }
+        }
+      },
+      "block_order": [
+        "image_MTCYKB",
+        "image_9LEYm3"
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "section_header_padding_bottom": "medium",
+        "heading": "Before/after image slider",
+        "heading_flourish": true,
+        "heading_underline": "sun",
+        "heading_size": "h2",
+        "subheading": "",
+        "description": "",
+        "layout": "horizontal",
+        "image_height": "adapt",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40,
+        "custom_id": "",
+        "custom_class": ""
+      }
+    },
+    "collage_tabs_rftEEK": {
+      "type": "collage-tabs",
+      "blocks": {
+        "tab_dNM8tq": {
+          "type": "tab",
+          "settings": {
+            "content_color_schema": "background-2",
+            "navigation_title": "",
+            "image": "shopify://shop_images/contact-mob-nooverlay.png",
+            "mobile_image": "shopify://shop_images/meet-the-makers-2.png",
+            "heading": "Collage tabs heading",
+            "heading_size": "h2",
+            "subheading": "",
+            "description": "<p>Tell your brand's story through images</p>",
+            "text_alignment": "center",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "tab_6p3xzX": {
+          "type": "tab",
+          "settings": {
+            "content_color_schema": "",
+            "navigation_title": "Tab 1",
+            "heading": "Collage tab heading",
+            "heading_size": "h2",
+            "subheading": "",
+            "description": "<p>Fill in the text content of the tab item here. You can provide details information tab item here.</p>",
+            "text_alignment": "center",
+            "button_label": "Button text",
+            "button_link": "#",
+            "button_style": "btn--primary"
+          }
+        },
+        "tab_4rmd3L": {
+          "type": "tab",
+          "settings": {
+            "content_color_schema": "",
+            "navigation_title": "Tab 2",
+            "heading": "Collage tab heading",
+            "heading_size": "h2",
+            "subheading": "",
+            "description": "<p>Fill in the text content of the tab item here. You can provide details information tab item here.</p>",
+            "text_alignment": "center",
+            "button_label": "Button text",
+            "button_link": "#",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "tab_dNM8tq",
+        "tab_6p3xzX",
+        "tab_4rmd3L"
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "desktop_navigation_alignment": "center",
+        "desktop_image_position": "left",
+        "desktop_image_width": 50,
+        "image_aspect_ratio": "adapt",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "collection_list_slider_xUVdQn": {
+      "type": "collection-list-slider",
+      "blocks": {
+        "collection_KX8jAP": {
+          "type": "collection",
+          "settings": {
+            "banner": "shopify://shop_images/contact-mob-nooverlay.png",
+            "mobile_banner": "shopify://shop_images/meet-the-makers-2.png",
+            "collection": "mixed-cases",
+            "image": "shopify://shop_images/contact-mob-nooverlay.png",
+            "mobile_image": "shopify://shop_images/meet-the-makers-2.png",
+            "heading": "Test"
+          }
+        },
+        "collection_PXtjPC": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "heading": ""
+          }
+        },
+        "collection_zUPCDz": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "heading": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_KX8jAP",
+        "collection_PXtjPC",
+        "collection_zUPCDz"
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "section_header_padding_bottom": "medium",
+        "heading": "Collection list slider",
+        "heading_flourish": true,
+        "heading_underline": "sun",
+        "heading_size": "h2",
+        "banner_image_ratio": "1/1",
+        "image_ratio": "adapt",
+        "controls_background": "none",
+        "controls_position": "center",
+        "pagination_type": "counter",
+        "padding_top": 50,
+        "padding_bottom": 40,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "collection_tabs_6yeGRJ": {
+      "type": "collection-tabs",
+      "blocks": {
+        "collection_8JYaca": {
+          "type": "collection",
+          "settings": {
+            "collection": "sustainable",
+            "image": "shopify://shop_images/contact-mob-nooverlay.png",
+            "mobile_image": "shopify://shop_images/meet-the-makers-2.png",
+            "heading": "",
+            "heading_size": "h4",
+            "text": ""
+          }
+        },
+        "collection_DwjKgY": {
+          "type": "collection",
+          "settings": {
+            "collection": "vegan",
+            "heading": "",
+            "heading_size": "h4",
+            "text": ""
+          }
+        },
+        "collection_z4b7XF": {
+          "type": "collection",
+          "settings": {
+            "collection": "white",
+            "heading": "",
+            "heading_size": "h4",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_8JYaca",
+        "collection_DwjKgY",
+        "collection_z4b7XF"
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "heading": "Collection tabs",
+        "heading_flourish": true,
+        "heading_underline": "sun",
+        "heading_size": "h2",
+        "subheading": "",
+        "description": "",
+        "image_position": "left",
+        "image_ratio": "1/1",
+        "prefix_header": "ordinal_number",
+        "trigger_behavior": "hover",
+        "autoplay": false,
+        "autoplay_duration": 5,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "custom_html_NGwAdU": {
+      "type": "custom-html",
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "section_header_padding_bottom": "medium",
+        "heading": "Custom HTML",
+        "heading_flourish": true,
+        "heading_underline": "sun",
+        "heading_size": "h2",
+        "description": "",
+        "custom_html": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40
+      }
+    },
+    "custom_content_JCYqDU": {
+      "type": "custom-content",
+      "blocks": {
+        "image_gHyxde": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/contact-mob-nooverlay.png",
+            "mobile_image": "shopify://shop_images/meet-the-makers-2.png",
+            "link": "",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "text_QckwFa": {
+          "type": "text",
+          "settings": {
+            "color_scheme": "",
+            "title": "Talk about your brand",
+            "heading_size": "h2",
+            "subheading": "",
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "alignment": "center",
+            "align_text": "left",
+            "padding_left": 0,
+            "padding_right": 0,
+            "align_content_container": "none",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "width": "50%",
+            "mobile_color_scheme": "",
+            "mobile_padding_left": 15,
+            "mobile_padding_right": 15,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "image_gHyxde",
+        "text_QckwFa"
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "section_header_padding_bottom": "medium",
+        "heading": "Custom content",
+        "heading_flourish": true,
+        "heading_underline": "sun",
+        "heading_size": "h2",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40,
+        "custom_id": "",
+        "custom_class": ""
+      }
+    },
+    "favorite_products_rAaTaR": {
+      "type": "favorite-products",
+      "blocks": {
+        "product_rmJcJU": {
+          "type": "product",
+          "settings": {
+            "product": "kelly-washington-waihekeisland-syrah-2022",
+            "image": "shopify://shop_images/contact-mob-nooverlay.png",
+            "mobile_image": "shopify://shop_images/meet-the-makers-2.png",
+            "text": "<p>Use this text to share information about the product. Describe features or showcase customers' reviews.</p>"
+          }
+        },
+        "product_a8iDRr": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "text": "<p>Use this text to share information about the product. Describe features or showcase customers' reviews.</p>"
+          }
+        },
+        "product_ty4y6Q": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "text": "<p>Use this text to share information about the product. Describe features or showcase customers' reviews.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "product_rmJcJU",
+        "product_a8iDRr",
+        "product_ty4y6Q"
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "section_header_padding_bottom": "small",
+        "heading": "Favorite products",
+        "heading_flourish": true,
+        "heading_underline": "sun",
+        "heading_size": "h2",
+        "image_ratio": "adapt",
+        "controls_background": "none",
+        "controls_position": "center",
+        "pagination_type": "counter",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "featured_product_slider_wtzNhd": {
+      "type": "featured-product-slider",
+      "blocks": {
+        "product_iawVkC": {
+          "type": "product",
+          "settings": {
+            "product": "akitu-pinot-noir-blanc-2023",
+            "custom_image": "shopify://shop_images/contact-mob-nooverlay.png",
+            "mobile_image": "shopify://shop_images/meet-the-makers-2.png",
+            "custom_description": "<p>This area is used to describe your product’s details. Tell customers about the look, feel, and style of your product. Add details on color, materials used, sizing, and where it was made.</p>",
+            "button_label": "Shop now"
+          }
+        },
+        "product_fccQWz": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "custom_description": "<p>This area is used to describe your product’s details. Tell customers about the look, feel, and style of your product. Add details on color, materials used, sizing, and where it was made.</p>",
+            "button_label": "Shop now"
+          }
+        },
+        "product_XDetFn": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "custom_description": "<p>This area is used to describe your product’s details. Tell customers about the look, feel, and style of your product. Add details on color, materials used, sizing, and where it was made.</p>",
+            "button_label": "Shop now"
+          }
+        },
+        "product_KeAnfa": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "custom_description": "<p>This area is used to describe your product’s details. Tell customers about the look, feel, and style of your product. Add details on color, materials used, sizing, and where it was made.</p>",
+            "button_label": "Shop now"
+          }
+        },
+        "product_i9BCNL": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "custom_description": "<p>This area is used to describe your product’s details. Tell customers about the look, feel, and style of your product. Add details on color, materials used, sizing, and where it was made.</p>",
+            "button_label": "Shop now"
+          }
+        },
+        "product_L3HrHr": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "custom_description": "<p>This area is used to describe your product’s details. Tell customers about the look, feel, and style of your product. Add details on color, materials used, sizing, and where it was made.</p>",
+            "button_label": "Shop now"
+          }
+        }
+      },
+      "block_order": [
+        "product_iawVkC",
+        "product_fccQWz",
+        "product_XDetFn",
+        "product_KeAnfa",
+        "product_i9BCNL",
+        "product_L3HrHr"
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "section_header_padding_bottom": "medium",
+        "heading": "Featured product slider",
+        "heading_flourish": true,
+        "heading_underline": "sun",
+        "heading_size": "h2",
+        "description": "",
+        "show_nav": true,
+        "show_dots": true,
+        "pagination_background": "none",
+        "autoplay": false,
+        "autorotate_speed": 3,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "handpicked_products_trggn3": {
+      "type": "handpicked-products",
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "section_header_padding_bottom": "medium",
+        "heading": "Handpicked products",
+        "heading_flourish": true,
+        "heading_underline": "sun",
+        "heading_size": "h2",
+        "description": "",
+        "product_list": [
+          "akitu-pinot-noir-blanc-2023",
+          "ashmore-vineyard-riesling-2021",
+          "white-wine-subscription",
+          "event"
+        ],
+        "limit": 8,
+        "columns": 4,
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "pcard_image_ratio": "",
+        "show_vendor": false,
+        "enable_slider": false,
+        "show_nav": false,
+        "show_dots": false,
+        "button_label": "",
+        "button_url": "",
+        "button_style": "btn--primary",
+        "enable_swipe_mobile": true,
+        "column_mobile": "2",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "logo_list_LEcmpL": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_VLPqn6": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/contact-mob-nooverlay.png",
+            "image_mobile": "shopify://shop_images/meet-the-makers-2.png",
+            "image_from_url": "",
+            "image_link": "",
+            "image_width": 80
+          }
+        },
+        "logo_F7nG4k": {
+          "type": "logo",
+          "settings": {
+            "image_from_url": "",
+            "image_link": "",
+            "image_width": 80
+          }
+        },
+        "logo_TpPTKC": {
+          "type": "logo",
+          "settings": {
+            "image_from_url": "",
+            "image_link": "",
+            "image_width": 80
+          }
+        },
+        "logo_xNPfW8": {
+          "type": "logo",
+          "settings": {
+            "image_from_url": "",
+            "image_link": "",
+            "image_width": 80
+          }
+        },
+        "logo_rH8wDa": {
+          "type": "logo",
+          "settings": {
+            "image_from_url": "",
+            "image_link": "",
+            "image_width": 80
+          }
+        },
+        "logo_BEqFRg": {
+          "type": "logo",
+          "settings": {
+            "image_from_url": "",
+            "image_link": "",
+            "image_width": 80
+          }
+        },
+        "logo_pdzW7x": {
+          "type": "logo",
+          "settings": {
+            "image_from_url": "",
+            "image_link": "",
+            "image_width": 80
+          }
+        },
+        "logo_ULwiNt": {
+          "type": "logo",
+          "settings": {
+            "image_from_url": "",
+            "image_link": "",
+            "image_width": 80
+          }
+        }
+      },
+      "block_order": [
+        "logo_VLPqn6",
+        "logo_F7nG4k",
+        "logo_TpPTKC",
+        "logo_xNPfW8",
+        "logo_rH8wDa",
+        "logo_BEqFRg",
+        "logo_pdzW7x",
+        "logo_ULwiNt"
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "section_header_padding_bottom": "medium",
+        "heading": "Logo list",
+        "heading_flourish": true,
+        "heading_underline": "sun",
+        "heading_size": "h2",
+        "description": "",
+        "columns": 4,
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "enable_slider": false,
+        "show_nav": false,
+        "show_dots": false,
+        "enable_swipe_mobile": true,
+        "column_mobile": "2",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "lookbook_QtJ8rE": {
+      "type": "lookbook",
+      "blocks": {
+        "lookbook_dN9Y4j": {
+          "type": "lookbook",
+          "settings": {
+            "image": "shopify://shop_images/contact-mob-nooverlay.png",
+            "mobile_image": "shopify://shop_images/meet-the-makers-2.png",
+            "annotation_color": "light",
+            "top_1": 9,
+            "left_1": 63,
+            "product_1": "akitu-pinot-noir-blanc-2023",
+            "top_2": 26,
+            "left_2": 50,
+            "product_2": "kelly-washington-organic-chardonnay-2020",
+            "top_3": 61,
+            "left_3": 48,
+            "product_3": "",
+            "top_4": 0,
+            "left_4": 0,
+            "product_4": "",
+            "top_5": 20,
+            "left_5": 0,
+            "product_5": ""
+          }
+        }
+      },
+      "block_order": [
+        "lookbook_dN9Y4j"
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "section_header_padding_bottom": "medium",
+        "heading": "Lookbook",
+        "heading_flourish": true,
+        "heading_underline": "sun",
+        "heading_size": "h2",
+        "description": "",
+        "image_aspect_ratio": "4/3",
+        "columns": 1,
+        "column_gap": "medium",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "press_fBEjNc": {
+      "type": "press",
+      "blocks": {
+        "press_GNBXNz": {
+          "type": "press",
+          "settings": {
+            "title": "<p>You can add text content from press comments, reviews, or testimonials here.</p>",
+            "font_style": "font-body",
+            "font_size": "h3",
+            "image": "shopify://shop_images/contact-mob-nooverlay.png",
+            "mobile_image": "shopify://shop_images/meet-the-makers-2.png",
+            "image_width": 150
+          }
+        },
+        "press_MdDdC9": {
+          "type": "press",
+          "settings": {
+            "title": "<p>You can add text content from press comments, reviews, or testimonials here.</p>",
+            "font_style": "font-body",
+            "font_size": "h3",
+            "image_width": 150
+          }
+        },
+        "press_A4QaJB": {
+          "type": "press",
+          "settings": {
+            "title": "<p>You can add text content from press comments, reviews, or testimonials here.</p>",
+            "font_style": "font-body",
+            "font_size": "h3",
+            "image_width": 150
+          }
+        },
+        "press_ceUFWq": {
+          "type": "press",
+          "settings": {
+            "title": "<p>You can add text content from press comments, reviews, or testimonials here.</p>",
+            "font_style": "font-body",
+            "font_size": "h3",
+            "image_width": 150
+          }
+        },
+        "press_8BRCka": {
+          "type": "press",
+          "settings": {
+            "title": "<p>You can add text content from press comments, reviews, or testimonials here.</p>",
+            "font_style": "font-body",
+            "font_size": "h3",
+            "image_width": 150
+          }
+        },
+        "press_TNETeY": {
+          "type": "press",
+          "settings": {
+            "title": "<p>You can add text content from press comments, reviews, or testimonials here.</p>",
+            "font_style": "font-body",
+            "font_size": "h3",
+            "image_width": 150
+          }
+        }
+      },
+      "block_order": [
+        "press_GNBXNz",
+        "press_MdDdC9",
+        "press_A4QaJB",
+        "press_ceUFWq",
+        "press_8BRCka",
+        "press_TNETeY"
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "section_header_padding_bottom": "medium",
+        "heading": "Press",
+        "heading_flourish": true,
+        "heading_underline": "kiwi",
+        "heading_size": "h2",
+        "description": "",
+        "show_nav": true,
+        "autoplay": false,
+        "autorotate_speed": 3,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "products_bundle_mFVn6W": {
+      "type": "products-bundle",
+      "blocks": {
+        "product_wfr8ij": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "hotspot_color": "light",
+            "horizontal": 30,
+            "vertical": 40
+          }
+        },
+        "product_Hz9Wr6": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "hotspot_color": "light",
+            "horizontal": 70,
+            "vertical": 45
+          }
+        },
+        "product_jYehia": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "hotspot_color": "light",
+            "horizontal": 45,
+            "vertical": 65
+          }
+        },
+        "product_3fpzfg": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "hotspot_color": "light",
+            "horizontal": 30,
+            "vertical": 40
+          }
+        }
+      },
+      "block_order": [
+        "product_wfr8ij",
+        "product_Hz9Wr6",
+        "product_jYehia",
+        "product_3fpzfg"
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "image": "shopify://shop_images/contact-mob-nooverlay.png",
+        "mobile_image": "shopify://shop_images/meet-the-makers-2.png",
+        "image_position": "left",
+        "desktop_content_position": "start",
+        "subheading": "<p>Bundle & save</p>",
+        "heading": "<p>Build your own bundle</p><p></p>",
+        "heading_flourish": true,
+        "heading_underline": "kiwi",
+        "heading_size": "h2",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "padding_left": 100,
+        "padding_right": 0,
+        "align_content_container": "none",
+        "mobile_padding_left": 0,
+        "mobile_padding_right": 0,
+        "padding_top": 40,
+        "padding_bottom": 50,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "testimonials_MqaPLA": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_EEagiF": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>Tellus quisque fames torquent, faucibus amet tincidunt. Nulla morbi curae euismod platea dignissim cursus est. </p>",
+            "author": "Author's Name",
+            "bio": "",
+            "product": "",
+            "icon": "none"
+          }
+        },
+        "testimonial_HUpM37": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>Tellus quisque fames torquent, faucibus amet tincidunt. Nulla morbi curae euismod platea dignissim cursus est. </p>",
+            "author": "Author's Name",
+            "bio": "",
+            "product": "",
+            "icon": "none"
+          }
+        },
+        "testimonial_rP8DNJ": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>Tellus quisque fames torquent, faucibus amet tincidunt. Nulla morbi curae euismod platea dignissim cursus est. </p>",
+            "author": "Author's Name",
+            "bio": "",
+            "product": "",
+            "icon": "none"
+          }
+        },
+        "testimonial_fh3FmQ": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>Tellus quisque fames torquent, faucibus amet tincidunt. Nulla morbi curae euismod platea dignissim cursus est. </p>",
+            "author": "Author's Name",
+            "bio": "",
+            "product": "",
+            "icon": "none"
+          }
+        },
+        "testimonial_9UFUjG": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>Tellus quisque fames torquent, faucibus amet tincidunt. Nulla morbi curae euismod platea dignissim cursus est. </p>",
+            "author": "Author's Name",
+            "bio": "",
+            "product": "",
+            "icon": "none"
+          }
+        },
+        "testimonial_3JiTAb": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>Tellus quisque fames torquent, faucibus amet tincidunt. Nulla morbi curae euismod platea dignissim cursus est. </p>",
+            "author": "Author's Name",
+            "bio": "",
+            "product": "",
+            "icon": "none"
+          }
+        },
+        "testimonial_gHErp8": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>Tellus quisque fames torquent, faucibus amet tincidunt. Nulla morbi curae euismod platea dignissim cursus est. </p>",
+            "author": "Author's Name",
+            "bio": "",
+            "product": "",
+            "icon": "none"
+          }
+        },
+        "testimonial_jbYwpb": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>Tellus quisque fames torquent, faucibus amet tincidunt. Nulla morbi curae euismod platea dignissim cursus est. </p>",
+            "author": "Author's Name",
+            "bio": "",
+            "product": "",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_EEagiF",
+        "testimonial_HUpM37",
+        "testimonial_rP8DNJ",
+        "testimonial_fh3FmQ",
+        "testimonial_9UFUjG",
+        "testimonial_3JiTAb",
+        "testimonial_gHErp8",
+        "testimonial_jbYwpb"
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "section_header_padding_bottom": "medium",
+        "heading": "Testimonials",
+        "heading_flourish": true,
+        "heading_underline": "sun",
+        "heading_size": "h1",
+        "description": "",
+        "design": "fancy",
+        "stars_color": "#444444",
+        "columns": 3,
+        "column_gap": "small",
+        "enable_slider": true,
+        "show_dots": true,
+        "show_nav": true,
+        "autoplay": true,
+        "autoplay_timeout": 4,
+        "padding_top": 50,
+        "padding_bottom": 100,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "image_with_text_slider_YPRyxM": {
+      "type": "image-with-text-slider",
+      "blocks": {
+        "slide_QPqHEN": {
+          "type": "slide",
+          "settings": {
+            "slide_color_scheme": "",
+            "background": "shopify://shop_images/Te_Kano_LS1_web_Eliza_autumn.jpg",
+            "product_1": "kelly-washington-organic-chardonnay-2020",
+            "product_2": "kelly-washington-organic-sauvignon-blanc-2024",
+            "content_position": "center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "title": "Title",
+            "heading_flourish": false,
+            "heading_underline": "kiwi",
+            "heading_size": "h2",
+            "subheading": "",
+            "description": "<p>Tell your brand's story through images</p>",
+            "desc_size": "text-desc-base",
+            "button_text_1": "",
+            "button_link_1": "",
+            "button_style_1": "btn--primary",
+            "button_size_1": ""
+          }
+        },
+        "slide_PEh8Q6": {
+          "type": "slide",
+          "settings": {
+            "slide_color_scheme": "",
+            "background": "shopify://shop_images/Te_Kano_LS1_web_Eliza_autumn.jpg",
+            "mb_background": "shopify://shop_images/COALPIT_Anika_Rosie.jpg",
+            "product_1": "ashmore-vineyard-riesling-2021",
+            "product_2": "akitu-pinot-noir-blanc-2023",
+            "content_position": "left-top",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "title": "Image slide",
+            "heading_flourish": false,
+            "heading_underline": "kiwi",
+            "heading_size": "h2",
+            "subheading": "",
+            "description": "<p>Tell your brand's story through images</p>",
+            "desc_size": "text-desc-base",
+            "button_text_1": "",
+            "button_link_1": "",
+            "button_style_1": "btn--primary",
+            "button_size_1": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_QPqHEN",
+        "slide_PEh8Q6"
+      ],
+      "settings": {
+        "container": "container-full",
+        "slider_height": "large",
+        "image_width": 70,
+        "image_position": "right",
+        "show_dots": true,
+        "show_nav": false,
+        "autoplay": false,
+        "autorotate_speed": 3,
+        "controls_position": "center",
+        "pagination_style": "dots",
+        "accessibility_info": "Slideshow about our brand",
+        "custom_id": "",
+        "custom_class": "",
+        "enable_bg_zoom_effect": false
+      }
+    },
+    "testimonials_C7V9QE": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_fb4X6E": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>Tellus quisque fames torquent, faucibus amet tincidunt. Nulla morbi curae euismod platea dignissim cursus est. </p>",
+            "author": "Author's Name",
+            "bio": "",
+            "product": "",
+            "icon": "none"
+          }
+        },
+        "testimonial_Ui9HRx": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>Tellus quisque fames torquent, faucibus amet tincidunt. Nulla morbi curae euismod platea dignissim cursus est. </p>",
+            "author": "Author's Name",
+            "bio": "",
+            "product": "",
+            "icon": "none"
+          }
+        },
+        "testimonial_cP6TAa": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>Tellus quisque fames torquent, faucibus amet tincidunt. Nulla morbi curae euismod platea dignissim cursus est. </p>",
+            "author": "Author's Name",
+            "bio": "",
+            "product": "",
+            "icon": "none"
+          }
+        },
+        "testimonial_dd6gH6": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>Tellus quisque fames torquent, faucibus amet tincidunt. Nulla morbi curae euismod platea dignissim cursus est. </p>",
+            "author": "Author's Name",
+            "bio": "",
+            "product": "",
+            "icon": "none"
+          }
+        },
+        "testimonial_cywcLH": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>Tellus quisque fames torquent, faucibus amet tincidunt. Nulla morbi curae euismod platea dignissim cursus est. </p>",
+            "author": "Author's Name",
+            "bio": "",
+            "product": "",
+            "icon": "none"
+          }
+        },
+        "testimonial_qVNUxg": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>Tellus quisque fames torquent, faucibus amet tincidunt. Nulla morbi curae euismod platea dignissim cursus est. </p>",
+            "author": "Author's Name",
+            "bio": "",
+            "product": "",
+            "icon": "none"
+          }
+        },
+        "testimonial_YtQpp3": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>Tellus quisque fames torquent, faucibus amet tincidunt. Nulla morbi curae euismod platea dignissim cursus est. </p>",
+            "author": "Author's Name",
+            "bio": "",
+            "product": "",
+            "icon": "none"
+          }
+        },
+        "testimonial_G6kaRK": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>Tellus quisque fames torquent, faucibus amet tincidunt. Nulla morbi curae euismod platea dignissim cursus est. </p>",
+            "author": "Author's Name",
+            "bio": "",
+            "product": "",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_fb4X6E",
+        "testimonial_Ui9HRx",
+        "testimonial_cP6TAa",
+        "testimonial_dd6gH6",
+        "testimonial_cywcLH",
+        "testimonial_qVNUxg",
+        "testimonial_YtQpp3",
+        "testimonial_G6kaRK"
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "section_header_padding_bottom": "medium",
+        "heading": "Testimonials",
+        "heading_flourish": false,
+        "heading_underline": "none",
+        "heading_size": "h2",
+        "description": "",
+        "design": "fancy",
+        "stars_color": "#444444",
+        "columns": 4,
+        "column_gap": "medium",
+        "enable_slider": true,
+        "show_dots": false,
+        "show_nav": true,
+        "autoplay": false,
+        "autoplay_timeout": 5,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "collection_list_ywz3XL",
+    "slideshow_ewyyEp",
+    "multicolumn_UyWKNK",
+    "contact_form_xwkRhK",
+    "video_Cr73eL",
+    "custom_liquid_gK6bT8",
+    "scrolling_promotion_8jAjPN",
+    "image_comparison_9UnGaH",
+    "collage_tabs_rftEEK",
+    "collection_list_slider_xUVdQn",
+    "collection_tabs_6yeGRJ",
+    "custom_html_NGwAdU",
+    "custom_content_JCYqDU",
+    "favorite_products_rAaTaR",
+    "featured_product_slider_wtzNhd",
+    "handpicked_products_trggn3",
+    "logo_list_LEcmpL",
+    "lookbook_QtJ8rE",
+    "press_fBEjNc",
+    "products_bundle_mFVn6W",
+    "testimonials_MqaPLA",
+    "image_with_text_slider_YPRyxM",
+    "testimonials_C7V9QE"
+  ]
+}

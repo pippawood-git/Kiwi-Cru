@@ -1,0 +1,540 @@
+{% if section.index > 2 %}
+  <link rel="stylesheet" href="{{ 'image-with-usp.css' | asset_url }}" media="print" onload="this.media='all'">
+{% else %}
+  {{ 'image-with-usp.css' | asset_url | stylesheet_tag }}
+{% endif %}
+
+{% liquid
+  assign section_id = section.settings.custom_id | default: section.id
+  assign custom_class = section.settings.custom_class
+
+  unless custom_class == blank
+    assign custom_class = custom_class | prepend: ' '
+  endunless
+
+  assign block_heading = section.blocks | where: 'type', 'heading' | first
+  if block_heading
+    assign alt = block_heading.settings.heading | escape
+  endif
+
+  assign text_size = section.settings.text_size
+
+  assign animation_effect = settings.animations
+  assign animated = false
+  if animation_effect != 'none'
+    assign animated = true
+    if section.settings.animations != 'inherit'
+      assign animation_effect = section.settings.animations
+    endif
+  endif
+
+  if section.settings.video_ratio == 'adapt'
+    assign video_aspect_ratio = '16/9'
+  else
+    assign video_aspect_ratio = section.settings.video_ratio | replace: ':', '/'
+  endif
+%}
+<style>
+  #{{ section_id }} {
+    --section-padding-top: {{ section.settings.padding_top }}px;
+    --section-padding-bottom: {{ section.settings.padding_bottom }}px;
+    --section-padding-top-mobile: {{ section.settings.padding_top_mobile }}px;
+    --section-padding-bottom-mobile: {{ section.settings.padding_bottom_mobile }}px;
+  }
+</style>
+
+<div
+  id="{{ section_id }}"
+  class="image-with-usp overflow-hidden {{ custom_class }} f-section-padding color-{{ section.settings.color_schema }}"
+>
+  <div class="container">
+    <div
+      class="image-with-usp__wrapper items-{{ section.settings.vertical_alignment }} {% if section.settings.image_position == 'right' %} flex-row-reverse image-with-usp--reverse{% endif %} {% if animated %} f-scroll-trigger animate--{{ animation_effect }}{% endif %}"
+      {% if animated %}
+        data-cascade
+      {% endif %}
+    >
+      <div class="f-column f-column__image">
+        <div class="image-with-usp__media f-card block">
+          {% case section.settings.media_type %}
+            {% when 'image' %}
+              {%- if section.settings.image != blank -%}
+                {% liquid
+                  assign desktop_image_classes = ''
+                  if section.settings.mobile_image != blank
+                    assign desktop_image_classes = 'xl-down:hidden'
+                  endif
+                %}
+                {% render 'responsive-image',
+                  image: section.settings.image,
+                  alt: alt,
+                  section_index: section.index,
+                  index: 1,
+                  inherited_classes: desktop_image_classes
+                %}
+
+                {%- if section.settings.mobile_image != blank -%}
+                  {% render 'responsive-image',
+                    image: section.settings.mobile_image,
+                    alt: alt,
+                    section_index: section.index,
+                    index: 1,
+                    inherited_classes: 'xl:hidden'
+                  %}
+                {%- endif -%}
+              {%- else -%}
+                <div class="f-image" style="--aspect-ratio: 1/1">
+                  {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                </div>
+              {%- endif -%}
+            {% when 'video' %}
+              <deferred-media
+                class="f-video__media deferred-media no-js-hidden"
+                data-media-id="{{ section.settings.video_url.id }}"
+                data-autoplay="true"
+                style="--aspect-ratio: {{ video_aspect_ratio }}"
+              >
+                <button
+                  id="Deferred-Poster-Modal-{{ section.settings.video_url.id }}"
+                  class="f-video__poster media deferred-media__poster{% if animation_effect == 'zoom-fade' %} f-image{% endif %}"
+                  type="button"
+                  aria-label="{{ 'sections.video.load_video' | t: description: section.settings.description | escape }}"
+                >
+                  <span class="deferred-media__poster-button motion-reduce">
+                    {%- render 'icon-play' -%}
+                  </span>
+                </button>
+                <template>
+                  {% liquid
+                    assign video_url = ''
+                    for source in section.settings.shopify_video.sources
+                      assign format = source.url | split: '?' | first | slice: -4, 4
+                      if format == '.mp4'
+                        assign video_url = source.url
+                      endif
+                    endfor
+                  %}
+                  <video src="{{ video_url }}" playsinline autoplay loop muted></video>
+                </template>
+              </deferred-media>
+          {% endcase %}
+        </div>
+      </div>
+      <div class="f-column f-column__content">
+        <div class="image-with-usp__content">
+          {%- for block in section.blocks -%}
+            {% case block.type %}
+              {%- when 'heading' -%}
+                {% liquid
+                  assign heading_size = block.settings.heading_size
+                  assign flourish = block.settings.heading_flourish | default: false
+                  assign underline = block.settings.heading_underline | default: 'none'
+                %}
+                <h2 class="image-with-usp__heading {% if flourish == true %} section__heading--flourish{% endif %} {{ heading_size }}" {{ block.shopify_attributes }}>
+                  {% if flourish == true %}
+                    {% render 'heading-flourish' %}
+                  {% endif %}
+                  <span class="{% if underline != 'none' %} section__heading--underline section__heading--underline-{{ underline }}{% endif %}">{{ block.settings.heading }}</span>
+                </h2>
+              {%- when 'usp' -%}
+                <div class="image-with-usp__usp-wrapper">
+                  <h3 class="image-with-usp__subheading " {{ block.shopify_attributes }}>
+                    {%- if block.settings.usp_icon != blank -%}
+                      {% assign usp_icon = block.settings.usp_icon %}
+                      <img
+                        src="{{ usp_icon | image_url: width: usp_icon.width, height: usp_icon.height }}"
+                        height="50"
+                        width="50"
+                        alt="Icon for {{ block.settings.usp_heading }}"
+                        loading="lazy"
+                      >
+                    {%- endif -%}
+                    {{ block.settings.usp_heading }}
+                  </h3>
+                  <div
+                    class="image-with-usp__text mega-description mega-description--{{ text_size }} text-subtext rte"
+                    {{ block.shopify_attributes }}
+                  >
+                    {{ block.settings.text }}
+                  </div>
+                </div>
+              {%- when 'text' -%}
+                <div class="image-with-text__text mega-description mega-description--{{ text_size }} text-subtext rte" {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
+              {%- when 'button' -%}
+                {%- if block.settings.button_label != blank -%}
+                  <a
+                    {% if block.settings.button_link != blank %}
+                      href="{{ block.settings.button_link }}"
+                    {% else %}
+                      role="link" aria-disabled="true"
+                    {% endif %}
+                    class="btn f-text-blocks__btn {{ block.settings.button_style }} {{ block.settings.button_size }}"
+                    {{ block.shopify_attributes }}
+                  >
+                    {{ block.settings.button_label | escape }}
+                  </a>
+                {%- endif -%}
+            {%- endcase -%}
+          {%- endfor -%}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "t:sections.image-with-usp.name",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "header",
+      "content": "t:sections.common.general.name"
+    },
+    {
+      "type": "select",
+      "id": "media_type",
+      "label": "t:sections.image-with-usp.settings.media_type.label",
+      "default": "image",
+      "options": [
+        {
+          "value": "image",
+          "label": "t:sections.image-with-usp.settings.media_type.options__1.label"
+        },
+        {
+          "value": "video",
+          "label": "t:sections.image-with-usp.settings.media_type.options__2.label"
+        }
+      ]
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_schema",
+      "label": "t:sections.common.color_schema.label",
+      "default": "background-1"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.image-with-usp.settings.image.name"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "t:sections.image-with-usp.settings.image.label"
+    },
+    {
+      "type": "image_picker",
+      "id": "mobile_image",
+      "label": "t:sections.image-with-usp.settings.mobile_image.label"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.image-with-usp.settings.video.name"
+    },
+    {
+      "type": "video",
+      "id": "shopify_video",
+      "label": "t:sections.video.settings.shopify_video.label"
+    },
+    {
+      "type": "select",
+      "id": "video_ratio",
+      "label": "t:sections.video.settings.video_ratio.label",
+      "default": "adapt",
+      "options": [
+        {
+          "value": "adapt",
+          "label": "t:sections.video.settings.video_ratio.options__1.label"
+        },
+        {
+          "value": "16:9",
+          "label": "t:sections.video.settings.video_ratio.options__2.label"
+        },
+        {
+          "value": "21:9",
+          "label": "t:sections.video.settings.video_ratio.options__3.label"
+        },
+        {
+          "value": "9:16",
+          "label": "t:sections.video.settings.video_ratio.options__4.label"
+        },
+        {
+          "value": "3:2",
+          "label": "t:sections.video.settings.video_ratio.options__5.label"
+        },
+        {
+          "value": "4:3",
+          "label": "t:sections.video.settings.video_ratio.options__6.label"
+        },
+        {
+          "value": "1:1",
+          "label": "t:sections.video.settings.video_ratio.options__7.label"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "image_position",
+      "options": [
+        {
+          "value": "left",
+          "label": "t:sections.image-with-usp.settings.layout.options__1.label"
+        },
+        {
+          "value": "right",
+          "label": "t:sections.image-with-usp.settings.layout.options__2.label"
+        }
+      ],
+      "default": "left",
+      "label": "t:sections.image-with-usp.settings.layout.label"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.common.section_padding.content"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "t:sections.common.section_padding.top_padding.label",
+      "default": 50,
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "t:sections.common.section_padding.bottom_padding.label",
+      "default": 50,
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "padding_top_mobile",
+      "label": "t:sections.common.section_padding.mobile_top_padding.label",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "default": 40,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_mobile",
+      "label": "t:sections.common.section_padding.mobile_bottom_padding.label",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "default": 40,
+      "unit": "px"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.common.custom_attr.header"
+    },
+    {
+      "type": "text",
+      "id": "custom_id",
+      "label": "t:sections.common.custom_attr.custom_id"
+    },
+    {
+      "type": "text",
+      "id": "custom_class",
+      "label": "t:sections.common.custom_attr.custom_class"
+    },
+    {
+      "type": "header",
+      "content": "t:settings_schema.animations.header.content"
+    },
+    {
+      "type": "select",
+      "id": "animations",
+      "label": "t:settings_schema.animations.header__2.content",
+      "default": "inherit",
+      "options": [
+        { "value": "inherit", "label": "t:settings_schema.animations.settings.animation.options.option_6" },
+        { "value": "fade-in", "label": "t:settings_schema.animations.settings.animation.options.option_2" },
+        { "value": "fade-in-up", "label": "t:settings_schema.animations.settings.animation.options.option_3" },
+        { "value": "fade-in-left", "label": "t:settings_schema.animations.settings.animation.options.option_4" },
+        { "value": "fade-in-right", "label": "t:settings_schema.animations.settings.animation.options.option_5" }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "name": "t:sections.image-with-usp.blocks.heading.name",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "default": "Image with text",
+          "label": "t:sections.image-with-usp.blocks.heading.settings.heading.label"
+        },
+        {
+          "type": "checkbox",
+          "id": "heading_flourish",
+          "label": "t:sections.common.header.heading_flourish",
+          "default": false
+        },
+        {
+          "type": "select",
+          "id": "heading_underline",
+          "label": "t:sections.common.header.heading_underline.label",
+          "options": [
+            {
+              "label": "t:sections.common.header.heading_underline.options.option_01",
+              "value": "none"
+            },
+            {
+              "label": "t:sections.common.header.heading_underline.options.option_02",
+              "value": "sun"
+            },
+            {
+              "label": "t:sections.common.header.heading_underline.options.option_03",
+              "value": "pistachio"
+            },
+            {
+              "label": "t:sections.common.header.heading_underline.options.option_04",
+              "value": "kiwi"
+            }
+          ],
+          "default": "sun"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "name": "t:sections.image-with-text.blocks.text.name",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "text",
+          "default": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+          "label": "t:sections.image-with-text.blocks.text.settings.text.label"
+        }
+      ]
+    },
+    {
+      "type": "usp",
+      "name": "t:sections.image-with-usp.blocks.usp.name",
+      "limit": 4,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "usp_icon",
+          "label": "t:sections.image-with-usp.blocks.usp.settings.icon.label"
+        },
+        {
+          "type": "text",
+          "id": "usp_heading",
+          "default": "Subheading",
+          "label": "t:sections.image-with-usp.blocks.usp.settings.heading.label"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "default": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+          "label": "t:sections.image-with-usp.blocks.usp.settings.text.label"
+        }
+      ]
+    },
+    {
+      "type": "button",
+      "name": "t:sections.image-with-usp.blocks.button.name",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "button_label",
+          "label": "t:sections.common.button.button_label.label",
+          "default": "Button label",
+          "info": "t:sections.common.button.button_label.info"
+        },
+        {
+          "type": "url",
+          "id": "button_link",
+          "label": "t:sections.image-with-usp.blocks.button.settings.button_link.label"
+        },
+        {
+          "type": "select",
+          "id": "button_style",
+          "label": "t:sections.common.button.button_style.label",
+          "options": [
+            {
+              "value": "btn--primary",
+              "label": "t:sections.common.button.button_style.options.option__1"
+            },
+            {
+              "value": "btn--secondary",
+              "label": "t:sections.common.button.button_style.options.option__2"
+            },
+            {
+              "value": "btn--white",
+              "label": "t:sections.common.button.button_style.options.option__3"
+            },
+            {
+              "value": "btn--underline",
+              "label": "t:sections.common.button.button_style.options.option__4"
+            }
+          ],
+          "default": "btn--primary"
+        },
+        {
+          "type": "select",
+          "id": "button_size",
+          "label": "t:sections.common.button.button_size.label",
+          "options": [
+            {
+              "value": "",
+              "label": "t:sections.common.button.button_size.options.option__1"
+            },
+            {
+              "value": "btn--small",
+              "label": "t:sections.common.button.button_size.options.option__2"
+            },
+            {
+              "value": "btn--medium",
+              "label": "t:sections.common.button.button_size.options.option__3"
+            }
+          ],
+          "default": ""
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.image-with-usp.presets.name",
+      "blocks": [
+        {
+          "type": "heading"
+        },
+        {
+          "type": "usp"
+        },
+        {
+          "type": "usp"
+        },
+        {
+          "type": "usp"
+        },
+        {
+          "type": "usp"
+        },
+        {
+          "type": "button"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

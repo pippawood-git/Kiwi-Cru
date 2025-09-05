@@ -1,0 +1,492 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "hero_KhtGFt": {
+      "type": "hero",
+      "blocks": {
+        "title_pcBrYy": {
+          "type": "title",
+          "settings": {
+            "title": "Our Makers",
+            "heading_flourish": false,
+            "heading_underline": "none",
+            "heading_size": "h1"
+          }
+        },
+        "text_FHMK6G": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "title_pcBrYy",
+        "text_FHMK6G"
+      ],
+      "settings": {
+        "container": "container-full",
+        "image": "shopify://shop_images/Kiwicru_CentralOtago_2125_Burn_Cottage_Final_Selects_-_3500px_-v2_dd8b8be3-ac43-4562-8dac-382645bd59fc.jpg",
+        "image_mobile": "shopify://shop_images/Kiwicru_CentralOtago_2125_Burn_Cottage_Final_Selects_-_3500px_-v2_dd8b8be3-ac43-4562-8dac-382645bd59fc.jpg",
+        "image_overlay_opacity": 40,
+        "hero_height": "large",
+        "content_in_container": false,
+        "content_width": "narrow",
+        "content_position": "left-bottom",
+        "text_alignment": "left",
+        "text_color": "#ffffff",
+        "hero_height_mobile": "large",
+        "content_position_mobile": "left-bottom",
+        "show_text_below": false,
+        "text_alignment_mobile": "left",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit",
+        "enable_bg_zoom_effect": true
+      }
+    },
+    "rich_text_8eMria": {
+      "type": "rich-text",
+      "blocks": {
+        "text_nYP7bU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Kiwi Cru’s wineries unite tradition and innovation - featuring New Zealand’s most respected and forward-thinking producers. These sustainably focused estates craft expressive, site-driven wines using both time-honoured methods and bold new techniques. From Marlborough to Central Otago, they produce expressive Pinot Noir, Chardonnay, Sauvignon Blanc, and more, with creativity, and a deep connection to people, place, and provenance.</p>",
+            "highlight_style": "none"
+          }
+        }
+      },
+      "block_order": [
+        "text_nYP7bU"
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "enable_kiwi_background": false,
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "padding_top_mobile": 50,
+        "padding_bottom_mobile": 30,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "multicolumn_yEG6V7": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_8mcdLr": {
+          "type": "column",
+          "settings": {
+            "image": "{{ metaobjects.winery[\"ata-rangi\"].image_2.value }}",
+            "mobile_image": "{{ metaobjects.winery[\"ata-rangi\"].image_2.value }}",
+            "image_link": "{{ metaobjects.winery[\"ata-rangi\"].system.url }}",
+            "title": "{{ metaobjects.winery[\"ata-rangi\"].winery_name.value }}",
+            "heading_size": "h6",
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "column_ALc8KG": {
+          "type": "column",
+          "settings": {
+            "image": "{{ metaobjects.winery[\"blank-canvas\"].image_2.value }}",
+            "mobile_image": "{{ metaobjects.winery[\"blank-canvas\"].image_2.value }}",
+            "image_link": "{{ metaobjects.winery[\"blank-canvas\"].system.url }}",
+            "title": "{{ metaobjects.winery[\"blank-canvas\"].winery_name.value }}",
+            "heading_size": "h6",
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "column_BN4byb": {
+          "type": "column",
+          "settings": {
+            "image": "{{ metaobjects.winery[\"coal-pit\"].image_2.value }}",
+            "mobile_image": "{{ metaobjects.winery[\"coal-pit\"].image_2.value }}",
+            "image_link": "{{ metaobjects.winery[\"coal-pit\"].system.url }}",
+            "title": "{{ metaobjects.winery[\"coal-pit\"].winery_name.value }}",
+            "heading_size": "h6",
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "column_94nFjF": {
+          "type": "column",
+          "settings": {
+            "image": "{{ metaobjects.winery[\"jules-taylor\"].image_2.value }}",
+            "mobile_image": "{{ metaobjects.winery[\"jules-taylor\"].image_2.value }}",
+            "image_link": "{{ metaobjects.winery[\"jules-taylor\"].system.url }}",
+            "title": "{{ metaobjects.winery[\"jules-taylor\"].winery_name.value }}",
+            "heading_size": "h6",
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "column_HcaGwL": {
+          "type": "column",
+          "settings": {
+            "image": "{{ metaobjects.winery[\"kelly-washington\"].image_2.value }}",
+            "mobile_image": "{{ metaobjects.winery[\"kelly-washington\"].image_2.value }}",
+            "image_link": "{{ metaobjects.winery[\"kelly-washington\"].system.url }}",
+            "title": "{{ metaobjects.winery[\"kelly-washington\"].winery_name.value }}",
+            "heading_size": "h6",
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "column_TKqFTz": {
+          "type": "column",
+          "settings": {
+            "image": "{{ metaobjects.winery.loveblock.image_2.value }}",
+            "mobile_image": "{{ metaobjects.winery.loveblock.image_2.value }}",
+            "image_link": "{{ metaobjects.winery.loveblock.system.url }}",
+            "title": "{{ metaobjects.winery.loveblock.winery_name.value }}",
+            "heading_size": "h6",
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "column_CCyCBy": {
+          "type": "column",
+          "settings": {
+            "image": "{{ metaobjects.winery.peregrine.image_2.value }}",
+            "mobile_image": "{{ metaobjects.winery.peregrine.image_2.value }}",
+            "image_link": "{{ metaobjects.winery.peregrine.system.url }}",
+            "title": "{{ metaobjects.winery.peregrine.winery_name.value }}",
+            "heading_size": "h6",
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "column_Yhfdk9": {
+          "type": "column",
+          "settings": {
+            "image": "{{ metaobjects.winery.radburnd.image_2.value }}",
+            "mobile_image": "{{ metaobjects.winery.radburnd.image_2.value }}",
+            "image_link": "{{ metaobjects.winery.radburnd.system.url }}",
+            "title": "{{ metaobjects.winery.radburnd.winery_name.value }}",
+            "heading_size": "h6",
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "column_AMGbzN": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "{{ metaobjects.winery.nautilus.image_2.value }}",
+            "mobile_image": "{{ metaobjects.winery.nautilus.image_2.value }}",
+            "image_link": "{{ metaobjects.winery.nautilus.system.url }}",
+            "title": "{{ metaobjects.winery.nautilus.winery_name.value }}",
+            "heading_size": "h6",
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "column_fThKzb": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image_link": "",
+            "title": "Column",
+            "heading_size": "h3",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "column_LH8W3B": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "{{ metaobjects.winery[\"lawson-dry-hills\"].image_2.value }}",
+            "mobile_image": "{{ metaobjects.winery[\"lawson-dry-hills\"].image_2.value }}",
+            "image_link": "{{ metaobjects.winery[\"lawson-dry-hills\"].system.url }}",
+            "title": "{{ metaobjects.winery[\"lawson-dry-hills\"].winery_name.value }}",
+            "heading_size": "h6",
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "column_iEeKY7": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "{{ metaobjects.winery.radburnd.image_2.value }}",
+            "mobile_image": "{{ metaobjects.winery.radburnd.image_2.value }}",
+            "image_link": "{{ metaobjects.winery.radburnd.system.url }}",
+            "title": "{{ metaobjects.winery.radburnd.winery_name.value }}",
+            "heading_size": "h6",
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "column_WPKtpW": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "{{ metaobjects.winery.peregrine.image_2.value }}",
+            "mobile_image": "{{ metaobjects.winery.peregrine.image_2.value }}",
+            "image_link": "{{ metaobjects.winery.peregrine.system.url }}",
+            "title": "{{ metaobjects.winery.peregrine.winery_name.value }}",
+            "heading_size": "h6",
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "column_wyXNaz": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "{{ metaobjects.winery.fromm.image_2.value }}",
+            "mobile_image": "{{ metaobjects.winery.fromm.image_2.value }}",
+            "image_link": "{{ metaobjects.winery.fromm.system.url }}",
+            "title": "{{ metaobjects.winery.fromm.winery_name.value }}",
+            "heading_size": "h6",
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "column_BTTt7N": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "{{ metaobjects.winery[\"no-1-family-estate\"].image_2.value }}",
+            "mobile_image": "{{ metaobjects.winery[\"no-1-family-estate\"].image_2.value }}",
+            "image_link": "{{ metaobjects.winery[\"no-1-family-estate\"].system.url }}",
+            "title": "{{ metaobjects.winery[\"no-1-family-estate\"].winery_name.value }}",
+            "heading_size": "h6",
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "column_XCGBFj": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "{{ metaobjects.winery.greywacke.image_2.value }}",
+            "mobile_image": "{{ metaobjects.winery.greywacke.image_2.value }}",
+            "image_link": "{{ metaobjects.winery.greywacke.system.url }}",
+            "title": "{{ metaobjects.winery.greywacke.winery_name.value }}",
+            "heading_size": "h6",
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "column_MHbV76": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "{{ metaobjects.winery.neudorf.image_2.value }}",
+            "mobile_image": "{{ metaobjects.winery.neudorf.image_2.value }}",
+            "image_link": "{{ metaobjects.winery.neudorf.system.url }}",
+            "title": "{{ metaobjects.winery.neudorf.winery_name.value }}",
+            "heading_size": "h6",
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "column_bQEVGK": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "{{ metaobjects.winery[\"trinity-hill\"].image_2.value }}",
+            "mobile_image": "{{ metaobjects.winery[\"trinity-hill\"].image_2.value }}",
+            "image_link": "{{ metaobjects.winery[\"trinity-hill\"].system.url }}",
+            "title": "{{ metaobjects.winery[\"trinity-hill\"].winery_name.value }}",
+            "heading_size": "h6",
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "column_dVFVLT": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "{{ metaobjects.winery[\"two-paddocks\"].image_2.value }}",
+            "mobile_image": "{{ metaobjects.winery[\"two-paddocks\"].image_2.value }}",
+            "image_link": "{{ metaobjects.winery[\"two-paddocks\"].system.url }}",
+            "title": "{{ metaobjects.winery[\"two-paddocks\"].winery_name.value }}",
+            "heading_size": "h6",
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "column_6m7QW6": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "{{ metaobjects.winery.seifried.image_2.value }}",
+            "mobile_image": "{{ metaobjects.winery.seifried.image_2.value }}",
+            "image_link": "{{ metaobjects.winery.seifried.system.url }}",
+            "title": "{{ metaobjects.winery.seifried.winery_name.value }}",
+            "heading_size": "h6",
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "column_xx8Bpk": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "{{ metaobjects.winery[\"te-mata\"].image_2.value }}",
+            "mobile_image": "{{ metaobjects.winery[\"te-mata\"].image_2.value }}",
+            "image_link": "{{ metaobjects.winery[\"te-mata\"].system.url }}",
+            "title": "{{ metaobjects.winery[\"te-mata\"].winery_name.value }}",
+            "heading_size": "h6",
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        }
+      },
+      "block_order": [
+        "column_8mcdLr",
+        "column_ALc8KG",
+        "column_BN4byb",
+        "column_94nFjF",
+        "column_HcaGwL",
+        "column_TKqFTz",
+        "column_CCyCBy",
+        "column_Yhfdk9",
+        "column_AMGbzN",
+        "column_fThKzb",
+        "column_LH8W3B",
+        "column_iEeKY7",
+        "column_WPKtpW",
+        "column_wyXNaz",
+        "column_BTTt7N",
+        "column_XCGBFj",
+        "column_MHbV76",
+        "column_bQEVGK",
+        "column_dVFVLT",
+        "column_6m7QW6",
+        "column_xx8Bpk"
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "section_header_padding_bottom": "medium",
+        "heading": "",
+        "heading_flourish": false,
+        "heading_underline": "none",
+        "heading_size": "h2",
+        "description": "",
+        "header_alignment": "center",
+        "layout": "vertical",
+        "text_alignment": "center",
+        "image_width": "fullwidth",
+        "columns": 4,
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "enable_swipe_mobile": false,
+        "column_mobile": "1",
+        "column_gap_mobile": "extra-small",
+        "row_gap_mobile": "extra-small",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 20,
+        "padding_bottom_mobile": 0,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "winemakers_cr8Kg3": {
+      "type": "winemakers",
+      "disabled": true,
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "exclude_handles": "babich\ndomain-road\ndomaine-rewa",
+        "section_header_padding_bottom": "medium",
+        "heading": "",
+        "heading_flourish": false,
+        "heading_underline": "none",
+        "heading_size": "h2",
+        "description": "",
+        "header_alignment": "center",
+        "layout": "vertical",
+        "text_alignment": "center",
+        "image_width": "fullwidth",
+        "columns": 4,
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "enable_swipe_mobile": false,
+        "column_mobile": "1",
+        "column_gap_mobile": "extra-small",
+        "row_gap_mobile": "extra-small",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 4,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "hero_KhtGFt",
+    "rich_text_8eMria",
+    "multicolumn_yEG6V7",
+    "winemakers_cr8Kg3"
+  ]
+}

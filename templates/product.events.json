@@ -1,0 +1,491 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h-xl"
+          }
+        },
+        "event_date": {
+          "type": "event_date",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_sale_badge": true,
+            "sale_badge_type": "percentage"
+          }
+        },
+        "variant_picker_gxUhrJ": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "variant_picker_show_selected": true,
+            "variant_picker_dont_select_the_default_variant": false,
+            "size_title": "Size",
+            "size_chart_from_page": ""
+          }
+        },
+        "description_TnH64A": {
+          "type": "description",
+          "settings": {}
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_atc_button": true,
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": true
+          }
+        },
+        "collapsible_tab_Kaqmwz": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "none",
+            "heading": "Event Details",
+            "content": "{{ product.metafields.custom.event_details_.value.event_details | metafield_tag }}",
+            "liquid": "",
+            "page": "",
+            "default_open": false
+          }
+        },
+        "collapsible_tab_DVGqap": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "none",
+            "heading": "Wines to Taste",
+            "content": "{{ product.metafields.custom.wines_to_taste_.value.event_wines_1 | metafield_tag }}",
+            "liquid": "",
+            "page": "",
+            "default_open": false
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "event_date",
+        "price",
+        "variant_picker_gxUhrJ",
+        "description_TnH64A",
+        "quantity_selector",
+        "buy_buttons",
+        "collapsible_tab_Kaqmwz",
+        "collapsible_tab_DVGqap"
+      ],
+      "custom_css": [],
+      "settings": {
+        "container": "container",
+        "show_breadcrumb": false,
+        "enable_sticky_info": false,
+        "media_layout": "carousel",
+        "media_size": "medium",
+        "mobile_thumbnails": "hide",
+        "enable_image_zoom": true,
+        "enable_video_looping": false,
+        "show_featured_media": false
+      }
+    },
+    "custom_content_p4kEY9": {
+      "type": "custom-content",
+      "blocks": {
+        "image_card_FTdRKy": {
+          "type": "image_card",
+          "settings": {
+            "layout": "layout7",
+            "text_color": "#000000",
+            "image": "{{ product.metafields.custom.maker_1.value.image.value }}",
+            "mobile_image": "{{ product.metafields.custom.maker_1.value.image.value }}",
+            "image_ratio": "adapt",
+            "image_overlay_opacity": 0,
+            "sub_heading": "{{ product.metafields.custom.maker_1.value.subheading.value }}",
+            "subheading_divider": false,
+            "heading": "{{ product.metafields.custom.maker_1.value.heading.value }}",
+            "heading_size": "h3",
+            "description": "",
+            "button_label": "Learn More",
+            "button_link": "{{ product.metafields.custom.maker_1.value.button_link.value }}",
+            "button_style": "btn--underline",
+            "vertical_content_padding": 40,
+            "vertical_content_padding_mobile": 40,
+            "alignment": "center",
+            "width": "33%",
+            "animations": "inherit"
+          }
+        },
+        "image_card_eFqjgL": {
+          "type": "image_card",
+          "settings": {
+            "layout": "layout7",
+            "text_color": "#000000",
+            "image": "{{ product.metafields.custom.maker_2.value.image.value }}",
+            "mobile_image": "{{ product.metafields.custom.maker_2.value.image.value }}",
+            "image_ratio": "adapt",
+            "image_overlay_opacity": 0,
+            "sub_heading": "{{ product.metafields.custom.maker_2.value.subheading.value }}",
+            "subheading_divider": false,
+            "heading": "{{ product.metafields.custom.maker_2.value.heading.value }}",
+            "heading_size": "h3",
+            "description": "",
+            "button_label": "Learn More",
+            "button_link": "{{ product.metafields.custom.maker_2.value.button_link.value }}",
+            "button_style": "btn--underline",
+            "vertical_content_padding": 40,
+            "vertical_content_padding_mobile": 40,
+            "alignment": "center",
+            "width": "33%",
+            "animations": "inherit"
+          }
+        },
+        "image_card_WgTfqd": {
+          "type": "image_card",
+          "settings": {
+            "layout": "layout7",
+            "text_color": "#000000",
+            "image": "{{ product.metafields.custom.maker_3.value.image.value }}",
+            "mobile_image": "{{ product.metafields.custom.maker_3.value.image.value }}",
+            "image_ratio": "adapt",
+            "image_overlay_opacity": 0,
+            "sub_heading": "{{ product.metafields.custom.maker_3.value.subheading.value }}",
+            "subheading_divider": false,
+            "heading": "{{ product.metafields.custom.maker_3.value.heading.value }}",
+            "heading_size": "h3",
+            "description": "",
+            "button_label": "Learn More",
+            "button_link": "{{ product.metafields.custom.maker_3.value.button_link.value }}",
+            "button_style": "btn--underline",
+            "vertical_content_padding": 40,
+            "vertical_content_padding_mobile": 40,
+            "alignment": "center",
+            "width": "33%",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "image_card_FTdRKy",
+        "image_card_eFqjgL",
+        "image_card_WgTfqd"
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "section_header_padding_bottom": "medium",
+        "heading": "Meet the Makers",
+        "heading_flourish": true,
+        "heading_underline": "none",
+        "heading_size": "h2",
+        "description": "",
+        "button_label": "View All",
+        "button_link": "{{ product.metafields.custom.maker_1.value.view_all_url_button.value }}",
+        "column_gap": "small",
+        "row_gap": "medium",
+        "padding_top": 80,
+        "padding_bottom": 50,
+        "padding_top_mobile": 28,
+        "padding_bottom_mobile": 28,
+        "custom_id": "",
+        "custom_class": ""
+      }
+    },
+    "image_with_text_slider_yEmPGK": {
+      "type": "image-with-text-slider",
+      "blocks": {
+        "slide_LX4Ugb": {
+          "type": "slide",
+          "settings": {
+            "slide_color_scheme": "scheme-bc4a096f-47f9-4141-9ef7-6cfa59db2227",
+            "background": "shopify://shop_images/DSC01296.jpg",
+            "mb_background": "shopify://shop_images/DSC01296.jpg",
+            "product_1": "discover-kiwi-treasures-tasting",
+            "product_2": "new-zealand-art-x-wine-where-palette-meets-palate",
+            "content_position": "center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "title": "What's On?",
+            "heading_flourish": false,
+            "heading_underline": "kiwi",
+            "heading_size": "h2",
+            "subheading": "",
+            "description": "<p>Join us at one of our upcoming events – an easy, enjoyable way to explore great wine and experience the best of New Zealand. </p>",
+            "desc_size": "text-desc-base",
+            "button_text_1": "",
+            "button_link_1": "",
+            "button_style_1": "btn--primary",
+            "button_size_1": ""
+          }
+        },
+        "slide_jawRNz": {
+          "type": "slide",
+          "settings": {
+            "slide_color_scheme": "scheme-bc4a096f-47f9-4141-9ef7-6cfa59db2227",
+            "background": "shopify://shop_images/DSC07217.jpg",
+            "mb_background": "shopify://shop_images/DSC01518_f149c21b-ce3d-4c9c-9058-60bb010bd861.jpg",
+            "product_1": "discover-kiwi-treasures-tasting",
+            "product_2": "new-zealand-art-x-wine-where-palette-meets-palate",
+            "content_position": "center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "title": "What's On?",
+            "heading_flourish": false,
+            "heading_underline": "kiwi",
+            "heading_size": "h2",
+            "subheading": "",
+            "description": "<p>Join us at one of our upcoming events – an easy, enjoyable way to explore great wine and experience the best of New Zealand. </p>",
+            "desc_size": "text-desc-base",
+            "button_text_1": "",
+            "button_link_1": "",
+            "button_style_1": "btn--primary",
+            "button_size_1": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_LX4Ugb",
+        "slide_jawRNz"
+      ],
+      "disabled": true,
+      "settings": {
+        "container": "container-full",
+        "slider_height": "adapt",
+        "image_width": 50,
+        "image_position": "left",
+        "show_dots": true,
+        "show_nav": true,
+        "autoplay": false,
+        "autorotate_speed": 3,
+        "controls_position": "center",
+        "pagination_style": "dots",
+        "padding_top": 0,
+        "padding_bottom": 60,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0,
+        "accessibility_info": "Slideshow about our brand",
+        "custom_id": "",
+        "custom_class": "",
+        "enable_bg_zoom_effect": false
+      }
+    },
+    "testimonials_raFrEx": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_P9aHg3": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>If you're looking for an unforgettable experience that’s as inspiring as it is indulgent, we can’t recommend Kiwi Cru’s wine tasting events enough. As a female-founded company specialising in exquisite New Zealand wines, Pippa has created something truly special. We highly recommend Pippa for creating the perfect meaningful event—whether it’s for work gatherings, social celebrations, or milestone moments.</p>",
+            "author": "Georgia, Hera Clothing",
+            "bio": "",
+            "product": "",
+            "icon": "none"
+          }
+        },
+        "testimonial_GL9kig": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>Pippa was such a wonderful host, she was very knowledgeable about all the wines and made it a fun learning experience about what we were tasting. But most importantly the wine selections were delicious! NZ wine is so underrated, I would recommend to anyone to try them.</p>",
+            "author": "Kendal O'Regan, Karma drinks",
+            "bio": "",
+            "product": "",
+            "icon": "none"
+          }
+        },
+        "testimonial_ai4EVX": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>Tellus quisque fames torquent, faucibus amet tincidunt. Nulla morbi curae euismod platea dignissim cursus est. Fantastic Kiwi wine, a wonderfully relaxed evening with plenty of learning! Pippa's energy, expertise, and fun personality made it a great event that I would recommend.</p>",
+            "author": "Jon Briggs, Karma Drinks",
+            "bio": "",
+            "product": "",
+            "icon": "none"
+          }
+        },
+        "testimonial_WQKcQV": {
+          "type": "testimonial",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Tellus quisque fames torquent, faucibus amet tincidunt. Nulla morbi curae euismod platea dignissim cursus est. </p>",
+            "author": "Author's Name",
+            "bio": "",
+            "product": "",
+            "icon": "none"
+          }
+        },
+        "testimonial_TGQzba": {
+          "type": "testimonial",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Tellus quisque fames torquent, faucibus amet tincidunt. Nulla morbi curae euismod platea dignissim cursus est. </p>",
+            "author": "Author's Name",
+            "bio": "",
+            "product": "",
+            "icon": "none"
+          }
+        },
+        "testimonial_Vd8Bpw": {
+          "type": "testimonial",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Tellus quisque fames torquent, faucibus amet tincidunt. Nulla morbi curae euismod platea dignissim cursus est. </p>",
+            "author": "Author's Name",
+            "bio": "",
+            "product": "",
+            "icon": "none"
+          }
+        },
+        "testimonial_UN4qgj": {
+          "type": "testimonial",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Tellus quisque fames torquent, faucibus amet tincidunt. Nulla morbi curae euismod platea dignissim cursus est. </p>",
+            "author": "Author's Name",
+            "bio": "",
+            "product": "",
+            "icon": "none"
+          }
+        },
+        "testimonial_wKEgFY": {
+          "type": "testimonial",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Tellus quisque fames torquent, faucibus amet tincidunt. Nulla morbi curae euismod platea dignissim cursus est. </p>",
+            "author": "Author's Name",
+            "bio": "",
+            "product": "",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_P9aHg3",
+        "testimonial_GL9kig",
+        "testimonial_ai4EVX",
+        "testimonial_WQKcQV",
+        "testimonial_TGQzba",
+        "testimonial_Vd8Bpw",
+        "testimonial_UN4qgj",
+        "testimonial_wKEgFY"
+      ],
+      "disabled": true,
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "section_header_padding_bottom": "medium",
+        "heading": "Reviews",
+        "heading_flourish": false,
+        "heading_underline": "none",
+        "heading_size": "h2",
+        "description": "",
+        "design": "fancy",
+        "stars_color": "#444444",
+        "columns": 4,
+        "column_gap": "medium",
+        "enable_slider": true,
+        "show_dots": true,
+        "show_nav": false,
+        "autoplay": false,
+        "autoplay_timeout": 5,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "gallery_images_3hBmYG": {
+      "type": "gallery-images",
+      "blocks": {
+        "image_jpK4bX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/pip.jpg",
+            "mobile_image": "shopify://shop_images/pip.jpg",
+            "text": "",
+            "text_size": "medium",
+            "link": "https://www.instagram.com/p/DJkAJO2Myg7/?hl=en&img_index=1"
+          }
+        },
+        "image_mptWzg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/kiwi_wiw.jpg",
+            "mobile_image": "shopify://shop_images/kiwi_wiw.jpg",
+            "text": "",
+            "text_size": "medium",
+            "link": "https://www.instagram.com/p/DJd5UcpsZxn/?hl=en"
+          }
+        },
+        "image_pNXDWe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-05-14_at_09.09.42.jpg",
+            "mobile_image": "shopify://shop_images/Screenshot_2025-05-14_at_09.09.42.jpg",
+            "text": "",
+            "text_size": "medium",
+            "link": "https://www.instagram.com/p/DJCrDuTKo74/?hl=en"
+          }
+        }
+      },
+      "block_order": [
+        "image_jpK4bX",
+        "image_mptWzg",
+        "image_pNXDWe"
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "section_header_padding_bottom": "small",
+        "heading": "#kiwicru",
+        "heading_size": "h1",
+        "heading_flourish": false,
+        "heading_underline": "none",
+        "subheading": "",
+        "description": "<p>Follow us on <a href=\"https://www.instagram.com/kiwicruwines/?hl=en\" target=\"_blank\" title=\"https://www.instagram.com/kiwicruwines/?hl=en\"><strong>Instagram</strong></a></p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn--primary",
+        "image_ratio": "1/1",
+        "columns": 3,
+        "column_gap": "medium",
+        "layout": "grid",
+        "metro_item_color_schema": "",
+        "enable_slider": false,
+        "show_nav": false,
+        "show_dots": false,
+        "enable_swipe_mobile": true,
+        "column_mobile": "2",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 28,
+        "padding_bottom_mobile": 28,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "custom_content_p4kEY9",
+    "image_with_text_slider_yEmPGK",
+    "testimonials_raFrEx",
+    "gallery_images_3hBmYG"
+  ]
+}

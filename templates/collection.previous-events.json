@@ -1,0 +1,201 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero_eBxC4D": {
+      "type": "hero",
+      "blocks": {
+        "title_c7xHfe": {
+          "type": "title",
+          "settings": {
+            "title": "{{ collection.title }}",
+            "heading_flourish": false,
+            "heading_underline": "none",
+            "heading_size": "h1"
+          }
+        },
+        "text_idHtC3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ collection.description }}</p>"
+          }
+        }
+      },
+      "block_order": [
+        "title_c7xHfe",
+        "text_idHtC3"
+      ],
+      "settings": {
+        "container": "container-full",
+        "image": "shopify://shop_images/Image_with_text_overlay.png",
+        "image_mobile": "shopify://shop_images/Image_with_text_overlay_mobile.png",
+        "image_overlay_opacity": 40,
+        "hero_height": "large",
+        "content_in_container": true,
+        "content_width": "narrow",
+        "content_position": "left-bottom",
+        "text_alignment": "left",
+        "text_color": "#ffffff",
+        "hero_height_mobile": "large",
+        "content_position_mobile": "left-bottom",
+        "show_text_below": false,
+        "text_alignment_mobile": "left",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit",
+        "enable_bg_zoom_effect": true
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "blocks": {
+        "4ed3ca22-53a8-4d7d-a4d8-4375e98681f8": {
+          "type": "banner",
+          "settings": {
+            "collection": "all"
+          }
+        }
+      },
+      "block_order": [
+        "4ed3ca22-53a8-4d7d-a4d8-4375e98681f8"
+      ],
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "container": "container",
+        "color_schema": "background-1",
+        "image_height": "adapt",
+        "text_alignment": "center",
+        "show_breadcrumb": false,
+        "show_desc": true,
+        "show_collection_image": false,
+        "image_position": "use_image_as_background",
+        "image_overlay_opacity": 0,
+        "animations": "inherit",
+        "enable_bg_zoom_effect": true
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "custom_css": [],
+      "settings": {
+        "container": "container",
+        "products_per_page": 12,
+        "columns": 3,
+        "enable_product_count": false,
+        "enable_filtering": true,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "paginate_type": "number",
+        "padding_top": 0,
+        "padding_bottom": 50,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 28
+      }
+    },
+    "hero_BAfNwR": {
+      "type": "hero",
+      "blocks": {
+        "title_wctkgE": {
+          "type": "title",
+          "settings": {
+            "title": "Corporate or Private Events",
+            "heading_flourish": false,
+            "heading_underline": "kiwi",
+            "heading_size": "h2"
+          }
+        },
+        "text_h7Vqaf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Be transported to New Zealand and join us on an exciting tasting journey from north to south. Our subscriptions include a handcrafted selection of wines alongside pairing suggestions to help you discover your new favourite bottle.</p>"
+          }
+        },
+        "button_7M7ETg": {
+          "type": "button",
+          "settings": {
+            "button_label": "Find Out More",
+            "button_link": "shopify://collections/a-chardonnay-affair",
+            "button_style": "btn--secondary",
+            "button_size": "btn--medium"
+          }
+        }
+      },
+      "block_order": [
+        "title_wctkgE",
+        "text_h7Vqaf",
+        "button_7M7ETg"
+      ],
+      "settings": {
+        "container": "container-full",
+        "image": "shopify://shop_images/events-desktop.png",
+        "image_mobile": "shopify://shop_images/events-mobile.png",
+        "image_overlay_opacity": 60,
+        "hero_height": "adapt",
+        "content_in_container": true,
+        "content_width": "wide",
+        "content_position": "left-middle",
+        "text_alignment": "left",
+        "text_color": "#ffffff",
+        "hero_height_mobile": "medium",
+        "content_position_mobile": "center",
+        "show_text_below": false,
+        "text_alignment_mobile": "left",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit",
+        "enable_bg_zoom_effect": true
+      }
+    },
+    "featured_collection_LVB9XU": {
+      "type": "featured-collection",
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "section_header_padding_bottom": "medium",
+        "header_layout": "horizontal",
+        "heading": "Coming Up",
+        "heading_flourish": true,
+        "heading_underline": "none",
+        "subheading": "",
+        "description": "<p>Lorem ipsum odor amet, consectetuer adipiscing elit. Sapien donec volutpat vel montes fames nisl sem. Etiam amet himenaeos placerat donec duis dolor. Facilisi massa magnis vestibulum semper ligula. Aenean pulvinar fusce fringilla in nibh laoreet vivamus dolor. Euismod pharetra leo vel tempus taciti.</p>",
+        "collection": "past-events",
+        "limit": 8,
+        "columns": 3,
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "pcard_image_ratio": "",
+        "show_vendor": false,
+        "enable_slider": true,
+        "show_nav": false,
+        "show_dots": false,
+        "show_all_button_on_top": true,
+        "button_label": "View All",
+        "button_style": "btn--underline",
+        "enable_swipe_mobile": true,
+        "column_mobile": "1",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    }
+  },
+  "order": [
+    "hero_eBxC4D",
+    "banner",
+    "product-grid",
+    "hero_BAfNwR",
+    "featured_collection_LVB9XU"
+  ]
+}

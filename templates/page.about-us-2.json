@@ -1,0 +1,326 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "hero_NiDNbK": {
+      "type": "hero",
+      "blocks": {
+        "title_UTWPfc": {
+          "type": "title",
+          "settings": {
+            "title": "Who we are",
+            "heading_flourish": false,
+            "heading_underline": "none",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "title_UTWPfc"
+      ],
+      "settings": {
+        "container": "container-full",
+        "image": "shopify://shop_images/aboutus-nooverlay.png",
+        "image_mobile": "shopify://shop_images/aboutus-nooverlay-mob.png",
+        "image_overlay_opacity": 50,
+        "hero_height": "adapt",
+        "content_in_container": true,
+        "content_width": "narrow",
+        "content_position": "left-bottom",
+        "text_alignment": "left",
+        "text_color": "#ffffff",
+        "hero_height_mobile": "adapt",
+        "content_position_mobile": "left-bottom",
+        "show_text_below": false,
+        "text_alignment_mobile": "center",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit",
+        "enable_bg_zoom_effect": true
+      }
+    },
+    "rich_text_p8AfgD": {
+      "type": "rich-text",
+      "blocks": {
+        "text_WBHhV6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Tellus quisque fames torquent, faucibus amet tincidunt. Nulla morbi curae euismod platea dignissim cursus est. Dui fusce natoque venenatis ad cursus. Purus vehicula felis lacus elit efficitur porta cubilia. Tincidunt rhoncus neque nec sit integer urna mi non. Mattis ante arcu senectus in pretium suscipit gravida consectetur.</p><h4>Sub Heading</h4><p>Arcu magna diam justo laoreet litora habitant tempor porta. Imperdiet semper sem adipiscing quam elit praesent himenaeos a. Bibendum at sociosqu dis convallis dui commodo consectetur. Sit aenean rhoncus consequat luctus ipsum scelerisque convallis pellentesque. Mauris etiam consequat purus quis cursus purus curabitur. Mattis leo egestas aenean, gravida adipiscing imperdiet. Dignissim libero condimentum justo nulla urna class. Lorem sagittis per feugiat hac vivamus rutrum tempor scelerisque ipsum. Congue ex tellus suspendisse bibendum et condimentum dolor. Parturient arcu arcu luctus at ridiculus mauris nisl volutpat.</p>",
+            "highlight_style": "none"
+          }
+        }
+      },
+      "block_order": [
+        "text_WBHhV6"
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "enable_kiwi_background": false,
+        "text_alignment": "left",
+        "text_alignment_mobile": "center",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "padding_top_mobile": 60,
+        "padding_bottom_mobile": 90,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "video_hero_gyKk3P": {
+      "type": "video-hero",
+      "settings": {
+        "container": "container-full",
+        "video_type": "shopify",
+        "shopify_video": "shopify://files/videos/Share your brand story by adding a video to your store.mp4",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "image_overlay_opacity": 40,
+        "hero_height": "large",
+        "content_in_container": false,
+        "content_position": "center",
+        "text_alignment": "center",
+        "vertical_content_padding": 40,
+        "text_color": "#ffffff",
+        "hero_height_mobile": "large",
+        "content_position_mobile": "center",
+        "show_text_below": false,
+        "text_alignment_mobile": "center",
+        "vertical_content_padding_mobile": 40,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit",
+        "enable_bg_zoom_effect": true
+      }
+    },
+    "rich_text_MqTf8z": {
+      "type": "rich-text",
+      "blocks": {
+        "text_38Lw7k": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>Sub Heading</h4><p>Tellus quisque fames torquent, faucibus amet tincidunt. Nulla morbi curae euismod platea dignissim cursus est. Dui fusce natoque venenatis ad cursus. Purus vehicula felis lacus elit efficitur porta cubilia. Tincidunt rhoncus neque nec sit integer urna mi non. Mattis ante arcu senectus in pretium suscipit gravida consectetur.</p><h4>Sub Heading</h4><p>Arcu magna diam justo laoreet litora habitant tempor porta. Imperdiet semper sem adipiscing quam elit praesent himenaeos a. Bibendum at sociosqu dis convallis dui commodo consectetur. Sit aenean rhoncus consequat luctus ipsum scelerisque convallis pellentesque. Mauris etiam consequat purus quis cursus purus curabitur. Mattis leo egestas aenean, gravida adipiscing imperdiet. Dignissim libero condimentum justo nulla urna class. Lorem sagittis per feugiat hac vivamus rutrum tempor scelerisque ipsum. Congue ex tellus suspendisse bibendum et condimentum dolor. Parturient arcu arcu luctus at ridiculus mauris nisl volutpat.</p>",
+            "highlight_style": "none"
+          }
+        }
+      },
+      "block_order": [
+        "text_38Lw7k"
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "enable_kiwi_background": false,
+        "text_alignment": "left",
+        "text_alignment_mobile": "center",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "padding_top_mobile": 60,
+        "padding_bottom_mobile": 90,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "image_with_usp_VBQm9G": {
+      "type": "image-with-usp",
+      "blocks": {
+        "heading_Mg9mWM": {
+          "type": "heading",
+          "settings": {
+            "heading": "Join The Kiwi Cru Club",
+            "heading_flourish": false,
+            "heading_underline": "sun"
+          }
+        },
+        "usp_DEfnzc": {
+          "type": "usp",
+          "settings": {
+            "usp_icon": "shopify://shop_images/icon-phone.svg",
+            "usp_heading": "Subheading",
+            "text": "<p>Key usp for joining the Cru club. Can be a couple lines but should be short and snappy</p>"
+          }
+        },
+        "usp_iNY6Bq": {
+          "type": "usp",
+          "settings": {
+            "usp_icon": "shopify://shop_images/icon-user.svg",
+            "usp_heading": "Subheading",
+            "text": "<p>Key usp for joining the Cru club. Can be a couple lines but should be short and snappy</p>"
+          }
+        },
+        "usp_ehykWh": {
+          "type": "usp",
+          "settings": {
+            "usp_icon": "shopify://shop_images/icon-letter.svg",
+            "usp_heading": "Subheading",
+            "text": "<p>Key usp for joining the Cru club. Can be a couple lines but should be short and snappy</p>"
+          }
+        },
+        "usp_RBHqjG": {
+          "type": "usp",
+          "settings": {
+            "usp_icon": "shopify://shop_images/icon-location.svg",
+            "usp_heading": "Subheading",
+            "text": "<p>Key usp for joining the Cru club. Can be a couple lines but should be short and snappy</p>"
+          }
+        },
+        "button_xCLTaw": {
+          "type": "button",
+          "settings": {
+            "button_label": "Join the Kiwi Cru",
+            "button_link": "/",
+            "button_style": "btn--primary",
+            "button_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_Mg9mWM",
+        "usp_DEfnzc",
+        "usp_iNY6Bq",
+        "usp_ehykWh",
+        "usp_RBHqjG",
+        "button_xCLTaw"
+      ],
+      "settings": {
+        "media_type": "image",
+        "color_schema": "",
+        "image": "shopify://shop_images/whoweare1.png",
+        "mobile_image": "shopify://shop_images/whoweare3.png",
+        "video_ratio": "adapt",
+        "image_position": "right",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "padding_top_mobile": 60,
+        "padding_bottom_mobile": 60,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "custom_content_f6QHbh": {
+      "type": "custom-content",
+      "blocks": {
+        "image_card_bpEDyc": {
+          "type": "image_card",
+          "settings": {
+            "layout": "layout7",
+            "text_color": "#000000",
+            "image": "shopify://shop_images/meet-the-makers-1.png",
+            "mobile_image": "shopify://shop_images/meet-the-makers-1-mobile.png",
+            "image_ratio": "adapt",
+            "image_overlay_opacity": 0,
+            "sub_heading": "",
+            "subheading_divider": false,
+            "heading": "Our Makers",
+            "heading_size": "h2",
+            "description": "<p>Type of wine they specialise in (Chardonay, Pino Noir etc)</p>",
+            "button_label": "Find Out More",
+            "button_link": "/",
+            "button_style": "btn--underline",
+            "vertical_content_padding": 40,
+            "vertical_content_padding_mobile": 40,
+            "alignment": "center",
+            "width": "50%",
+            "animations": "inherit"
+          }
+        },
+        "image_card_inB36a": {
+          "type": "image_card",
+          "settings": {
+            "layout": "layout7",
+            "text_color": "#000000",
+            "image": "shopify://shop_images/meet-the-makers-2.png",
+            "mobile_image": "shopify://shop_images/meet-the-makers-2-mobile.png",
+            "image_ratio": "adapt",
+            "image_overlay_opacity": 0,
+            "sub_heading": "",
+            "subheading_divider": false,
+            "heading": "Meet The Cru",
+            "heading_size": "h2",
+            "description": "<p>Type of wine they specialise in (Chardonay, Pino Noir etc)</p>",
+            "button_label": "Find Out More",
+            "button_link": "/",
+            "button_style": "btn--underline",
+            "vertical_content_padding": 40,
+            "vertical_content_padding_mobile": 40,
+            "alignment": "center",
+            "width": "50%",
+            "animations": "inherit"
+          }
+        },
+        "image_card_c9KhCq": {
+          "type": "image_card",
+          "settings": {
+            "layout": "layout7",
+            "text_color": "#000000",
+            "image": "shopify://shop_images/meet-the-makers-3.png",
+            "mobile_image": "shopify://shop_images/meet-the-makers-3-mobile.png",
+            "image_ratio": "adapt",
+            "image_overlay_opacity": 0,
+            "sub_heading": "",
+            "subheading_divider": false,
+            "heading": "Our Wineries",
+            "heading_size": "h2",
+            "description": "<p>Type of wine they specialise in (Chardonay, Pino Noir etc)</p>",
+            "button_label": "Find Out More",
+            "button_link": "/",
+            "button_style": "btn--underline",
+            "vertical_content_padding": 40,
+            "vertical_content_padding_mobile": 40,
+            "alignment": "center",
+            "width": "50%",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "image_card_bpEDyc",
+        "image_card_inB36a",
+        "image_card_c9KhCq"
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "section_header_padding_bottom": "medium",
+        "heading": "",
+        "heading_flourish": true,
+        "heading_underline": "none",
+        "heading_size": "h2",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40,
+        "custom_id": "",
+        "custom_class": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "hero_NiDNbK",
+    "rich_text_p8AfgD",
+    "video_hero_gyKk3P",
+    "rich_text_MqTf8z",
+    "image_with_usp_VBQm9G",
+    "custom_content_f6QHbh"
+  ]
+}
