@@ -9,8 +9,8 @@
  */
 {
   "current": {
-    "dev_mode": true,
     "favicon": "shopify://shop_images/Kiwi_Cru_Favicon.svg",
+    "dev_mode": false,
     "container_width": 1440,
     "section_header_alignment": "left",
     "section_header_alignment_mobile": "left",
