@@ -35,12 +35,14 @@
         },
         "richtext_Me4xDy": {
           "type": "richtext",
+          "name": "Short Description",
           "settings": {
-            "text": "<p>{{ product.metafields.custom.brief_description.value }}</p>"
+            "text": "{{ product.metafields.custom.brief_description_rich_text | metafield_tag }}"
           }
         },
         "trust_badge_xLUgM4": {
           "type": "trust_badge",
+          "disabled": true,
           "settings": {
             "trust_badges_text": "<p>Awards</p>",
             "trust_badges_image_width": "100%",
@@ -211,12 +213,12 @@
         "color_schema": "",
         "section_header_padding_bottom": "medium",
         "header_layout": "vertical",
-        "heading": "Summer Sale",
+        "heading": "Best Sellers",
         "heading_flourish": true,
         "heading_underline": "none",
         "subheading": "",
         "description": "",
-        "collection": "summer-sale",
+        "collection": "best-sellers",
         "limit": 12,
         "columns": 4,
         "column_gap": "small",

@@ -455,47 +455,6 @@
         "animations": "inherit"
       }
     },
-    "rich_text_GbMaUH": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_8wkWAG": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_style": "script",
-            "heading_size": "h2",
-            "highlight_style": "none",
-            "enable_highlight_text_color": false
-          }
-        },
-        "text_aAh3Ph": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.<br/> Add details on availability, style, or even provide a review.</p>",
-            "highlight_style": "none"
-          }
-        }
-      },
-      "block_order": [
-        "heading_8wkWAG",
-        "text_aAh3Ph"
-      ],
-      "disabled": true,
-      "settings": {
-        "container": "container",
-        "color_schema": "background-1",
-        "enable_kiwi_background": false,
-        "text_alignment": "center",
-        "text_alignment_mobile": "center",
-        "padding_top": 40,
-        "padding_bottom": 40,
-        "padding_top_mobile": 60,
-        "padding_bottom_mobile": 90,
-        "custom_id": "",
-        "custom_class": "",
-        "animations": "inherit"
-      }
-    },
     "image_with_text_slider_deqrmw": {
       "type": "image-with-text-slider",
       "blocks": {
@@ -505,8 +464,8 @@
             "slide_color_scheme": "scheme-bc4a096f-47f9-4141-9ef7-6cfa59db2227",
             "background": "shopify://shop_images/DSC07303.jpg",
             "mb_background": "shopify://shop_images/DSC07303.jpg",
-            "product_1": "discover-kiwi-treasures-tasting",
-            "product_2": "new-zealand-art-x-wine-where-palette-meets-palate",
+            "product_1": "full-moon-wine-tasting",
+            "product_2": "",
             "content_position": "center",
             "text_alignment": "center",
             "text_alignment_mobile": "center",
@@ -529,8 +488,8 @@
             "slide_color_scheme": "scheme-bc4a096f-47f9-4141-9ef7-6cfa59db2227",
             "background": "shopify://shop_images/DSC01501.jpg",
             "mb_background": "shopify://shop_images/DSC01501.jpg",
-            "product_1": "discover-kiwi-treasures-tasting",
-            "product_2": "new-zealand-art-x-wine-where-palette-meets-palate",
+            "product_1": "",
+            "product_2": "",
             "content_position": "center",
             "text_alignment": "center",
             "text_alignment_mobile": "center",
@@ -577,12 +536,11 @@
         "slide_FgyKnf",
         "video_T8ftai"
       ],
-      "disabled": true,
       "settings": {
         "container": "container-full",
         "slider_height": "large",
         "image_width": 50,
-        "image_position": "right",
+        "image_position": "left",
         "show_dots": true,
         "show_nav": false,
         "autoplay": false,
@@ -597,6 +555,47 @@
         "custom_id": "",
         "custom_class": "",
         "enable_bg_zoom_effect": false
+      }
+    },
+    "rich_text_GbMaUH": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_8wkWAG": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_style": "script",
+            "heading_size": "h2",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false
+          }
+        },
+        "text_aAh3Ph": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.<br/> Add details on availability, style, or even provide a review.</p>",
+            "highlight_style": "none"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8wkWAG",
+        "text_aAh3Ph"
+      ],
+      "disabled": true,
+      "settings": {
+        "container": "container",
+        "color_schema": "background-1",
+        "enable_kiwi_background": false,
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "padding_top_mobile": 60,
+        "padding_bottom_mobile": 90,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
       }
     },
     "featured_collection_bgifGg": {
@@ -902,8 +901,8 @@
     "image_with_text_slider_yEmPGK",
     "multicolumn_itVXxj",
     "image_with_usp_3UPdYx",
-    "rich_text_GbMaUH",
     "image_with_text_slider_deqrmw",
+    "rich_text_GbMaUH",
     "featured_collection_bgifGg",
     "174471678350e4c12b",
     "rich_text_CLFg73",

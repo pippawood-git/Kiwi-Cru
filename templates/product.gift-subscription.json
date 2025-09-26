@@ -41,13 +41,6 @@
           "type": "subscription",
           "settings": {}
         },
-        "recharge_subscriptions_subscription_widget_rqW779": {
-          "type": "shopify://apps/recharge-subscriptions/blocks/subscription-widget/371eed76-0b44-4869-9813-730372ea378e",
-          "disabled": true,
-          "settings": {
-            "product": "red-wine-subscription"
-          }
-        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {}
@@ -78,7 +71,6 @@
         "description_pmJPXw",
         "winery_rAtLiY",
         "subscription_7NdUbL",
-        "recharge_subscriptions_subscription_widget_rqW779",
         "quantity_selector",
         "buy_buttons",
         "rebuy_personalization_engine_rebuy_widget_jggRgi"

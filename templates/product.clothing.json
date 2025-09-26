@@ -76,7 +76,7 @@
           "type": "shopify://apps/rebuy-personalization-engine/blocks/rebuy-widget/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
           "settings": {
             "enabled": true,
-            "id": "193219",
+            "id": "204900",
             "product_id_enabled": true,
             "collection_id_enabled": false
           }
@@ -138,6 +138,7 @@
         "description_NThzRE",
         "custom_NbjEPX"
       ],
+      "disabled": true,
       "settings": {
         "container": "container",
         "color_schema": "",
@@ -147,6 +148,70 @@
         "padding_bottom_mobile": 40,
         "custom_id": "",
         "custom_class": ""
+      }
+    },
+    "1739530406fb5e10d5": {
+      "type": "apps",
+      "blocks": {
+        "rebuy_personalization_engine_rebuy_widget_zeGPdg": {
+          "type": "shopify://apps/rebuy-personalization-engine/blocks/rebuy-widget/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
+          "settings": {
+            "enabled": true,
+            "id": "204902",
+            "product_id_enabled": true,
+            "collection_id_enabled": false
+          }
+        }
+      },
+      "block_order": [
+        "rebuy_personalization_engine_rebuy_widget_zeGPdg"
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "heading": "",
+        "description": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40
+      }
+    },
+    "featured_collection_iiXVzg": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.name",
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "section_header_padding_bottom": "medium",
+        "header_layout": "vertical",
+        "heading": "New Arrivals",
+        "heading_flourish": true,
+        "heading_underline": "none",
+        "subheading": "",
+        "description": "",
+        "collection": "new-arrivals",
+        "limit": 4,
+        "columns": 4,
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "pcard_image_ratio": "",
+        "show_vendor": false,
+        "enable_slider": false,
+        "show_nav": false,
+        "show_dots": false,
+        "show_all_button_on_top": false,
+        "button_label": "",
+        "button_style": "btn--primary",
+        "enable_swipe_mobile": false,
+        "column_mobile": "1",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
       }
     },
     "image_with_text_bhmKxC": {
@@ -182,6 +247,7 @@
         "text_pViYjN",
         "button_ELAFdR"
       ],
+      "disabled": true,
       "settings": {
         "container": "container-full",
         "color_schema": "",
@@ -239,6 +305,7 @@
         "text_C69j34",
         "button_VpYMM7"
       ],
+      "disabled": true,
       "settings": {
         "container": "container-full",
         "color_schema": "",
@@ -721,38 +788,13 @@
         "padding_bottom_mobile": 40,
         "animations": "inherit"
       }
-    },
-    "1739530406fb5e10d5": {
-      "type": "apps",
-      "blocks": {
-        "rebuy_personalization_engine_rebuy_widget_zeGPdg": {
-          "type": "shopify://apps/rebuy-personalization-engine/blocks/rebuy-widget/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
-          "settings": {
-            "enabled": true,
-            "id": "181334",
-            "product_id_enabled": true,
-            "collection_id_enabled": false
-          }
-        }
-      },
-      "block_order": [
-        "rebuy_personalization_engine_rebuy_widget_zeGPdg"
-      ],
-      "settings": {
-        "container": "container",
-        "color_schema": "",
-        "heading": "",
-        "description": "",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "padding_top_mobile": 40,
-        "padding_bottom_mobile": 40
-      }
     }
   },
   "order": [
     "main",
     "product_information_tabs_XNXrQd",
+    "1739530406fb5e10d5",
+    "featured_collection_iiXVzg",
     "image_with_text_bhmKxC",
     "image_with_text_cph7YB",
     "custom_content_p4kEY9",
@@ -760,7 +802,6 @@
     "custom_content_zUrn48",
     "image_with_usp_j6CMz6",
     "product_tabs_tJbUtH",
-    "product_recommendations_pnBz9m",
-    "1739530406fb5e10d5"
+    "product_recommendations_pnBz9m"
   ]
 }

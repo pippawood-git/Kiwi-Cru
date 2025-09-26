@@ -9,11 +9,11 @@
  */
 {
   "current": {
-    "favicon": "shopify://shop_images/green-32.png",
+    "favicon": "shopify://shop_images/Kiwi_Cru_Favicon.svg",
     "container_width": 1440,
     "section_header_alignment": "left",
     "section_header_alignment_mobile": "left",
-    "page_transition": true,
+    "page_transition": false,
     "animations": "fade-in-up",
     "color_header_text_transparent": "#fff",
     "color_badge_sale": "#c63e2c",

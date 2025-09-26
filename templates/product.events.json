@@ -39,8 +39,15 @@
             "size_chart_from_page": ""
           }
         },
+        "richtext_a7gBVE": {
+          "type": "richtext",
+          "settings": {
+            "text": "{{ product.metafields.custom.brief_description_rich_text | metafield_tag }}"
+          }
+        },
         "description_TnH64A": {
           "type": "description",
+          "disabled": true,
           "settings": {}
         },
         "quantity_selector": {
@@ -60,7 +67,7 @@
           "settings": {
             "icon": "none",
             "heading": "Event Details",
-            "content": "{{ product.metafields.custom.event_details_.value.event_details | metafield_tag }}",
+            "content": "{{ metaobjects.event_details[\"full-moon-wine-tasting\"].event_details | metafield_tag }}",
             "liquid": "",
             "page": "",
             "default_open": false
@@ -71,7 +78,7 @@
           "settings": {
             "icon": "none",
             "heading": "Wines to Taste",
-            "content": "{{ product.metafields.custom.wines_to_taste_.value.event_wines_1 | metafield_tag }}",
+            "content": "{{ metaobjects.wines_to_taste[\"full-moon-wine-tasting\"].event_wines_1 | metafield_tag }}",
             "liquid": "",
             "page": "",
             "default_open": false
@@ -83,6 +90,7 @@
         "event_date",
         "price",
         "variant_picker_gxUhrJ",
+        "richtext_a7gBVE",
         "description_TnH64A",
         "quantity_selector",
         "buy_buttons",
@@ -183,6 +191,7 @@
         "image_card_eFqjgL",
         "image_card_WgTfqd"
       ],
+      "disabled": true,
       "settings": {
         "container": "container",
         "color_schema": "",
@@ -202,6 +211,149 @@
         "padding_bottom_mobile": 28,
         "custom_id": "",
         "custom_class": ""
+      }
+    },
+    "custom_content_EDy6cX": {
+      "type": "custom-content",
+      "blocks": {
+        "image_card_QBKcj6": {
+          "type": "image_card",
+          "settings": {
+            "layout": "layout7",
+            "text_color": "#000000",
+            "image": "{{ product.metafields.custom.maker_1.value.image.value }}",
+            "image_hover": "{{ product.metafields.custom.maker_1.value.secondary_image_on_hover.value }}",
+            "mobile_image": "{{ product.metafields.custom.maker_1.value.image.value }}",
+            "image_ratio": "3/4",
+            "image_overlay_opacity": 0,
+            "sub_heading": "{{ product.metafields.custom.maker_1.value.subheading.value }}",
+            "subheading_divider": false,
+            "heading": "Clos Henri",
+            "heading_size": "h3",
+            "description": "",
+            "button_label": "Find Out More",
+            "button_link": "{{ product.metafields.custom.maker_1.value.button_link.value }}",
+            "button_style": "btn--underline",
+            "vertical_content_padding": 40,
+            "vertical_content_padding_mobile": 40,
+            "alignment": "center",
+            "width": "50%",
+            "animations": "inherit"
+          }
+        },
+        "image_card_maB9C3": {
+          "type": "image_card",
+          "settings": {
+            "layout": "layout7",
+            "text_color": "#000000",
+            "image": "{{ product.metafields.custom.maker_2.value.image.value }}",
+            "image_hover": "{{ product.metafields.custom.maker_2.value.secondary_image_on_hover.value }}",
+            "mobile_image": "{{ product.metafields.custom.maker_2.value.image.value }}",
+            "image_ratio": "3/4",
+            "image_overlay_opacity": 0,
+            "sub_heading": "{{ product.metafields.custom.maker_2.value.subheading.value }}",
+            "subheading_divider": false,
+            "heading": "{{ product.metafields.custom.maker_2.value.heading.value }}",
+            "heading_size": "h3",
+            "description": "",
+            "button_label": "Find Out More",
+            "button_link": "{{ product.metafields.custom.maker_2.value.button_link.value }}",
+            "button_style": "btn--underline",
+            "vertical_content_padding": 40,
+            "vertical_content_padding_mobile": 40,
+            "alignment": "center",
+            "width": "50%",
+            "animations": "inherit"
+          }
+        },
+        "image_card_pATJx9": {
+          "type": "image_card",
+          "settings": {
+            "layout": "layout7",
+            "text_color": "#000000",
+            "image": "{{ product.metafields.custom.maker_3.value.image.value }}",
+            "image_hover": "{{ product.metafields.custom.maker_3.value.secondary_image_on_hover.value }}",
+            "mobile_image": "{{ product.metafields.custom.maker_3.value.mobile_image.value }}",
+            "image_ratio": "3/4",
+            "image_overlay_opacity": 0,
+            "sub_heading": "{{ product.metafields.custom.maker_3.value.subheading.value }}",
+            "subheading_divider": false,
+            "heading": "{{ product.metafields.custom.maker_3.value.heading.value }}",
+            "heading_size": "h3",
+            "description": "",
+            "button_label": "Find Out More",
+            "button_link": "{{ product.metafields.custom.maker_3.value.button_link.value }}",
+            "button_style": "btn--underline",
+            "vertical_content_padding": 40,
+            "vertical_content_padding_mobile": 40,
+            "alignment": "center",
+            "width": "50%",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "image_card_QBKcj6",
+        "image_card_maB9C3",
+        "image_card_pATJx9"
+      ],
+      "name": "t:sections.custom-content.presets.name",
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "section_header_padding_bottom": "medium",
+        "heading": "Meet The Makers",
+        "heading_flourish": true,
+        "heading_underline": "none",
+        "heading_size": "h2",
+        "description": "",
+        "button_label": "View All",
+        "button_link": "shopify://pages/winemakers",
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "padding_top": 100,
+        "padding_bottom": 50,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40,
+        "custom_id": "",
+        "custom_class": ""
+      }
+    },
+    "featured_collection_k6aWY9": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.name",
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "section_header_padding_bottom": "medium",
+        "header_layout": "vertical",
+        "heading": "Biodynamic Wines",
+        "heading_flourish": true,
+        "heading_underline": "none",
+        "subheading": "",
+        "description": "",
+        "collection": "biodynamic-wine",
+        "limit": 4,
+        "columns": 4,
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "pcard_image_ratio": "",
+        "show_vendor": false,
+        "enable_slider": false,
+        "show_nav": false,
+        "show_dots": false,
+        "show_all_button_on_top": false,
+        "button_label": "",
+        "button_style": "btn--primary",
+        "enable_swipe_mobile": false,
+        "column_mobile": "1",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40,
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
       }
     },
     "image_with_text_slider_yEmPGK": {
@@ -484,6 +636,8 @@
   "order": [
     "main",
     "custom_content_p4kEY9",
+    "custom_content_EDy6cX",
+    "featured_collection_k6aWY9",
     "image_with_text_slider_yEmPGK",
     "testimonials_raFrEx",
     "gallery_images_3hBmYG"
