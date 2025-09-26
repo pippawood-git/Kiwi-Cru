@@ -516,7 +516,7 @@
     margin-bottom: 1.2rem;
   }
 }
-.image-badge--container {
+.product-card .image-badge--container {
   position: absolute;
   top: 0;
   right: 0;

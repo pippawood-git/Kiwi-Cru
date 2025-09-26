@@ -42,7 +42,6 @@
         },
         "trust_badge_xLUgM4": {
           "type": "trust_badge",
-          "disabled": true,
           "settings": {
             "trust_badges_text": "<p>Awards</p>",
             "trust_badges_image_width": "100%",

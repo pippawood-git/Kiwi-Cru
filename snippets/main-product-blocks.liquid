@@ -126,65 +126,8 @@
             </div>
           {% endif %}
         {%- when 'trust_badge' -%}
-        {% assign trust_badges = false %}
-
-        {% if block.settings.trust_badges_image != blank %}
-          {% assign trust_badges = true %}
-        {% endif %}
-
-        {% if product.metafields.custom.image_badge != blank %}
-          {% assign trust_badges = true %}
-        {% endif %}
-
-          {% if trust_badges == true %}
-            {% assign trust_badges_image = block.settings.trust_badges_image %}
-            {% assign position = block.settings.position %}
-            <div class="f-product-single__trust-badges flex flex-col {{ position | default: 'below' }}">
-              <div style="width: {{ block.settings.trust_badges_image_width }};">
-                <responsive-image
-                  class="f-image {{ wrapper_class }}"
-                  data-image-loading
-                  style="--aspect-ratio: {{ block.settings.trust_badges_image.aspect_ratio }}"
-                >
-                  <img
-                    srcset="
-                      {%- if trust_badges_image.width >= 165 -%}{{ trust_badges_image | image_url: width: 165 }} 165w,{%- endif -%}
-                      {%- if trust_badges_image.width >= 360 -%}{{ trust_badges_image | image_url: width: 360 }} 360w,{%- endif -%}
-                      {%- if trust_badges_image.width >= 533 -%}{{ trust_badges_image | image_url: width: 533 }} 533w,{%- endif -%}
-                      {%- if trust_badges_image.width >= 720 -%}{{ trust_badges_image | image_url: width: 720 }} 720w,{%- endif -%}
-                      {{ trust_badges_image | image_url }} {{ trust_badges_image.width }}w
-                    "
-                    src="{{ trust_badges_image | image_url: width: 360 }}"
-                    sizes="50vw"
-                    alt="{{ trust_badges_image.alt | escape }}"
-                    loading="lazy"
-                    width="{{ trust_badges_image.width }}"
-                    height="{{ trust_badges_image.height }}"
-                  >
-                </responsive-image>
-              </div>
-
-              {% if product.metafields.custom.image_badge != blank %}
-                <div class="image-badge--container f-image">
-                  {% for badge in product.metafields.custom.image_badge.value %}
-                    <img
-                      src="{{ badge | image_url:  width: 80, height: 80 }}"
-                      alt="{{ badge.alt }}"
-                      class="image-badge"
-                      loading="lazy"
-                      fetchpriority="low"
-                      width="80"
-                      height="80"
-                    >
-                  {% endfor %}
-                </div>
-              {% endif %}
-
-              {% if block.settings.trust_badges_text != blank %}
-                <div class="h4">{{ block.settings.trust_badges_text }}</div>
-              {% endif %}
-            </div>
-          {% endif %}
+          {% render 'trust-badge', block: block, product: product, wrapper_class: wrapper_class %}
+          
         {%- when 'collection_tags' -%}
           <div class="f-product__tags">
             {% for tag in product.metafields.custom.collection_tags.value %}

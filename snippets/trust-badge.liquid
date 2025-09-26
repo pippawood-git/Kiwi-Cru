@@ -1,0 +1,42 @@
+{%- liquid
+  assign trust_badges = false
+
+  if product.metafields.custom.image_badge != blank
+    assign trust_badges = true
+  endif
+-%}
+
+{% if trust_badges == true %}
+  {%- liquid
+    assign position = block.settings.position
+  -%}
+  <div class="f-product-single__trust-badges flex flex-col {{ position | default: 'below' }}">
+    {% if product.metafields.custom.image_badge != blank %}
+      <div class="image-badge--container f-image">
+        {% for badge in product.metafields.custom.image_badge.value %}
+          <img
+            src="{{ badge | image_url: width: 360 }}"
+            srcset="
+              {%- if badge.width >= 165 -%}{{ badge | image_url: width: 165 }} 165w,{%- endif -%}
+              {%- if badge.width >= 360 -%}{{ badge | image_url: width: 360 }} 360w,{%- endif -%}
+              {%- if badge.width >= 533 -%}{{ badge | image_url: width: 533 }} 533w,{%- endif -%}
+              {%- if badge.width >= 720 -%}{{ badge | image_url: width: 720 }} 720w,{%- endif -%}
+              {{ badge | image_url }} {{ badge.width }}w
+            "
+            sizes="50vw"
+            alt="{{ badge.alt | escape }}"
+            class="image-badge"
+            loading="lazy"
+            fetchpriority="low"
+            width="{{ badge.width }}"
+            height="{{ badge.height }}"
+          >
+        {% endfor %}
+      </div>
+    {% endif %}
+
+    {% if block.settings.trust_badges_text != blank %}
+      <div class="h4">{{ block.settings.trust_badges_text }}</div>
+    {% endif %}
+  </div>
+{% endif %}
