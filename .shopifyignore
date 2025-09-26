@@ -1,0 +1,12 @@
+package.json
+package-lock.json
+node_modules
+README-pre-production-environment-setup.png
+README-new-theme-environment-setups.png
+.gitlab-ci.yaml
+.prettierignore
+assets/lib-carousel.css
+assets/lib-carousel.umd.js
+assets/lib-carousel.autoplay.css
+assets/lib-carousel.autoplay.umd.js
+assets/lib-carousel-with-autoplay.umd.js

@@ -1,0 +1,12 @@
+assets/*.min.css
+assets/*.min.js
+assets/lib-carousel.css
+assets/lib-carousel.umd.js
+assets/lib-carousel.autoplay.css
+assets/lib-carousel.autoplay.umd.js
+assets/lib-carousel-with-autoplay.umd.js
+config/settings_data.json
+.prettierignore
+.gitlab-ci.yml
+package.json
+package-lock.json

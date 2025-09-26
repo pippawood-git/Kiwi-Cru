@@ -1,0 +1,9 @@
+.idea
+.vscode
+.DS_Store
+node_modules
+# config/settings_data.json
+# sections/*.json
+# templates/*.json
+.shopify
+# templates/metaobject
