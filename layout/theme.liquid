@@ -86,6 +86,21 @@
 
     <script>
       document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
+      
+      {% comment %} Development mode features {% endcomment %}
+      {% if settings.dev_mode %}
+        console.log('🚀 Development Mode Enabled');
+        console.log('Theme: {{ theme.name }} v{{ theme.version }}');
+        console.log('Template: {{ template.name }}');
+        
+        // Add development mode indicator
+        document.addEventListener('DOMContentLoaded', function() {
+          const devBanner = document.createElement('div');
+          devBanner.style.cssText = 'position:fixed;top:0;left:0;right:0;background:#ff6b6b;color:white;text-align:center;padding:8px;font-size:14px;font-weight:bold;z-index:9999;font-family:monospace;';
+          devBanner.textContent = '🚀 DEV MODE ACTIVE';
+          document.body.appendChild(devBanner);
+        });
+      {% endif %}
     </script>
 
     {{ content_for_header }}
@@ -161,5 +176,47 @@
     {%- if request.design_mode -%}
       <script src="{{ 'theme-editor.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
+    
+    {% comment %} Development mode additional features {% endcomment %}
+    {% if settings.dev_mode %}
+      <script>
+        // Development mode utilities
+        window.devMode = {
+          enabled: true,
+          theme: '{{ theme.name }}',
+          version: '{{ theme.version }}',
+          template: '{{ template.name }}',
+          timestamp: new Date().toISOString(),
+          
+          // Utility function to log theme information
+          logThemeInfo: function() {
+            console.group('🎨 Theme Information');
+            console.log('Name:', this.theme);
+            console.log('Version:', this.version);
+            console.log('Template:', this.template);
+            console.log('Timestamp:', this.timestamp);
+            console.groupEnd();
+          },
+          
+          // Utility function to check if we're in design mode
+          isDesignMode: {{ request.design_mode | json }},
+          
+          // Utility function to get current settings
+          getSettings: function() {
+            return {
+              devMode: {{ settings.dev_mode | json }},
+              animations: '{{ settings.animations }}',
+              pageTransition: {{ settings.page_transition | json }},
+              cartType: '{{ settings.cart_type }}'
+            };
+          }
+        };
+        
+        // Auto-log theme info on load
+        document.addEventListener('DOMContentLoaded', function() {
+          window.devMode.logThemeInfo();
+        });
+      </script>
+    {% endif %}
   </body>
 </html>

@@ -21,6 +21,17 @@
         "info": "t:settings_schema.general.settings.favicon.info"
       },
       {
+        "type": "header",
+        "content": "Development Mode"
+      },
+      {
+        "type": "checkbox",
+        "id": "dev_mode",
+        "label": "Enable Development Mode",
+        "info": "Enable development mode to load unminified assets and show development tools",
+        "default": false
+      },
+      {
         "type": "checkbox",
         "id": "show_scroll_top_button",
         "label": "t:settings_schema.general.settings.show_scroll_top_button.label",

@@ -4,7 +4,9 @@
   "description": "Kiwi Cru Shopify Theme",
   "scripts": {
     "start": "run-s shopify:dev",
+    "start:sync": "run-s shopify:dev:sync",
     "shopify:dev": "shopify theme dev --store 285b63-ef.myshopify.com",
+    "shopify:dev:sync": "shopify theme dev --store 285b63-ef.myshopify.com --theme-editor-sync",
     "deploy": "shopify theme push --store 285b63-ef.myshopify.com",
     "deploy:new": "shopify theme push --store 285b63-ef.myshopify.com --unpublished",
     "deploy:live": "shopify theme push --store 285b63-ef.myshopify.com --live",
